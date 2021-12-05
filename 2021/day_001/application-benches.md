@@ -1,11 +1,11 @@
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/001_sonar_sweep input-lanjian` | 3.3 ± 0.4 | 2.3 | 5.2 | 1.00 |
-| `lanjian/day_01 input-lanjian` | 3.4 ± 0.6 | 2.2 | 8.2 | 1.03 ± 0.22 |
-| `nathanwang2/day1 input-lanjian` | 23.8 ± 1.8 | 20.1 | 31.5 | 7.24 ± 1.13 |
-| `mattcl/001_sonar_sweep input-mattcl` | 3.4 ± 0.5 | 2.5 | 8.8 | 1.04 ± 0.20 |
-| `lanjian/day_01 input-mattcl` | 3.4 ± 0.7 | 2.1 | 12.4 | 1.03 ± 0.26 |
-| `nathanwang2/day1 input-mattcl` | 23.0 ± 1.8 | 19.7 | 29.5 | 7.01 ± 1.10 |
-| `mattcl/001_sonar_sweep input-nathanwang2` | 3.4 ± 0.4 | 2.4 | 5.4 | 1.03 ± 0.19 |
-| `lanjian/day_01 input-nathanwang2` | 3.4 ± 0.5 | 2.2 | 7.3 | 1.05 ± 0.20 |
-| `nathanwang2/day1 input-nathanwang2` | 22.9 ± 2.2 | 18.9 | 32.2 | 6.96 ± 1.16 |
+| `mattcl/001_sonar_sweep input-lanjian` | 3.3 ± 0.4 | 2.5 | 5.9 | 1.04 ± 0.20 |
+| `lanjian/day_01 input-lanjian` | 3.2 ± 0.4 | 2.5 | 5.5 | 1.00 |
+| `nathanwang2/day1 input-lanjian` | 24.8 ± 2.8 | 20.6 | 37.8 | 7.87 ± 1.41 |
+| `mattcl/001_sonar_sweep input-mattcl` | 3.4 ± 0.8 | 2.4 | 9.4 | 1.08 ± 0.30 |
+| `lanjian/day_01 input-mattcl` | 3.3 ± 0.5 | 2.4 | 7.7 | 1.05 ± 0.22 |
+| `nathanwang2/day1 input-mattcl` | 23.0 ± 2.0 | 19.5 | 33.2 | 7.31 ± 1.19 |
+| `mattcl/001_sonar_sweep input-nathanwang2` | 3.5 ± 0.6 | 2.3 | 7.5 | 1.10 ± 0.25 |
+| `lanjian/day_01 input-nathanwang2` | 3.4 ± 0.5 | 2.4 | 6.6 | 1.07 ± 0.22 |
+| `nathanwang2/day1 input-nathanwang2` | 23.4 ± 2.5 | 19.6 | 35.8 | 7.42 ± 1.29 |
