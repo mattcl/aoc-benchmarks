@@ -1,11 +1,11 @@
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/002_dive input-lanjian` | 3.4 ± 0.8 | 2.5 | 14.1 | 1.03 ± 0.30 |
-| `lanjian/day_02 input-lanjian` | 3.4 ± 0.7 | 2.3 | 9.3 | 1.02 ± 0.26 |
-| `nathanwang2/day2 input-lanjian` | 21.7 ± 1.9 | 18.5 | 31.5 | 6.53 ± 1.19 |
-| `mattcl/002_dive input-mattcl` | 3.5 ± 0.6 | 2.3 | 7.4 | 1.05 ± 0.25 |
-| `lanjian/day_02 input-mattcl` | 3.3 ± 0.5 | 2.2 | 6.6 | 1.00 |
-| `nathanwang2/day2 input-mattcl` | 22.8 ± 2.0 | 19.8 | 30.4 | 6.87 ± 1.26 |
-| `mattcl/002_dive input-nathanwang2` | 3.5 ± 0.6 | 2.5 | 7.2 | 1.07 ± 0.25 |
-| `lanjian/day_02 input-nathanwang2` | 3.6 ± 0.6 | 2.6 | 8.4 | 1.07 ± 0.25 |
-| `nathanwang2/day2 input-nathanwang2` | 21.5 ± 1.8 | 18.2 | 29.4 | 6.46 ± 1.16 |
+| `mattcl/002_dive input-lanjian` | 3.3 ± 0.5 | 2.2 | 7.7 | 1.03 ± 0.24 |
+| `lanjian/day_02 input-lanjian` | 3.6 ± 1.0 | 2.4 | 12.0 | 1.13 ± 0.36 |
+| `nathanwang2/day2 input-lanjian` | 20.8 ± 1.9 | 17.6 | 29.8 | 6.44 ± 1.24 |
+| `mattcl/002_dive input-mattcl` | 3.2 ± 0.7 | 2.3 | 9.5 | 1.00 ± 0.27 |
+| `lanjian/day_02 input-mattcl` | 3.4 ± 0.7 | 2.3 | 9.1 | 1.05 ± 0.28 |
+| `nathanwang2/day2 input-mattcl` | 22.8 ± 2.9 | 18.3 | 33.6 | 7.05 ± 1.50 |
+| `mattcl/002_dive input-nathanwang2` | 3.3 ± 0.6 | 2.1 | 6.5 | 1.01 ± 0.25 |
+| `lanjian/day_02 input-nathanwang2` | 3.2 ± 0.5 | 2.4 | 6.2 | 1.00 |
+| `nathanwang2/day2 input-nathanwang2` | 22.1 ± 2.6 | 17.6 | 28.8 | 6.84 ± 1.42 |
