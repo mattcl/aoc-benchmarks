@@ -1,4 +1,4 @@
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/004_giant_squid input-lanjian` | 6.2 ± 0.6 | 4.7 | 8.3 | 1.00 |
-| `mattcl/004_giant_squid input-mattcl` | 6.3 ± 1.0 | 4.5 | 12.5 | 1.02 ± 0.19 |
+| `mattcl/004_giant_squid input-lanjian` | 6.5 ± 1.2 | 5.0 | 19.1 | 1.00 |
+| `mattcl/004_giant_squid input-mattcl` | 6.8 ± 0.8 | 5.3 | 13.7 | 1.05 ± 0.23 |
