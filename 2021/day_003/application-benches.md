@@ -1,4 +1,4 @@
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/003_binary_diagnostic input-lanjian` | 3.7 ± 0.6 | 2.8 | 14.2 | 1.00 |
-| `mattcl/003_binary_diagnostic input-mattcl` | 3.9 ± 0.7 | 2.5 | 11.9 | 1.07 ± 0.26 |
+| `mattcl/003_binary_diagnostic input-lanjian` | 4.2 ± 0.7 | 2.9 | 8.0 | 1.04 ± 0.22 |
+| `mattcl/003_binary_diagnostic input-mattcl` | 4.0 ± 0.5 | 2.4 | 6.4 | 1.00 |
