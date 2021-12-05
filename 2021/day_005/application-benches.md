@@ -1,3 +1,3 @@
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/005_hydrothermal_venture input-mattcl` | 32.8 ± 2.2 | 29.1 | 41.0 | 1.00 |
+| `mattcl/005_hydrothermal_venture input-mattcl` | 34.8 ± 6.7 | 29.2 | 57.2 | 1.00 |
