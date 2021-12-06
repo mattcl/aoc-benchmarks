@@ -9,4 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/005_hydrothermal_venture input-mattcl` | 33.4 ± 2.5 | 28.6 | 42.3 | 1.00 |
+| `mattcl/005_hydrothermal_venture input-mattcl` | 32.5 ± 3.9 | 27.3 | 58.1 | 1.00 |
