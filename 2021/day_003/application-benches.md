@@ -9,7 +9,7 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/003_binary_diagnostic input-lanjian` | 3.4 ± 0.5 | 2.3 | 8.4 | 1.09 ± 0.24 |
-| `lanjian/day_03 input-lanjian` | 3.3 ± 0.5 | 2.0 | 9.1 | 1.06 ± 0.24 |
-| `mattcl/003_binary_diagnostic input-mattcl` | 3.3 ± 0.5 | 2.0 | 5.5 | 1.07 ± 0.23 |
-| `lanjian/day_03 input-mattcl` | 3.1 ± 0.5 | 1.9 | 5.8 | 1.00 |
+| `mattcl/003_binary_diagnostic input-lanjian` | 3.1 ± 0.4 | 2.0 | 5.6 | 1.07 ± 0.22 |
+| `lanjian/day_03 input-lanjian` | 2.9 ± 0.4 | 2.0 | 5.8 | 1.00 |
+| `mattcl/003_binary_diagnostic input-mattcl` | 3.1 ± 0.4 | 2.2 | 5.1 | 1.06 ± 0.23 |
+| `lanjian/day_03 input-mattcl` | 2.9 ± 0.4 | 1.8 | 5.3 | 1.01 ± 0.21 |
