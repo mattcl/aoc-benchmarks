@@ -9,4 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/007_the_treachery_of_whales input-mattcl` | 7.3 ± 1.0 | 5.5 | 12.7 | 1.00 |
+| `mattcl/007_the_treachery_of_whales input-mattcl` | 7.0 ± 0.9 | 4.7 | 10.2 | 1.00 |
