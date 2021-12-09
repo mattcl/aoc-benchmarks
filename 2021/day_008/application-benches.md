@@ -1,6 +1,6 @@
-# Day 7 benchmarks
+# Day 8 benchmarks
 
-[link to problem](http://adventofcode.com/2021/day/7)
+[link to problem](http://adventofcode.com/2021/day/8)
 
 The following benchmarks are auto-generated via [hyperfine](https://github.com/sharkdp/hyperfine) by a ci system running on shared hardware. Results may be inaccurate, particularly for execution times < 5ms, as per the hyperfine warnings.
 
@@ -9,7 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/007_the_treachery_of_whales input-lanjian` | 7.4 ± 0.9 | 5.4 | 10.5 | 1.22 ± 0.20 |
-| `lanjian/day_07 input-lanjian` | 6.5 ± 1.2 | 5.0 | 17.4 | 1.08 ± 0.23 |
-| `mattcl/007_the_treachery_of_whales input-mattcl` | 7.6 ± 1.0 | 5.2 | 12.1 | 1.25 ± 0.22 |
-| `lanjian/day_07 input-mattcl` | 6.0 ± 0.6 | 4.6 | 9.6 | 1.00 |
+| `mattcl/008_seven_segment_search input-mattcl` | 4.6 ± 0.6 | 3.1 | 7.7 | 1.00 |
