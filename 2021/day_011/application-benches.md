@@ -9,4 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/011_dumbo_octopus input-mattcl` | 5.2 ± 0.7 | 4.1 | 10.2 | 1.00 |
+| `mattcl/011_dumbo_octopus input-mattcl` | 5.4 ± 0.8 | 4.3 | 13.2 | 1.00 |
