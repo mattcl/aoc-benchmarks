@@ -9,4 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/012_passage_pathing input-mattcl` | 18.5 ± 1.8 | 15.4 | 25.1 | 1.00 |
+| `mattcl/012_passage_pathing input-mattcl` | 18.4 ± 1.9 | 15.0 | 24.9 | 1.00 |
