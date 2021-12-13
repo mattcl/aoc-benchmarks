@@ -1,6 +1,6 @@
 # input -> solutions mapping
 |input|part 1|part 2|
 |:---|:---|:---|
-|input-lanjian|2117664|2073416724|
-|input-mattcl|1804520|1971095320|
-|input-nathanwang2|1648020|1759818555|
+|input-lanjian|<pre>2117664</pre>|<pre>2073416724</pre>|
+|input-mattcl|<pre>1804520</pre>|<pre>1971095320</pre>|
+|input-nathanwang2|<pre>1648020</pre>|<pre>1759818555</pre>|
