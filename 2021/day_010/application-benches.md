@@ -9,4 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/010_syntax_scoring input-mattcl` | 3.5 ± 0.4 | 2.5 | 6.1 | 1.00 |
+| `mattcl/010_syntax_scoring input-mattcl` | 3.2 ± 0.8 | 1.9 | 12.5 | 1.00 |
