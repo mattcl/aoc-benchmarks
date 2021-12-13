@@ -9,4 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/013_transparent_origami input-mattcl` | 3.3 ± 0.5 | 2.0 | 7.7 | 1.00 |
+| `mattcl/013_transparent_origami input-mattcl` | 3.4 ± 0.8 | 2.1 | 9.5 | 1.00 |
