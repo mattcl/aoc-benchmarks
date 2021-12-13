@@ -7,9 +7,4 @@ The following benchmarks are auto-generated via [hyperfine](https://github.com/s
 The "official" inputs were aggregated from repositories participating in the generation of these benchmarks. The "large" inputs (if any) were sourced from various places, including the subreddit.
 
 ## Benchmarks with officially generated inputs
-| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
-|:---|---:|---:|---:|---:|
-| `mattcl/005_hydrothermal_venture input-lanjian` | 33.7 ± 4.0 | 28.3 | 48.9 | 1.00 |
-| `lanjian/day_05 input-lanjian` | 53.2 ± 6.4 | 44.6 | 70.2 | 1.58 ± 0.27 |
-| `mattcl/005_hydrothermal_venture input-mattcl` | 36.3 ± 5.2 | 29.3 | 60.1 | 1.08 ± 0.20 |
-| `lanjian/day_05 input-mattcl` | 57.2 ± 10.3 | 47.6 | 107.6 | 1.70 ± 0.37 |
+| Command | Mean [ms] | Min [ms] | Max [ms] | Relative | |:---|---:|---:|---:|---:| | `lanjian/day_05 input-lanjian` | 49.2 ± 4.2 | 43.2 | 65.5 | 1.59 ± 0.17 | | `lanjian/day_05 input-mattcl` | 51.9 ± 6.1 | 44.1 | 71.3 | 1.67 ± 0.22 | | `mattcl/005_hydrothermal_venture input-lanjian` | 31.1 ± 2.2 | 27.3 | 38.9 | 1.00 ± 0.09 | | `mattcl/005_hydrothermal_venture input-mattcl` | 31.0 ± 1.9 | 28.1 | 37.5 | 1.00 |

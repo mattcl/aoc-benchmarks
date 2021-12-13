@@ -7,10 +7,6 @@ The following benchmarks are auto-generated via [hyperfine](https://github.com/s
 The "official" inputs were aggregated from repositories participating in the generation of these benchmarks. The "large" inputs (if any) were sourced from various places, including the subreddit.
 
 ## Benchmarks with officially generated inputs
-| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
-|:---|---:|---:|---:|---:|
-| `mattcl/011_dumbo_octopus input-mattcl` | 5.5 ± 0.6 | 4.4 | 9.1 | 1.00 |
+| Command | Mean [ms] | Min [ms] | Max [ms] | Relative | |:---|---:|---:|---:|---:| | `mattcl/011_dumbo_octopus input-mattcl` | 5.4 ± 0.9 | 4.0 | 10.6 | 1.00 |
 ## Benchmarks using unofficial large inputs
-| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
-|:---|---:|---:|---:|---:|
-| `mattcl/011_dumbo_octopus large-input-01` | 91.8 ± 6.8 | 79.3 | 112.8 | 1.00 |
+| Command | Mean [ms] | Min [ms] | Max [ms] | Relative | |:---|---:|---:|---:|---:| | `mattcl/011_dumbo_octopus large-input-01` | 85.6 ± 5.6 | 77.0 | 101.7 | 1.00 |

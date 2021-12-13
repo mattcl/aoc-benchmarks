@@ -7,10 +7,6 @@ The following benchmarks are auto-generated via [hyperfine](https://github.com/s
 The "official" inputs were aggregated from repositories participating in the generation of these benchmarks. The "large" inputs (if any) were sourced from various places, including the subreddit.
 
 ## Benchmarks with officially generated inputs
-| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
-|:---|---:|---:|---:|---:|
-| `mattcl/008_seven_segment_search input-mattcl` | 4.4 ± 0.6 | 3.0 | 10.8 | 1.00 |
+| Command | Mean [ms] | Min [ms] | Max [ms] | Relative | |:---|---:|---:|---:|---:| | `mattcl/008_seven_segment_search input-mattcl` | 5.1 ± 1.4 | 3.4 | 13.4 | 1.00 |
 ## Benchmarks using unofficial large inputs
-| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
-|:---|---:|---:|---:|---:|
-| `mattcl/008_seven_segment_search large-input-01` | 655.1 ± 31.8 | 593.4 | 701.6 | 1.00 |
+| Command | Mean [ms] | Min [ms] | Max [ms] | Relative | |:---|---:|---:|---:|---:| | `mattcl/008_seven_segment_search large-input-01` | 654.0 ± 40.5 | 609.1 | 730.7 | 1.00 |
