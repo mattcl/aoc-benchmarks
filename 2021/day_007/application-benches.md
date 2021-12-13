@@ -7,4 +7,9 @@ The following benchmarks are auto-generated via [hyperfine](https://github.com/s
 The "official" inputs were aggregated from repositories participating in the generation of these benchmarks. The "large" inputs (if any) were sourced from various places, including the subreddit.
 
 ## Benchmarks with officially generated inputs
-| Command | Mean [ms] | Min [ms] | Max [ms] | Relative | |:---|---:|---:|---:|---:| | `lanjian/day_07 input-lanjian` | 6.5 ± 1.3 | 5.0 | 21.4 | 1.00 | | `lanjian/day_07 input-mattcl` | 7.3 ± 1.4 | 5.2 | 14.5 | 1.12 ± 0.32 | | `mattcl/007_the_treachery_of_whales input-lanjian` | 7.5 ± 0.9 | 5.8 | 11.8 | 1.14 ± 0.27 | | `mattcl/007_the_treachery_of_whales input-mattcl` | 8.6 ± 1.3 | 6.0 | 19.3 | 1.31 ± 0.34 |
+| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
+|:---|---:|---:|---:|---:|
+| `lanjian/day_07 input-lanjian` | 5.6 ± 0.6 | 4.6 | 8.7 | 1.00 |
+| `lanjian/day_07 input-mattcl` | 5.8 ± 0.8 | 4.7 | 10.6 | 1.04 ± 0.18 |
+| `mattcl/007_the_treachery_of_whales input-lanjian` | 7.0 ± 0.9 | 5.5 | 11.7 | 1.27 ± 0.22 |
+| `mattcl/007_the_treachery_of_whales input-mattcl` | 7.1 ± 1.1 | 5.3 | 15.4 | 1.27 ± 0.24 |

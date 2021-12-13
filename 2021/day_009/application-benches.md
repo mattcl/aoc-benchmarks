@@ -7,6 +7,10 @@ The following benchmarks are auto-generated via [hyperfine](https://github.com/s
 The "official" inputs were aggregated from repositories participating in the generation of these benchmarks. The "large" inputs (if any) were sourced from various places, including the subreddit.
 
 ## Benchmarks with officially generated inputs
-| Command | Mean [ms] | Min [ms] | Max [ms] | Relative | |:---|---:|---:|---:|---:| | `mattcl/009_smoke_basin input-mattcl` | 5.3 ± 1.0 | 4.0 | 14.8 | 1.00 |
+| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
+|:---|---:|---:|---:|---:|
+| `mattcl/009_smoke_basin input-mattcl` | 5.4 ± 0.6 | 4.1 | 7.6 | 1.00 |
 ## Benchmarks using unofficial large inputs
-| Command | Mean [ms] | Min [ms] | Max [ms] | Relative | |:---|---:|---:|---:|---:| | `mattcl/009_smoke_basin large-input-01` | 663.6 ± 17.5 | 619.5 | 679.0 | 1.00 |
+| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
+|:---|---:|---:|---:|---:|
+| `mattcl/009_smoke_basin large-input-01` | 693.2 ± 23.7 | 651.2 | 741.8 | 1.00 |
