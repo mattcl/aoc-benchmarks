@@ -1,6 +1,6 @@
-# Day 14 benchmarks
+# Day 15 benchmarks
 
-[link to problem](http://adventofcode.com/2021/day/14)
+[link to problem](http://adventofcode.com/2021/day/15)
 
 The following benchmarks are auto-generated via [hyperfine](https://github.com/sharkdp/hyperfine) by a ci system running on shared hardware. Results may be inaccurate, particularly for execution times < 5ms, as per the hyperfine warnings.
 
@@ -9,4 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/014_extended_polymerization input-mattcl` | 3.2 ± 0.5 | 2.3 | 9.7 | 1.00 |
+| `mattcl/015_chiton input-mattcl` | 50.2 ± 2.6 | 44.5 | 55.5 | 1.00 |
