@@ -9,4 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/014_extended_polymerization input-mattcl` | 2.8 ± 0.4 | 2.2 | 6.7 | 1.00 |
+| `mattcl/014_extended_polymerization input-mattcl` | 3.2 ± 0.6 | 2.4 | 9.0 | 1.00 |

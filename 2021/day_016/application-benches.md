@@ -1,6 +1,6 @@
-# Day 9 benchmarks
+# Day 16 benchmarks
 
-[link to problem](http://adventofcode.com/2021/day/9)
+[link to problem](http://adventofcode.com/2021/day/16)
 
 The following benchmarks are auto-generated via [hyperfine](https://github.com/sharkdp/hyperfine) by a ci system running on shared hardware. Results may be inaccurate, particularly for execution times < 5ms, as per the hyperfine warnings.
 
@@ -9,8 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/009_smoke_basin input-mattcl` | 4.1 ± 0.7 | 3.3 | 14.6 | 1.00 |
-## Benchmarks using unofficial large inputs
-| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
-|:---|---:|---:|---:|---:|
-| `mattcl/009_smoke_basin large-input-01` | 617.7 ± 24.2 | 576.6 | 655.5 | 1.00 |
+| `mattcl/016_packet_decoder input-mattcl` | 4.5 ± 0.7 | 2.9 | 7.5 | 1.00 |
