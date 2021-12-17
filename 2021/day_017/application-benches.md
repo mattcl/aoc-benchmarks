@@ -9,4 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/017_trick_shot input-mattcl` | 3.7 ± 0.7 | 2.9 | 10.8 | 1.00 |
+| `mattcl/017_trick_shot input-mattcl` | 3.3 ± 0.6 | 2.6 | 8.7 | 1.00 |
