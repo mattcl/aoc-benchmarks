@@ -9,9 +9,9 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/013_transparent_origami input-mattcl` | 2.9 ± 0.4 | 2.3 | 5.8 | 1.00 |
+| `mattcl/013_transparent_origami input-mattcl` | 3.1 ± 0.5 | 2.3 | 7.9 | 1.00 |
 ## Benchmarks using unofficial large inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/013_transparent_origami large-input-01` | 2.9 ± 1.1 | 2.2 | 18.1 | 1.00 |
-| `mattcl/013_transparent_origami large-input-02` | 3.0 ± 0.6 | 2.2 | 7.8 | 1.02 ± 0.45 |
+| `mattcl/013_transparent_origami large-input-01` | 3.3 ± 0.7 | 2.4 | 9.7 | 1.08 ± 0.31 |
+| `mattcl/013_transparent_origami large-input-02` | 3.1 ± 0.6 | 2.3 | 12.6 | 1.00 |
