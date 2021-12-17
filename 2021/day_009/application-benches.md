@@ -9,8 +9,8 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/009_smoke_basin input-mattcl` | 4.8 ± 1.2 | 3.3 | 17.9 | 1.00 |
+| `mattcl/009_smoke_basin input-mattcl` | 4.2 ± 0.6 | 3.3 | 9.5 | 1.00 |
 ## Benchmarks using unofficial large inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/009_smoke_basin large-input-01` | 628.5 ± 17.0 | 606.1 | 655.0 | 1.00 |
+| `mattcl/009_smoke_basin large-input-01` | 657.7 ± 24.4 | 634.5 | 706.0 | 1.00 |
