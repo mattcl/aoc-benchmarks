@@ -1,6 +1,6 @@
-# Day 12 benchmarks
+# Day 19 benchmarks
 
-[link to problem](http://adventofcode.com/2021/day/12)
+[link to problem](http://adventofcode.com/2021/day/19)
 
 The following benchmarks are auto-generated via [hyperfine](https://github.com/sharkdp/hyperfine) by a ci system running on shared hardware. Results may be inaccurate, particularly for execution times < 5ms, as per the hyperfine warnings.
 
@@ -9,4 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/012_passage_pathing input-mattcl` | 10.0 ± 1.6 | 7.9 | 19.2 | 1.00 |
+| `mattcl/019_beacon_scanner input-mattcl` | 54.7 ± 4.6 | 47.0 | 65.6 | 1.00 |
