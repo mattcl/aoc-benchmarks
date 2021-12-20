@@ -9,12 +9,12 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_01 input-lanjian` | 2.9 ± 0.4 | 2.3 | 5.6 | 1.00 |
-| `lanjian/day_01 input-mattcl` | 3.1 ± 0.4 | 2.4 | 5.4 | 1.06 ± 0.19 |
-| `lanjian/day_01 input-nathanwang2` | 3.2 ± 0.5 | 2.1 | 6.1 | 1.10 ± 0.21 |
-| `mattcl/001_sonar_sweep input-lanjian` | 3.0 ± 0.4 | 2.3 | 6.5 | 1.04 ± 0.19 |
-| `mattcl/001_sonar_sweep input-mattcl` | 3.2 ± 0.6 | 2.2 | 10.1 | 1.10 ± 0.26 |
-| `mattcl/001_sonar_sweep input-nathanwang2` | 3.5 ± 0.8 | 2.4 | 8.8 | 1.20 ± 0.30 |
-| `nathanwang2/day1 input-lanjian` | 22.9 ± 2.0 | 19.7 | 32.6 | 7.91 ± 1.19 |
-| `nathanwang2/day1 input-mattcl` | 23.8 ± 3.6 | 20.2 | 42.9 | 8.22 ± 1.60 |
-| `nathanwang2/day1 input-nathanwang2` | 21.8 ± 2.8 | 18.4 | 37.7 | 7.52 ± 1.34 |
+| `lanjian/day_01 input-lanjian` | 2.8 ± 0.5 | 1.9 | 5.4 | 1.00 |
+| `lanjian/day_01 input-mattcl` | 3.1 ± 0.5 | 1.9 | 6.6 | 1.11 ± 0.25 |
+| `lanjian/day_01 input-nathanwang2` | 3.0 ± 0.5 | 2.3 | 5.7 | 1.08 ± 0.25 |
+| `mattcl/001_sonar_sweep input-lanjian` | 2.9 ± 0.7 | 2.0 | 10.8 | 1.03 ± 0.30 |
+| `mattcl/001_sonar_sweep input-mattcl` | 3.2 ± 0.7 | 2.1 | 8.3 | 1.13 ± 0.31 |
+| `mattcl/001_sonar_sweep input-nathanwang2` | 3.2 ± 0.6 | 2.3 | 8.7 | 1.15 ± 0.29 |
+| `nathanwang2/day1 input-lanjian` | 22.8 ± 2.1 | 20.0 | 36.6 | 8.17 ± 1.60 |
+| `nathanwang2/day1 input-mattcl` | 23.4 ± 2.5 | 20.2 | 35.6 | 8.37 ± 1.70 |
+| `nathanwang2/day1 input-nathanwang2` | 23.0 ± 2.6 | 19.5 | 34.1 | 8.24 ± 1.70 |
