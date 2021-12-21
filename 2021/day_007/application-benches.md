@@ -9,7 +9,7 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_07 input-lanjian` | 6.2 ± 0.6 | 5.0 | 11.0 | 1.00 |
-| `lanjian/day_07 input-mattcl` | 6.6 ± 1.2 | 4.9 | 13.2 | 1.07 ± 0.22 |
-| `mattcl/007_the_treachery_of_whales input-lanjian` | 7.3 ± 1.0 | 5.7 | 15.9 | 1.17 ± 0.20 |
-| `mattcl/007_the_treachery_of_whales input-mattcl` | 7.5 ± 0.9 | 5.6 | 11.6 | 1.21 ± 0.19 |
+| `lanjian/day_07 input-lanjian` | 6.2 ± 0.9 | 5.1 | 13.7 | 1.05 ± 0.19 |
+| `lanjian/day_07 input-mattcl` | 5.9 ± 0.6 | 4.8 | 10.1 | 1.00 |
+| `mattcl/007_the_treachery_of_whales input-lanjian` | 7.4 ± 0.9 | 5.3 | 11.2 | 1.26 ± 0.20 |
+| `mattcl/007_the_treachery_of_whales input-mattcl` | 7.3 ± 0.9 | 5.8 | 10.4 | 1.24 ± 0.20 |
