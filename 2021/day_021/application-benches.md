@@ -9,4 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/021_dirac_dice input-mattcl` | 10.6 ± 1.1 | 8.7 | 15.8 | 1.00 |
+| `mattcl/021_dirac_dice input-mattcl` | 11.5 ± 1.6 | 8.8 | 21.5 | 1.00 |

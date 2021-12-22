@@ -9,8 +9,8 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/008_seven_segment_search input-mattcl` | 4.3 ± 0.5 | 3.3 | 7.2 | 1.00 |
+| `mattcl/008_seven_segment_search input-mattcl` | 4.6 ± 0.7 | 3.4 | 9.9 | 1.00 |
 ## Benchmarks using unofficial large inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/008_seven_segment_search large-input-01` | 694.1 ± 16.8 | 671.5 | 719.0 | 1.00 |
+| `mattcl/008_seven_segment_search large-input-01` | 731.6 ± 30.8 | 686.3 | 778.1 | 1.00 |
