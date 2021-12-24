@@ -9,7 +9,7 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_05 input-lanjian` | 55.6 ± 5.0 | 47.3 | 67.0 | 1.76 ± 0.21 |
-| `lanjian/day_05 input-mattcl` | 53.3 ± 4.7 | 45.2 | 66.5 | 1.68 ± 0.20 |
-| `mattcl/005_hydrothermal_venture input-lanjian` | 31.6 ± 2.5 | 28.1 | 42.6 | 1.00 |
-| `mattcl/005_hydrothermal_venture input-mattcl` | 32.9 ± 3.2 | 27.5 | 45.9 | 1.04 ± 0.13 |
+| `lanjian/day_05 input-lanjian` | 51.9 ± 6.1 | 45.2 | 71.5 | 1.78 ± 0.22 |
+| `lanjian/day_05 input-mattcl` | 48.0 ± 2.2 | 44.6 | 54.8 | 1.64 ± 0.10 |
+| `mattcl/005_hydrothermal_venture input-lanjian` | 31.2 ± 3.0 | 26.5 | 42.6 | 1.07 ± 0.11 |
+| `mattcl/005_hydrothermal_venture input-mattcl` | 29.2 ± 1.2 | 27.2 | 32.1 | 1.00 |

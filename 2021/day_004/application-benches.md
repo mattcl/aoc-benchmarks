@@ -9,12 +9,12 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_04 input-lanjian` | 4.2 ± 0.6 | 3.3 | 9.2 | 1.22 ± 0.22 |
-| `lanjian/day_04 input-mattcl` | 4.4 ± 0.5 | 3.6 | 8.8 | 1.29 ± 0.22 |
-| `mattcl/004_giant_squid input-lanjian` | 3.6 ± 0.4 | 2.9 | 6.9 | 1.05 ± 0.18 |
-| `mattcl/004_giant_squid input-mattcl` | 3.4 ± 0.4 | 2.8 | 6.0 | 1.00 |
+| `lanjian/day_04 input-lanjian` | 4.1 ± 0.9 | 3.2 | 14.1 | 1.31 ± 0.33 |
+| `lanjian/day_04 input-mattcl` | 3.8 ± 0.5 | 3.0 | 8.2 | 1.23 ± 0.21 |
+| `mattcl/004_giant_squid input-lanjian` | 3.6 ± 0.7 | 2.7 | 9.3 | 1.15 ± 0.26 |
+| `mattcl/004_giant_squid input-mattcl` | 3.1 ± 0.3 | 2.7 | 5.8 | 1.00 |
 ## Benchmarks using unofficial large inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_04 large-input-01` | 303.2 ± 30.5 | 274.2 | 377.6 | 2.49 ± 0.28 |
-| `mattcl/004_giant_squid large-input-01` | 121.7 ± 6.2 | 112.7 | 134.6 | 1.00 |
+| `lanjian/day_04 large-input-01` | 271.7 ± 5.6 | 260.7 | 280.1 | 2.07 ± 0.18 |
+| `mattcl/004_giant_squid large-input-01` | 131.3 ± 11.3 | 120.1 | 159.7 | 1.00 |
