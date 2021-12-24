@@ -9,7 +9,7 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_06 input-lanjian` | 2.8 ± 0.4 | 2.2 | 4.9 | 1.16 ± 0.24 |
-| `lanjian/day_06 input-mattcl` | 2.9 ± 0.4 | 2.0 | 5.8 | 1.20 ± 0.24 |
-| `mattcl/006_laternfish input-lanjian` | 2.4 ± 0.4 | 2.0 | 6.2 | 1.00 |
-| `mattcl/006_laternfish input-mattcl` | 2.8 ± 0.7 | 1.5 | 9.6 | 1.14 ± 0.34 |
+| `lanjian/day_06 input-lanjian` | 2.7 ± 0.4 | 2.1 | 7.4 | 1.12 ± 0.23 |
+| `lanjian/day_06 input-mattcl` | 2.7 ± 0.5 | 2.1 | 9.1 | 1.15 ± 0.27 |
+| `mattcl/006_laternfish input-lanjian` | 2.4 ± 0.3 | 1.9 | 4.1 | 1.00 |
+| `mattcl/006_laternfish input-mattcl` | 2.4 ± 0.4 | 1.8 | 6.7 | 1.02 ± 0.22 |
