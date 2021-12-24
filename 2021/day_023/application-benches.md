@@ -1,6 +1,6 @@
-# Day 11 benchmarks
+# Day 23 benchmarks
 
-[link to problem](http://adventofcode.com/2021/day/11)
+[link to problem](http://adventofcode.com/2021/day/23)
 
 The following benchmarks are auto-generated via [hyperfine](https://github.com/sharkdp/hyperfine) by a ci system running on shared hardware. Results may be inaccurate, particularly for execution times < 5ms, as per the hyperfine warnings.
 
@@ -9,8 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/011_dumbo_octopus input-mattcl` | 5.0 ± 0.7 | 4.0 | 10.7 | 1.00 |
-## Benchmarks using unofficial large inputs
-| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
-|:---|---:|---:|---:|---:|
-| `mattcl/011_dumbo_octopus large-input-01` | 97.8 ± 5.7 | 87.5 | 120.3 | 1.00 |
+| `mattcl/023_amphipod input-mattcl` | 140.6 ± 4.5 | 134.5 | 154.0 | 1.00 |
