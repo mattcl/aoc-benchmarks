@@ -9,4 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/019_beacon_scanner input-mattcl` | 32.7 ± 6.2 | 24.9 | 60.4 | 1.00 |
+| `mattcl/019_beacon_scanner input-mattcl` | 31.5 ± 5.0 | 22.6 | 46.6 | 1.00 |
