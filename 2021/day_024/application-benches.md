@@ -9,4 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/024_arithmetic_logic_unit input-mattcl` | 57.505 ± 1.022 | 55.766 | 59.224 | 1.00 |
+| `mattcl/024_arithmetic_logic_unit input-mattcl` | 57.977 ± 0.474 | 57.157 | 58.490 | 1.00 |
