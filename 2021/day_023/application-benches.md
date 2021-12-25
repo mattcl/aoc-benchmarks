@@ -9,4 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/023_amphipod input-mattcl` | 125.4 ± 5.6 | 116.1 | 134.3 | 1.00 |
+| `mattcl/023_amphipod input-mattcl` | 138.5 ± 10.6 | 125.5 | 165.3 | 1.00 |

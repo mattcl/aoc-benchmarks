@@ -9,4 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/020_trench_map input-mattcl` | 78.8 ± 7.0 | 64.4 | 99.0 | 1.00 |
+| `mattcl/020_trench_map input-mattcl` | 74.7 ± 6.4 | 62.3 | 89.5 | 1.00 |
