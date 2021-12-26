@@ -9,5 +9,5 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_12 input-mattcl` | 60.3 ± 4.6 | 53.3 | 81.9 | 6.63 ± 0.89 |
-| `mattcl/012_passage_pathing input-mattcl` | 9.1 ± 1.0 | 7.2 | 13.6 | 1.00 |
+| `lanjian/day_12 input-mattcl` | 60.2 ± 3.4 | 54.4 | 72.0 | 6.33 ± 0.97 |
+| `mattcl/012_passage_pathing input-mattcl` | 9.5 ± 1.4 | 7.4 | 16.6 | 1.00 |
