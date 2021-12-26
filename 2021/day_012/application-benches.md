@@ -9,7 +9,7 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_12 input-lanjian` | 144.4 ± 6.2 | 135.5 | 155.2 | 15.74 ± 2.05 |
-| `lanjian/day_12 input-mattcl` | 61.5 ± 3.3 | 57.0 | 70.9 | 6.71 ± 0.90 |
-| `mattcl/012_passage_pathing input-lanjian` | 18.9 ± 1.2 | 16.6 | 22.6 | 2.06 ± 0.28 |
-| `mattcl/012_passage_pathing input-mattcl` | 9.2 ± 1.1 | 7.6 | 14.7 | 1.00 |
+| `lanjian/day_12 input-lanjian` | 144.0 ± 7.7 | 130.8 | 158.0 | 14.46 ± 2.94 |
+| `lanjian/day_12 input-mattcl` | 62.5 ± 3.8 | 56.5 | 76.4 | 6.27 ± 1.29 |
+| `mattcl/012_passage_pathing input-lanjian` | 19.5 ± 1.5 | 16.6 | 26.2 | 1.96 ± 0.41 |
+| `mattcl/012_passage_pathing input-mattcl` | 10.0 ± 2.0 | 7.8 | 28.9 | 1.00 |
