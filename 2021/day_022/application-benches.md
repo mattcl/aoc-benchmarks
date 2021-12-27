@@ -9,4 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/022_reactor_reboot input-mattcl` | 19.9 ± 3.0 | 17.2 | 45.4 | 1.00 |
+| `mattcl/022_reactor_reboot input-mattcl` | 19.2 ± 1.8 | 16.8 | 29.9 | 1.00 |

@@ -9,5 +9,5 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/016_packet_decoder input-mattcl` | 3.1 ± 0.5 | 2.3 | 11.5 | 1.00 |
-| `mattcl/016_packet_decoder input-u-msklywenn` | 3.1 ± 0.4 | 2.2 | 7.3 | 1.00 ± 0.22 |
+| `mattcl/016_packet_decoder input-mattcl` | 2.7 ± 0.3 | 2.0 | 5.9 | 1.00 |
+| `mattcl/016_packet_decoder input-u-msklywenn` | 2.8 ± 0.4 | 2.1 | 5.8 | 1.04 ± 0.18 |

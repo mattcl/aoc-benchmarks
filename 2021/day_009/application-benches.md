@@ -9,12 +9,12 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_09 input-lanjian` | 7.3 ± 1.2 | 5.7 | 17.0 | 1.30 ± 0.30 |
-| `lanjian/day_09 input-mattcl` | 7.1 ± 0.6 | 5.8 | 9.3 | 1.25 ± 0.22 |
-| `mattcl/009_smoke_basin input-lanjian` | 5.7 ± 0.9 | 4.0 | 10.2 | 1.00 |
-| `mattcl/009_smoke_basin input-mattcl` | 5.7 ± 0.6 | 4.3 | 9.6 | 1.00 ± 0.19 |
+| `lanjian/day_09 input-lanjian` | 6.8 ± 0.7 | 5.7 | 9.9 | 1.46 ± 0.20 |
+| `lanjian/day_09 input-mattcl` | 6.9 ± 0.9 | 5.9 | 16.7 | 1.47 ± 0.23 |
+| `mattcl/009_smoke_basin input-lanjian` | 4.7 ± 0.4 | 4.0 | 6.5 | 1.00 |
+| `mattcl/009_smoke_basin input-mattcl` | 5.2 ± 0.7 | 4.1 | 10.0 | 1.10 ± 0.18 |
 ## Benchmarks using unofficial large inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_09 large-input-01` | 16212.2 ± 650.0 | 15122.1 | 17320.9 | 17.77 ± 0.83 |
-| `mattcl/009_smoke_basin large-input-01` | 912.3 ± 22.2 | 880.2 | 953.9 | 1.00 |
+| `lanjian/day_09 large-input-01` | 15168.1 ± 584.1 | 14404.8 | 16120.6 | 16.30 ± 0.75 |
+| `mattcl/009_smoke_basin large-input-01` | 930.7 ± 22.9 | 897.0 | 967.8 | 1.00 |
