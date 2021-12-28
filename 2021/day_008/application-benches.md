@@ -9,12 +9,12 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_08 input-lanjian` | 14.8 ± 1.4 | 13.0 | 20.6 | 3.45 ± 0.71 |
-| `lanjian/day_08 input-mattcl` | 15.7 ± 2.2 | 13.3 | 25.4 | 3.67 ± 0.84 |
-| `mattcl/008_seven_segment_search input-lanjian` | 4.4 ± 0.8 | 3.5 | 14.3 | 1.03 ± 0.27 |
-| `mattcl/008_seven_segment_search input-mattcl` | 4.3 ± 0.8 | 3.4 | 13.7 | 1.00 |
+| `lanjian/day_08 input-lanjian` | 13.3 ± 0.7 | 12.2 | 16.0 | 3.28 ± 0.46 |
+| `lanjian/day_08 input-mattcl` | 14.9 ± 1.9 | 13.1 | 27.5 | 3.67 ± 0.67 |
+| `mattcl/008_seven_segment_search input-lanjian` | 4.1 ± 0.7 | 3.4 | 10.8 | 1.01 ± 0.22 |
+| `mattcl/008_seven_segment_search input-mattcl` | 4.1 ± 0.5 | 3.2 | 6.3 | 1.00 |
 ## Benchmarks using unofficial large inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_08 large-input-01` | 5402.6 ± 144.6 | 5158.9 | 5621.3 | 8.12 ± 0.34 |
-| `mattcl/008_seven_segment_search large-input-01` | 665.6 ± 21.3 | 646.2 | 717.5 | 1.00 |
+| `lanjian/day_08 large-input-01` | 5641.7 ± 172.9 | 5383.1 | 5935.3 | 8.09 ± 0.57 |
+| `mattcl/008_seven_segment_search large-input-01` | 697.3 ± 43.8 | 653.0 | 774.0 | 1.00 |

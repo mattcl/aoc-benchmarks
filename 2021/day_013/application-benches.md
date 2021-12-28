@@ -9,14 +9,14 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_13 input-lanjian` | 3.5 ± 0.4 | 2.5 | 5.5 | 1.11 ± 0.20 |
-| `lanjian/day_13 input-mattcl` | 4.1 ± 1.0 | 2.8 | 10.8 | 1.30 ± 0.35 |
-| `mattcl/013_transparent_origami input-lanjian` | 3.1 ± 0.4 | 2.4 | 6.0 | 1.00 |
-| `mattcl/013_transparent_origami input-mattcl` | 3.3 ± 0.8 | 2.0 | 11.8 | 1.05 ± 0.29 |
+| `lanjian/day_13 input-lanjian` | 3.1 ± 0.5 | 2.4 | 10.5 | 1.15 ± 0.25 |
+| `lanjian/day_13 input-mattcl` | 3.5 ± 0.6 | 2.7 | 10.8 | 1.27 ± 0.28 |
+| `mattcl/013_transparent_origami input-lanjian` | 2.7 ± 0.4 | 2.1 | 4.9 | 1.00 |
+| `mattcl/013_transparent_origami input-mattcl` | 3.3 ± 0.6 | 2.5 | 9.0 | 1.19 ± 0.28 |
 ## Benchmarks using unofficial large inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_13 large-input-01` | 3.4 ± 0.5 | 2.6 | 6.5 | 1.16 ± 0.23 |
-| `lanjian/day_13 large-input-02` | 3.2 ± 0.4 | 2.5 | 6.4 | 1.10 ± 0.19 |
-| `mattcl/013_transparent_origami large-input-01` | 3.0 ± 0.4 | 2.1 | 7.0 | 1.00 |
-| `mattcl/013_transparent_origami large-input-02` | 3.1 ± 0.7 | 2.1 | 9.8 | 1.04 ± 0.27 |
+| `lanjian/day_13 large-input-01` | 2.9 ± 0.4 | 2.3 | 6.6 | 1.11 ± 0.27 |
+| `lanjian/day_13 large-input-02` | 3.1 ± 0.4 | 2.3 | 6.0 | 1.18 ± 0.27 |
+| `mattcl/013_transparent_origami large-input-01` | 2.6 ± 0.5 | 1.9 | 6.4 | 1.00 |
+| `mattcl/013_transparent_origami large-input-02` | 2.7 ± 0.4 | 2.0 | 4.6 | 1.02 ± 0.24 |

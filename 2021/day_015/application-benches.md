@@ -9,4 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/015_chiton input-mattcl` | 68.1 ± 5.3 | 61.7 | 82.9 | 1.00 |
+| `mattcl/015_chiton input-mattcl` | 67.3 ± 3.9 | 63.5 | 85.8 | 1.00 |
