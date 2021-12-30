@@ -9,8 +9,8 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/017_trick_shot input-mattcl` | 3.1 ± 0.4 | 2.5 | 5.0 | 1.00 |
+| `mattcl/017_trick_shot input-mattcl` | 3.3 ± 0.5 | 2.6 | 8.6 | 1.00 |
 ## Benchmarks using unofficial large inputs
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/017_trick_shot large-input-01` | 2.854 ± 0.086 | 2.745 | 2.998 | 1.00 |
+| `mattcl/017_trick_shot large-input-01` | 2.963 ± 0.095 | 2.856 | 3.136 | 1.00 |
