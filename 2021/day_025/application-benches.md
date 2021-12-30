@@ -9,4 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/025_sea_cucumber input-mattcl` | 63.8 ± 3.3 | 59.1 | 76.0 | 1.00 |
+| `mattcl/025_sea_cucumber input-mattcl` | 63.8 ± 3.8 | 57.9 | 75.2 | 1.00 |
