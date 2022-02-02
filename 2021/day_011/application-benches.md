@@ -9,12 +9,12 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_11 input-lanjian` | 6.5 ± 0.9 | 4.8 | 13.0 | 1.28 ± 0.30 |
-| `lanjian/day_11 input-mattcl` | 6.9 ± 0.7 | 5.5 | 10.8 | 1.35 ± 0.29 |
-| `mattcl/011_dumbo_octopus input-lanjian` | 5.1 ± 1.0 | 3.3 | 12.0 | 1.00 |
-| `mattcl/011_dumbo_octopus input-mattcl` | 5.4 ± 0.6 | 4.2 | 9.3 | 1.06 ± 0.23 |
+| `lanjian/day_11 input-lanjian` | 5.8 ± 0.6 | 5.0 | 8.7 | 1.24 ± 0.21 |
+| `lanjian/day_11 input-mattcl` | 7.4 ± 1.1 | 6.0 | 14.2 | 1.59 ± 0.32 |
+| `mattcl/011_dumbo_octopus input-lanjian` | 4.7 ± 0.6 | 3.7 | 7.5 | 1.00 |
+| `mattcl/011_dumbo_octopus input-mattcl` | 5.0 ± 0.6 | 4.3 | 8.8 | 1.06 ± 0.19 |
 ## Benchmarks using unofficial large inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_11 large-input-01` | 241.8 ± 10.5 | 229.8 | 267.5 | 2.49 ± 0.15 |
-| `mattcl/011_dumbo_octopus large-input-01` | 97.3 ± 4.1 | 90.6 | 106.7 | 1.00 |
+| `lanjian/day_11 large-input-01` | 241.9 ± 12.4 | 231.1 | 278.8 | 2.50 ± 0.20 |
+| `mattcl/011_dumbo_octopus large-input-01` | 96.7 ± 5.9 | 89.5 | 109.3 | 1.00 |
