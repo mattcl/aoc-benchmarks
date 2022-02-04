@@ -9,7 +9,7 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_14 input-lanjian` | 5.6 ± 0.8 | 4.2 | 10.7 | 1.83 ± 0.37 |
-| `lanjian/day_14 input-mattcl` | 5.5 ± 1.4 | 4.1 | 26.7 | 1.81 ± 0.53 |
-| `mattcl/014_extended_polymerization input-lanjian` | 3.7 ± 1.2 | 2.5 | 24.1 | 1.20 ± 0.44 |
-| `mattcl/014_extended_polymerization input-mattcl` | 3.0 ± 0.4 | 2.4 | 4.9 | 1.00 |
+| `lanjian/day_14 input-lanjian` | 5.1 ± 0.7 | 4.0 | 7.9 | 1.60 ± 0.41 |
+| `lanjian/day_14 input-mattcl` | 5.8 ± 1.1 | 4.0 | 18.9 | 1.81 ± 0.54 |
+| `mattcl/014_extended_polymerization input-lanjian` | 3.3 ± 0.6 | 2.4 | 6.7 | 1.03 ± 0.29 |
+| `mattcl/014_extended_polymerization input-mattcl` | 3.2 ± 0.7 | 2.2 | 7.0 | 1.00 |
