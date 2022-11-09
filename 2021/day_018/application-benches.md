@@ -9,4 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl/018_snailfish input-mattcl` | 17.5 ± 2.2 | 13.8 | 25.8 | 1.00 |
+| `mattcl/018_snailfish input-mattcl` | 27.7 ± 3.1 | 21.7 | 39.1 | 1.00 |
