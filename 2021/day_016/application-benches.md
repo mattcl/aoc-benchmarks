@@ -9,9 +9,9 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_16 input-lanjian` | 6.6 ± 2.7 | 2.9 | 21.9 | 1.12 ± 0.54 |
-| `lanjian/day_16 input-mattcl` | 6.2 ± 1.5 | 3.3 | 15.2 | 1.05 ± 0.38 |
-| `lanjian/day_16 input-u-msklywenn` | 5.9 ± 1.6 | 3.2 | 13.1 | 1.00 |
-| `mattcl/016_packet_decoder input-lanjian` | 6.5 ± 1.8 | 3.3 | 25.7 | 1.10 ± 0.42 |
-| `mattcl/016_packet_decoder input-mattcl` | 7.1 ± 1.8 | 3.5 | 15.9 | 1.20 ± 0.44 |
-| `mattcl/016_packet_decoder input-u-msklywenn` | 6.6 ± 1.4 | 3.6 | 11.8 | 1.13 ± 0.38 |
+| `lanjian/day_16 input-lanjian` | 11.5 ± 12.9 | 2.6 | 90.8 | 1.98 ± 2.26 |
+| `lanjian/day_16 input-mattcl` | 6.8 ± 1.8 | 3.6 | 17.4 | 1.17 ± 0.41 |
+| `lanjian/day_16 input-u-msklywenn` | 7.3 ± 2.4 | 3.8 | 25.1 | 1.26 ± 0.51 |
+| `mattcl/016_packet_decoder input-lanjian` | 5.8 ± 1.4 | 2.7 | 11.5 | 1.00 |
+| `mattcl/016_packet_decoder input-mattcl` | 8.3 ± 3.1 | 5.0 | 22.8 | 1.42 ± 0.63 |
+| `mattcl/016_packet_decoder input-u-msklywenn` | 7.3 ± 1.6 | 4.0 | 18.1 | 1.25 ± 0.40 |
