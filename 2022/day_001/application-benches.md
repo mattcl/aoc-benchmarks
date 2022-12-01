@@ -9,11 +9,11 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_01 input-aspidites` | 3.3 ± 1.0 | 1.4 | 9.6 | 10.79 ± 17.77 |
-| `lanjian/day_01 input-lanjian` | 3.1 ± 0.9 | 1.8 | 10.4 | 10.17 ± 16.73 |
-| `lanjian/day_01 input-mattcl` | 2.8 ± 1.0 | 1.3 | 9.1 | 9.02 ± 14.95 |
-| `lanjian/day_01 input-pting` | 2.4 ± 0.8 | 1.3 | 8.4 | 7.68 ± 12.68 |
-| `mattcl-solver/aoc run 1 input-aspidites` | 0.3 ± 0.9 | 0.0 | 20.8 | 1.02 ± 3.34 |
-| `mattcl-solver/aoc run 1 input-lanjian` | 0.6 ± 0.6 | 0.0 | 6.9 | 1.80 ± 3.51 |
-| `mattcl-solver/aoc run 1 input-mattcl` | 1.1 ± 1.1 | 0.0 | 22.2 | 3.48 ± 6.69 |
-| `mattcl-solver/aoc run 1 input-pting` | 0.3 ± 0.5 | 0.0 | 5.1 | 1.00 |
+| `lanjian/day_01 input-aspidites` | 3.3 ± 0.9 | 2.2 | 13.7 | 3.73 ± 2.14 |
+| `lanjian/day_01 input-lanjian` | 4.2 ± 0.8 | 2.8 | 9.8 | 4.76 ± 2.62 |
+| `lanjian/day_01 input-mattcl` | 4.2 ± 1.1 | 2.4 | 11.6 | 4.71 ± 2.71 |
+| `lanjian/day_01 input-pting` | 2.9 ± 0.7 | 2.1 | 7.6 | 3.25 ± 1.83 |
+| `mattcl-solver/aoc run 1 input-aspidites` | 1.4 ± 0.6 | 0.5 | 7.4 | 1.55 ± 1.02 |
+| `mattcl-solver/aoc run 1 input-lanjian` | 1.7 ± 0.5 | 0.7 | 5.1 | 1.86 ± 1.13 |
+| `mattcl-solver/aoc run 1 input-mattcl` | 1.6 ± 0.9 | 0.5 | 10.7 | 1.82 ± 1.34 |
+| `mattcl-solver/aoc run 1 input-pting` | 0.9 ± 0.5 | 0.5 | 10.9 | 1.00 |
