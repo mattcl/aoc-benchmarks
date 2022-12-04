@@ -3,3 +3,4 @@
 |:---|:---|:---|
 |input-mattcl|<pre>494</pre>|<pre>833</pre>|
 |input-pting|<pre>485</pre>|<pre>857</pre>|
+|input-kcen|<pre>588</pre>|<pre>911</pre>|
