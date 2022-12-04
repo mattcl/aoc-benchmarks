@@ -9,4 +9,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl-solver/aoc run 4 input-mattcl` | 2.1 ± 0.7 | 1.0 | 8.6 | 1.00 |
+| `mattcl-solver/aoc run 4 input-mattcl` | 1.8 ± 0.5 | 1.0 | 4.6 | 1.00 |
