@@ -9,7 +9,9 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl-solver/aoc run 4 input-mattcl` | 2.6 ± 1.2 | 0.8 | 17.9 | 1.12 ± 0.71 |
-| `mattcl-solver/aoc run 4 input-pting` | 2.3 ± 1.0 | 0.8 | 9.1 | 1.00 |
-| `python pting/day04.py input-mattcl` | 44.1 ± 12.3 | 33.7 | 90.9 | 19.13 ± 9.63 |
-| `python pting/day04.py input-pting` | 45.6 ± 14.3 | 31.0 | 112.6 | 19.78 ± 10.35 |
+| `kcen/2022/04/solve.sh input-mattcl` | 133.0 ± 19.0 | 104.2 | 165.9 | 81.14 ± 38.13 |
+| `kcen/2022/04/solve.sh input-pting` | 127.9 ± 15.9 | 107.5 | 175.2 | 78.08 ± 36.27 |
+| `mattcl-solver/aoc run 4 input-mattcl` | 1.6 ± 0.7 | 0.5 | 5.1 | 1.00 |
+| `mattcl-solver/aoc run 4 input-pting` | 2.0 ± 0.9 | 0.6 | 14.0 | 1.20 ± 0.79 |
+| `python pting/day04.py input-mattcl` | 43.1 ± 10.1 | 31.3 | 72.5 | 26.30 ± 13.28 |
+| `python pting/day04.py input-pting` | 45.3 ± 11.1 | 34.6 | 81.9 | 27.67 ± 14.11 |
