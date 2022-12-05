@@ -1,4 +1,4 @@
-# AoC 2022 aggregated inputs, solutions and benchmarks
+# AoC 2022 aggregated inputs, solutions, and benchmarks
 
 [ci pipeline](http://ci.papercode.net:8080/teams/aoc2022/pipelines/aoc-compare-2022)
 
