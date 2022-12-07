@@ -16,7 +16,7 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl-solver/aoc run 7 input-mattcl` | 4.0 ± 2.0 | 1.2 | 25.4 | 1.00 |
+| `mattcl-solver/aoc run 7 input-mattcl` | 2.9 ± 1.4 | 0.7 | 16.1 | 1.00 |
 
 ## input -> solutions mapping
 |input|part 1|part 2|
