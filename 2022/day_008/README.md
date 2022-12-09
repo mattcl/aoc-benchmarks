@@ -19,22 +19,22 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `kcen/2022/08/solve input-kcen` | 306.5 ± 24.1 | 281.3 | 346.4 | 103.98 ± 37.05 |
-| `kcen/2022/08/solve input-lanjian` | 282.5 ± 24.3 | 262.3 | 341.3 | 95.81 ± 34.31 |
-| `kcen/2022/08/solve input-mattcl` | 303.8 ± 18.6 | 278.9 | 336.7 | 103.05 ± 36.37 |
-| `kcen/2022/08/solve input-pting` | 294.1 ± 14.2 | 274.6 | 313.7 | 99.77 ± 35.01 |
-| `lanjian/day_08 input-kcen` | 4.4 ± 1.0 | 2.7 | 14.5 | 1.50 ± 0.63 |
-| `lanjian/day_08 input-lanjian` | 4.2 ± 1.2 | 2.1 | 11.5 | 1.43 ± 0.63 |
-| `lanjian/day_08 input-mattcl` | 4.1 ± 0.8 | 2.7 | 8.4 | 1.41 ± 0.56 |
-| `lanjian/day_08 input-pting` | 4.3 ± 1.0 | 2.1 | 11.0 | 1.47 ± 0.62 |
-| `mattcl-solver/aoc run 8 input-kcen` | 3.4 ± 1.0 | 1.5 | 14.0 | 1.15 ± 0.53 |
-| `mattcl-solver/aoc run 8 input-lanjian` | 3.0 ± 1.1 | 1.2 | 15.3 | 1.03 ± 0.51 |
-| `mattcl-solver/aoc run 8 input-mattcl` | 3.0 ± 1.0 | 1.4 | 10.5 | 1.00 ± 0.48 |
-| `mattcl-solver/aoc run 8 input-pting` | 2.9 ± 1.0 | 1.2 | 8.6 | 1.00 |
-| `python pting/day08.py input-kcen` | 702.8 ± 55.3 | 616.2 | 820.2 | 238.37 ± 84.94 |
-| `python pting/day08.py input-lanjian` | 673.8 ± 35.6 | 633.5 | 731.3 | 228.56 ± 80.35 |
-| `python pting/day08.py input-mattcl` | 657.5 ± 31.7 | 607.5 | 699.4 | 223.01 ± 78.25 |
-| `python pting/day08.py input-pting` | 858.4 ± 264.5 | 660.0 | 1487.0 | 291.17 ± 135.23 |
+| `kcen/2022/08/solve input-kcen` | 301.1 ± 30.1 | 266.7 | 350.2 | 129.61 ± 54.41 |
+| `kcen/2022/08/solve input-lanjian` | 319.1 ± 18.6 | 288.1 | 358.1 | 137.35 ± 56.57 |
+| `kcen/2022/08/solve input-mattcl` | 301.3 ± 14.0 | 265.4 | 316.5 | 129.71 ± 53.23 |
+| `kcen/2022/08/solve input-pting` | 290.8 ± 21.9 | 261.2 | 323.1 | 125.16 ± 51.89 |
+| `lanjian/day_08 input-kcen` | 3.4 ± 1.0 | 1.6 | 12.5 | 1.47 ± 0.75 |
+| `lanjian/day_08 input-lanjian` | 3.5 ± 1.0 | 1.7 | 9.1 | 1.51 ± 0.76 |
+| `lanjian/day_08 input-mattcl` | 3.8 ± 1.1 | 2.0 | 12.4 | 1.65 ± 0.81 |
+| `lanjian/day_08 input-pting` | 3.2 ± 0.9 | 1.5 | 8.8 | 1.37 ± 0.69 |
+| `mattcl-solver/aoc run 8 input-kcen` | 2.5 ± 1.1 | 0.7 | 8.6 | 1.08 ± 0.66 |
+| `mattcl-solver/aoc run 8 input-lanjian` | 2.8 ± 1.4 | 0.8 | 23.4 | 1.20 ± 0.79 |
+| `mattcl-solver/aoc run 8 input-mattcl` | 3.1 ± 1.1 | 1.0 | 9.3 | 1.34 ± 0.71 |
+| `mattcl-solver/aoc run 8 input-pting` | 2.3 ± 0.9 | 0.7 | 9.9 | 1.00 |
+| `python pting/day08.py input-kcen` | 646.8 ± 52.8 | 569.9 | 752.9 | 278.42 ± 115.77 |
+| `python pting/day08.py input-lanjian` | 709.6 ± 55.8 | 594.6 | 791.3 | 305.44 ± 126.82 |
+| `python pting/day08.py input-mattcl` | 661.9 ± 20.0 | 628.3 | 697.9 | 284.94 ± 116.49 |
+| `python pting/day08.py input-pting` | 717.9 ± 166.6 | 605.7 | 1074.1 | 309.04 ± 144.98 |
 
 ## input -> solutions mapping
 |input|part 1|part 2|
