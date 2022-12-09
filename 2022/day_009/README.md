@@ -11,12 +11,16 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Repos (with solutions for day 9)
 
 
+- [lanjian](https://github.com/LanJian/aoc-2022)
 - [mattcl](https://github.com/mattcl/aoc2022)
 
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl-solver/aoc run 9 input-mattcl` | 5.3 ± 1.5 | 3.1 | 13.7 | 1.00 |
+| `lanjian/day_09 input-lanjian` | 4.5 ± 1.3 | 2.5 | 15.1 | 1.10 ± 0.45 |
+| `lanjian/day_09 input-mattcl` | 4.2 ± 0.9 | 2.6 | 7.7 | 1.03 ± 0.38 |
+| `mattcl-solver/aoc run 9 input-lanjian` | 4.1 ± 1.2 | 2.3 | 11.9 | 1.00 |
+| `mattcl-solver/aoc run 9 input-mattcl` | 4.2 ± 1.0 | 2.4 | 10.8 | 1.03 ± 0.39 |
 
 ## input -> solutions mapping
 |input|part 1|part 2|
