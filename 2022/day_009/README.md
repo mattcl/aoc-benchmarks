@@ -17,10 +17,12 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_09 input-lanjian` | 3.0 ± 3.8 | 0.0 | 24.8 | 1.94 ± 3.79 |
-| `lanjian/day_09 input-mattcl` | 1.5 ± 2.3 | 0.0 | 17.3 | 1.00 |
-| `mattcl-solver/aoc run 9 input-lanjian` | 4.1 ± 9.1 | 0.0 | 109.4 | 2.70 ± 7.18 |
-| `mattcl-solver/aoc run 9 input-mattcl` | 2.0 ± 2.9 | 0.0 | 22.3 | 1.33 ± 2.77 |
+| `lanjian/day_09 input-lanjian` | 8.8 ± 6.9 | 3.3 | 38.6 | 1.78 ± 1.52 |
+| `lanjian/day_09 input-mattcl` | 6.1 ± 2.7 | 3.2 | 20.3 | 1.23 ± 0.68 |
+| `lanjian/day_09 input-pting` | 5.3 ± 1.8 | 3.2 | 18.8 | 1.08 ± 0.50 |
+| `mattcl-solver/aoc run 9 input-lanjian` | 5.7 ± 3.1 | 2.7 | 25.6 | 1.15 ± 0.74 |
+| `mattcl-solver/aoc run 9 input-mattcl` | 4.9 ± 1.6 | 2.7 | 16.2 | 1.00 |
+| `mattcl-solver/aoc run 9 input-pting` | 5.9 ± 2.8 | 3.0 | 20.6 | 1.19 ± 0.68 |
 
 ## input -> solutions mapping
 |input|part 1|part 2|
