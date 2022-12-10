@@ -20,31 +20,31 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `aspidites-solver/aoc -i input-aspidites -d 5` | 24.5 ± 1.0 | 23.0 | 28.1 | 13.00 ± 6.63 |
-| `aspidites-solver/aoc -i input-kcen -d 5` | 25.6 ± 4.4 | 22.7 | 55.8 | 13.60 ± 7.29 |
-| `aspidites-solver/aoc -i input-lanjian -d 5` | 24.4 ± 1.2 | 22.7 | 31.7 | 12.95 ± 6.61 |
-| `aspidites-solver/aoc -i input-mattcl -d 5` | 25.5 ± 3.2 | 22.9 | 39.7 | 13.53 ± 7.08 |
-| `aspidites-solver/aoc -i input-pting -d 5` | 79.5 ± 62.7 | 23.5 | 353.2 | 42.27 ± 39.64 |
-| `kcen/2022/05/solve input-aspidites` | 150.4 ± 14.8 | 127.0 | 190.2 | 79.92 ± 41.37 |
-| `kcen/2022/05/solve input-kcen` | 173.9 ± 20.9 | 139.0 | 211.3 | 92.45 ± 48.28 |
-| `kcen/2022/05/solve input-lanjian` | 164.0 ± 14.9 | 136.3 | 193.7 | 87.18 ± 45.01 |
-| `kcen/2022/05/solve input-mattcl` | 160.5 ± 18.7 | 130.7 | 196.5 | 85.30 ± 44.48 |
-| `kcen/2022/05/solve input-pting` | 164.9 ± 23.3 | 136.2 | 211.7 | 87.64 ± 46.23 |
-| `lanjian/day_05 input-aspidites` | 2.0 ± 0.9 | 0.5 | 9.5 | 1.06 ± 0.71 |
-| `lanjian/day_05 input-kcen` | 2.0 ± 1.0 | 0.3 | 14.0 | 1.08 ± 0.78 |
-| `lanjian/day_05 input-lanjian` | 1.9 ± 1.0 | 0.4 | 7.6 | 1.00 |
-| `lanjian/day_05 input-mattcl` | 1.9 ± 0.9 | 0.3 | 6.4 | 1.01 ± 0.71 |
-| `lanjian/day_05 input-pting` | 1.9 ± 1.0 | 0.1 | 10.7 | 1.03 ± 0.75 |
-| `mattcl-solver/aoc run 5 input-aspidites` | 2.1 ± 0.8 | 0.7 | 8.3 | 1.12 ± 0.72 |
-| `mattcl-solver/aoc run 5 input-kcen` | 2.9 ± 1.8 | 0.9 | 16.6 | 1.53 ± 1.24 |
-| `mattcl-solver/aoc run 5 input-lanjian` | 2.4 ± 1.2 | 0.7 | 12.0 | 1.26 ± 0.89 |
-| `mattcl-solver/aoc run 5 input-mattcl` | 2.0 ± 0.9 | 0.3 | 12.3 | 1.09 ± 0.75 |
-| `mattcl-solver/aoc run 5 input-pting` | 2.2 ± 1.1 | 0.3 | 12.4 | 1.14 ± 0.83 |
-| `python pting/day05.py input-aspidites` | 59.0 ± 7.2 | 46.7 | 83.7 | 31.35 ± 16.38 |
-| `python pting/day05.py input-kcen` | 53.7 ± 7.3 | 40.9 | 72.7 | 28.54 ± 15.02 |
-| `python pting/day05.py input-lanjian` | 55.4 ± 7.3 | 43.9 | 75.9 | 29.46 ± 15.47 |
-| `python pting/day05.py input-mattcl` | 56.3 ± 7.4 | 45.3 | 71.5 | 29.94 ± 15.72 |
-| `python pting/day05.py input-pting` | 59.6 ± 6.2 | 47.2 | 68.2 | 31.66 ± 16.42 |
+| `aspidites-solver/aoc -i input-aspidites -d 5` | 25.2 ± 3.0 | 22.6 | 43.8 | 13.64 ± 6.75 |
+| `aspidites-solver/aoc -i input-kcen -d 5` | 25.3 ± 3.9 | 22.6 | 45.2 | 13.71 ± 6.91 |
+| `aspidites-solver/aoc -i input-lanjian -d 5` | 25.7 ± 4.1 | 22.4 | 48.2 | 13.93 ± 7.05 |
+| `aspidites-solver/aoc -i input-mattcl -d 5` | 25.0 ± 2.6 | 22.6 | 34.4 | 13.57 ± 6.66 |
+| `aspidites-solver/aoc -i input-pting -d 5` | 48.8 ± 51.7 | 22.9 | 306.0 | 26.45 ± 30.78 |
+| `kcen/2022/05/solve input-aspidites` | 173.4 ± 16.8 | 143.1 | 205.0 | 94.02 ± 46.06 |
+| `kcen/2022/05/solve input-kcen` | 167.7 ± 17.1 | 142.0 | 199.2 | 90.96 ± 44.66 |
+| `kcen/2022/05/solve input-lanjian` | 184.9 ± 25.3 | 154.1 | 228.2 | 100.28 ± 50.07 |
+| `kcen/2022/05/solve input-mattcl` | 159.6 ± 18.9 | 137.3 | 197.2 | 86.57 ± 42.82 |
+| `kcen/2022/05/solve input-pting` | 163.9 ± 15.8 | 142.4 | 193.0 | 88.86 ± 43.52 |
+| `lanjian/day_05 input-aspidites` | 1.8 ± 0.9 | 0.5 | 11.7 | 1.00 |
+| `lanjian/day_05 input-kcen` | 2.4 ± 2.0 | 0.7 | 28.3 | 1.28 ± 1.22 |
+| `lanjian/day_05 input-lanjian` | 2.8 ± 3.5 | 0.3 | 64.3 | 1.53 ± 2.02 |
+| `lanjian/day_05 input-mattcl` | 2.3 ± 1.4 | 0.4 | 14.5 | 1.24 ± 0.95 |
+| `lanjian/day_05 input-pting` | 2.5 ± 1.1 | 0.4 | 8.7 | 1.33 ± 0.86 |
+| `mattcl-solver/aoc run 5 input-aspidites` | 2.1 ± 1.0 | 0.6 | 12.1 | 1.14 ± 0.77 |
+| `mattcl-solver/aoc run 5 input-kcen` | 2.7 ± 1.1 | 1.0 | 14.3 | 1.47 ± 0.94 |
+| `mattcl-solver/aoc run 5 input-lanjian` | 2.3 ± 0.8 | 0.9 | 6.3 | 1.26 ± 0.75 |
+| `mattcl-solver/aoc run 5 input-mattcl` | 2.3 ± 1.0 | 0.8 | 10.2 | 1.23 ± 0.79 |
+| `mattcl-solver/aoc run 5 input-pting` | 2.5 ± 1.0 | 0.7 | 11.7 | 1.34 ± 0.85 |
+| `python pting/day05.py input-aspidites` | 56.7 ± 8.3 | 43.1 | 74.1 | 30.77 ± 15.44 |
+| `python pting/day05.py input-kcen` | 62.6 ± 15.6 | 39.5 | 126.8 | 33.95 ± 18.37 |
+| `python pting/day05.py input-lanjian` | 111.7 ± 58.0 | 49.7 | 282.0 | 60.58 ± 42.84 |
+| `python pting/day05.py input-mattcl` | 54.7 ± 4.7 | 45.8 | 66.2 | 29.67 ± 14.47 |
+| `python pting/day05.py input-pting` | 60.6 ± 7.9 | 47.7 | 80.9 | 32.87 ± 16.36 |
 
 ## input -> solutions mapping
 |input|part 1|part 2|
