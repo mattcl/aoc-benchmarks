@@ -16,4 +16,9 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `python pting/day11/day11.py input-pting` | 18.1 ± 0.4 | 17.4 | 19.8 | 1.00 |
+| `python pting/day11/day11.py input-mattcl` | 18.0 ± 0.4 | 17.3 | 19.7 | 1.00 |
+
+## input -> solutions mapping
+|input|part 1|part 2|
+|:---|:---|:---|
+|input-mattcl|<pre>95472</pre>|<pre>17926061332</pre>|
