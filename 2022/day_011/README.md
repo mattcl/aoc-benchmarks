@@ -16,4 +16,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `python pting/day11/day11.py input-pting` | 18.2 ± 0.5 | 17.4 | 20.0 | 1.00 |
+| `python pting/day11/day11.py input-pting` | 18.1 ± 0.4 | 17.4 | 19.8 | 1.00 |
