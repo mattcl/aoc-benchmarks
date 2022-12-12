@@ -12,8 +12,12 @@ The "official" inputs were aggregated from repositories participating in the gen
 
 
 - [lanjian](https://github.com/LanJian/aoc-2022)
+- [pting](https://github.com/pting/aoc2022)
 
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_12 input-lanjian` | 2.4 ± 0.1 | 2.2 | 5.1 | 1.00 |
+| `lanjian/day_12 input-lanjian` | 2.3 ± 0.1 | 2.2 | 4.9 | 1.00 |
+| `lanjian/day_12 input-pting` | 2.6 ± 0.2 | 2.5 | 6.3 | 1.13 ± 0.09 |
+| `python pting/day12/day12.py input-lanjian` | 470.4 ± 5.0 | 466.3 | 483.3 | 202.48 ± 10.72 |
+| `python pting/day12/day12.py input-pting` | 333.1 ± 3.8 | 329.5 | 341.0 | 143.37 ± 7.62 |
