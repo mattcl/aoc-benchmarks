@@ -18,18 +18,18 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_11 input-kcen` | 14.5 ± 0.3 | 14.1 | 18.2 | 1.00 ± 0.03 |
-| `lanjian/day_11 input-lanjian` | 19.9 ± 0.5 | 19.5 | 24.2 | 1.38 ± 0.04 |
-| `lanjian/day_11 input-mattcl` | 14.4 ± 0.3 | 14.1 | 17.7 | 1.00 |
-| `lanjian/day_11 input-pting` | 21.1 ± 0.3 | 20.7 | 23.1 | 1.46 ± 0.04 |
-| `mattcl-solver/aoc run 11 input-kcen` | 14.8 ± 0.2 | 14.6 | 15.4 | 1.03 ± 0.02 |
-| `mattcl-solver/aoc run 11 input-lanjian` | 20.2 ± 0.2 | 19.8 | 20.9 | 1.40 ± 0.03 |
-| `mattcl-solver/aoc run 11 input-mattcl` | 14.8 ± 0.2 | 14.5 | 17.2 | 1.02 ± 0.03 |
-| `mattcl-solver/aoc run 11 input-pting` | 21.7 ± 0.3 | 21.4 | 22.6 | 1.51 ± 0.03 |
-| `python pting/day11/day11.py input-kcen` | 286.9 ± 4.9 | 281.7 | 295.9 | 19.90 ± 0.52 |
-| `python pting/day11/day11.py input-lanjian` | 390.5 ± 7.3 | 382.9 | 404.4 | 27.09 ± 0.74 |
-| `python pting/day11/day11.py input-mattcl` | 291.9 ± 3.2 | 287.8 | 298.7 | 20.25 ± 0.46 |
-| `python pting/day11/day11.py input-pting` | 405.0 ± 2.8 | 399.7 | 408.6 | 28.10 ± 0.59 |
+| `lanjian/day_11 input-kcen` | 14.3 ± 0.3 | 14.1 | 17.1 | 1.00 |
+| `lanjian/day_11 input-lanjian` | 19.7 ± 0.2 | 19.4 | 20.5 | 1.38 ± 0.03 |
+| `lanjian/day_11 input-mattcl` | 14.4 ± 0.2 | 14.1 | 16.2 | 1.00 ± 0.02 |
+| `lanjian/day_11 input-pting` | 20.8 ± 0.2 | 20.6 | 22.7 | 1.45 ± 0.03 |
+| `mattcl-solver/aoc run 11 input-kcen` | 14.8 ± 0.2 | 14.5 | 16.8 | 1.03 ± 0.02 |
+| `mattcl-solver/aoc run 11 input-lanjian` | 20.0 ± 0.3 | 19.6 | 22.9 | 1.40 ± 0.03 |
+| `mattcl-solver/aoc run 11 input-mattcl` | 14.7 ± 0.2 | 14.4 | 16.5 | 1.02 ± 0.02 |
+| `mattcl-solver/aoc run 11 input-pting` | 21.4 ± 0.3 | 21.1 | 23.2 | 1.49 ± 0.03 |
+| `python pting/day11/day11.py input-kcen` | 284.4 ± 3.3 | 281.4 | 292.0 | 19.83 ± 0.42 |
+| `python pting/day11/day11.py input-lanjian` | 381.1 ± 4.4 | 375.8 | 390.3 | 26.58 ± 0.57 |
+| `python pting/day11/day11.py input-mattcl` | 284.7 ± 2.9 | 281.0 | 289.1 | 19.86 ± 0.41 |
+| `python pting/day11/day11.py input-pting` | 404.7 ± 11.8 | 394.3 | 433.4 | 28.22 ± 0.97 |
 
 ## input -> solutions mapping
 |input|part 1|part 2|
