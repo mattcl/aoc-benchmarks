@@ -18,18 +18,18 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_10 input-kcen` | 0.5 ± 0.1 | 0.5 | 3.2 | 1.00 |
-| `lanjian/day_10 input-lanjian` | 0.6 ± 0.1 | 0.5 | 3.4 | 1.04 ± 0.28 |
-| `lanjian/day_10 input-mattcl` | 0.5 ± 0.1 | 0.5 | 1.7 | 1.01 ± 0.19 |
-| `lanjian/day_10 input-pting` | 0.5 ± 0.1 | 0.5 | 1.1 | 1.01 ± 0.18 |
-| `mattcl-solver/aoc run 10 input-kcen` | 0.6 ± 0.1 | 0.5 | 3.6 | 1.18 ± 0.24 |
-| `mattcl-solver/aoc run 10 input-lanjian` | 0.6 ± 0.1 | 0.5 | 1.9 | 1.17 ± 0.21 |
-| `mattcl-solver/aoc run 10 input-mattcl` | 0.6 ± 0.1 | 0.5 | 1.5 | 1.16 ± 0.20 |
-| `mattcl-solver/aoc run 10 input-pting` | 0.6 ± 0.1 | 0.5 | 2.5 | 1.16 ± 0.22 |
-| `python pting/day10/day10.py input-kcen` | 18.8 ± 0.4 | 18.1 | 20.2 | 35.32 ± 5.19 |
-| `python pting/day10/day10.py input-lanjian` | 19.1 ± 0.7 | 18.3 | 22.4 | 35.86 ± 5.40 |
-| `python pting/day10/day10.py input-mattcl` | 18.9 ± 0.7 | 18.0 | 25.3 | 35.39 ± 5.32 |
-| `python pting/day10/day10.py input-pting` | 18.9 ± 0.6 | 18.1 | 23.6 | 35.42 ± 5.28 |
+| `lanjian/day_10 input-kcen` | 0.6 ± 0.1 | 0.4 | 2.4 | 1.06 ± 0.23 |
+| `lanjian/day_10 input-lanjian` | 0.5 ± 0.1 | 0.5 | 2.4 | 1.01 ± 0.22 |
+| `lanjian/day_10 input-mattcl` | 0.5 ± 0.1 | 0.5 | 2.4 | 1.00 ± 0.20 |
+| `lanjian/day_10 input-pting` | 0.5 ± 0.1 | 0.4 | 3.6 | 1.00 |
+| `mattcl-solver/aoc run 10 input-kcen` | 0.6 ± 0.1 | 0.5 | 2.8 | 1.22 ± 0.25 |
+| `mattcl-solver/aoc run 10 input-lanjian` | 0.6 ± 0.1 | 0.5 | 2.0 | 1.17 ± 0.23 |
+| `mattcl-solver/aoc run 10 input-mattcl` | 0.6 ± 0.1 | 0.5 | 2.5 | 1.18 ± 0.28 |
+| `mattcl-solver/aoc run 10 input-pting` | 0.6 ± 0.1 | 0.5 | 2.6 | 1.16 ± 0.24 |
+| `python pting/day10/day10.py input-kcen` | 18.8 ± 0.4 | 18.0 | 21.5 | 35.82 ± 5.81 |
+| `python pting/day10/day10.py input-lanjian` | 18.8 ± 0.4 | 18.1 | 21.3 | 35.69 ± 5.79 |
+| `python pting/day10/day10.py input-mattcl` | 19.0 ± 0.6 | 18.2 | 22.2 | 36.18 ± 5.90 |
+| `python pting/day10/day10.py input-pting` | 19.3 ± 0.9 | 18.2 | 22.8 | 36.63 ± 6.12 |
 
 ## input -> solutions mapping
 |input|part 1|part 2|
