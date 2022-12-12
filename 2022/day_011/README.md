@@ -11,20 +11,25 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Repos (with solutions for day 11)
 
 
+- [lanjian](https://github.com/LanJian/aoc-2022)
 - [mattcl](https://github.com/mattcl/aoc2022)
 - [pting](https://github.com/pting/aoc2022)
 
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl-solver/aoc run 11 input-kcen` | 14.7 ± 0.2 | 14.4 | 15.8 | 1.00 |
-| `mattcl-solver/aoc run 11 input-lanjian` | 20.1 ± 0.4 | 19.7 | 22.8 | 1.37 ± 0.03 |
-| `mattcl-solver/aoc run 11 input-mattcl` | 14.7 ± 0.2 | 14.4 | 16.6 | 1.00 ± 0.02 |
-| `mattcl-solver/aoc run 11 input-pting` | 21.6 ± 0.4 | 21.2 | 23.7 | 1.47 ± 0.03 |
-| `python pting/day11/day11.py input-kcen` | 287.9 ± 4.3 | 282.6 | 293.9 | 19.57 ± 0.39 |
-| `python pting/day11/day11.py input-lanjian` | 381.4 ± 3.4 | 377.7 | 389.8 | 25.92 ± 0.41 |
-| `python pting/day11/day11.py input-mattcl` | 288.2 ± 3.8 | 281.0 | 294.3 | 19.59 ± 0.36 |
-| `python pting/day11/day11.py input-pting` | 404.0 ± 3.8 | 399.6 | 410.1 | 27.46 ± 0.45 |
+| `lanjian/day_11 input-kcen` | 14.3 ± 0.3 | 14.1 | 17.4 | 1.00 ± 0.02 |
+| `lanjian/day_11 input-lanjian` | 19.7 ± 0.3 | 19.4 | 21.9 | 1.38 ± 0.03 |
+| `lanjian/day_11 input-mattcl` | 14.3 ± 0.2 | 14.0 | 16.0 | 1.00 |
+| `lanjian/day_11 input-pting` | 20.9 ± 0.2 | 20.6 | 21.5 | 1.46 ± 0.02 |
+| `mattcl-solver/aoc run 11 input-kcen` | 14.7 ± 0.4 | 14.3 | 20.2 | 1.03 ± 0.03 |
+| `mattcl-solver/aoc run 11 input-lanjian` | 20.0 ± 0.2 | 19.7 | 21.3 | 1.40 ± 0.02 |
+| `mattcl-solver/aoc run 11 input-mattcl` | 14.6 ± 0.2 | 14.3 | 16.5 | 1.02 ± 0.02 |
+| `mattcl-solver/aoc run 11 input-pting` | 21.2 ± 0.2 | 21.0 | 23.2 | 1.49 ± 0.03 |
+| `python pting/day11/day11.py input-kcen` | 285.0 ± 5.2 | 278.6 | 294.5 | 19.97 ± 0.45 |
+| `python pting/day11/day11.py input-lanjian` | 378.7 ± 4.1 | 373.2 | 386.9 | 26.54 ± 0.46 |
+| `python pting/day11/day11.py input-mattcl` | 285.0 ± 3.8 | 281.8 | 293.7 | 19.97 ± 0.38 |
+| `python pting/day11/day11.py input-pting` | 400.5 ± 4.3 | 394.1 | 405.8 | 28.07 ± 0.48 |
 
 ## input -> solutions mapping
 |input|part 1|part 2|
