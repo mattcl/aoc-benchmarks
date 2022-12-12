@@ -12,19 +12,24 @@ The "official" inputs were aggregated from repositories participating in the gen
 
 
 - [lanjian](https://github.com/LanJian/aoc-2022)
+- [mattcl](https://github.com/mattcl/aoc2022)
 - [pting](https://github.com/pting/aoc2022)
 
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_12 input-kcen` | 2.5 ± 0.1 | 2.3 | 3.5 | 1.05 ± 0.07 |
-| `lanjian/day_12 input-lanjian` | 2.3 ± 0.1 | 2.2 | 3.3 | 1.00 |
-| `lanjian/day_12 input-mattcl` | 3.2 ± 0.2 | 3.0 | 5.7 | 1.38 ± 0.11 |
-| `lanjian/day_12 input-pting` | 2.6 ± 0.1 | 2.5 | 3.4 | 1.13 ± 0.07 |
-| `python pting/day12/day12.py input-kcen` | 44.7 ± 1.3 | 43.2 | 48.9 | 19.12 ± 0.94 |
-| `python pting/day12/day12.py input-lanjian` | 41.3 ± 1.8 | 39.4 | 47.7 | 17.67 ± 1.04 |
-| `python pting/day12/day12.py input-mattcl` | 53.0 ± 2.0 | 50.5 | 59.9 | 22.67 ± 1.25 |
-| `python pting/day12/day12.py input-pting` | 47.1 ± 1.2 | 45.6 | 51.9 | 20.16 ± 0.96 |
+| `lanjian/day_12 input-kcen` | 2.5 ± 0.2 | 2.3 | 5.2 | 2.07 ± 0.19 |
+| `lanjian/day_12 input-lanjian` | 2.4 ± 0.2 | 2.2 | 6.2 | 2.00 ± 0.21 |
+| `lanjian/day_12 input-mattcl` | 3.1 ± 0.1 | 3.0 | 5.0 | 2.65 ± 0.21 |
+| `lanjian/day_12 input-pting` | 2.6 ± 0.1 | 2.4 | 4.9 | 2.20 ± 0.19 |
+| `mattcl-solver/aoc run 12 input-kcen` | 1.3 ± 0.1 | 1.2 | 2.9 | 1.10 ± 0.11 |
+| `mattcl-solver/aoc run 12 input-lanjian` | 1.2 ± 0.1 | 1.1 | 1.7 | 1.00 |
+| `mattcl-solver/aoc run 12 input-mattcl` | 1.4 ± 0.1 | 1.3 | 4.0 | 1.20 ± 0.12 |
+| `mattcl-solver/aoc run 12 input-pting` | 1.4 ± 0.1 | 1.3 | 3.4 | 1.18 ± 0.12 |
+| `python pting/day12/day12.py input-kcen` | 44.7 ± 1.4 | 43.1 | 49.7 | 37.70 ± 2.80 |
+| `python pting/day12/day12.py input-lanjian` | 40.4 ± 1.2 | 39.3 | 44.8 | 34.12 ± 2.49 |
+| `python pting/day12/day12.py input-mattcl` | 50.6 ± 0.6 | 49.6 | 52.6 | 42.69 ± 2.89 |
+| `python pting/day12/day12.py input-pting` | 46.6 ± 0.7 | 45.5 | 49.7 | 39.35 ± 2.70 |
 
 ## input -> solutions mapping
 |input|part 1|part 2|
