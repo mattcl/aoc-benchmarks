@@ -17,7 +17,9 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_12 input-lanjian` | 2.3 ± 0.1 | 2.2 | 4.9 | 1.00 |
-| `lanjian/day_12 input-pting` | 2.6 ± 0.2 | 2.5 | 6.3 | 1.13 ± 0.09 |
-| `python pting/day12/day12.py input-lanjian` | 470.4 ± 5.0 | 466.3 | 483.3 | 202.48 ± 10.72 |
-| `python pting/day12/day12.py input-pting` | 333.1 ± 3.8 | 329.5 | 341.0 | 143.37 ± 7.62 |
+| `lanjian/day_12 input-kcen` | 2.5 ± 0.1 | 2.3 | 3.3 | 1.04 ± 0.06 |
+| `lanjian/day_12 input-lanjian` | 2.4 ± 0.1 | 2.2 | 4.2 | 1.00 |
+| `lanjian/day_12 input-pting` | 2.6 ± 0.1 | 2.5 | 4.6 | 1.11 ± 0.07 |
+| `python pting/day12/day12.py input-kcen` | 662.5 ± 3.6 | 657.9 | 667.3 | 279.27 ± 12.38 |
+| `python pting/day12/day12.py input-lanjian` | 473.0 ± 5.2 | 465.8 | 482.5 | 199.39 ± 9.04 |
+| `python pting/day12/day12.py input-pting` | 331.3 ± 3.0 | 327.8 | 335.5 | 139.65 ± 6.27 |
