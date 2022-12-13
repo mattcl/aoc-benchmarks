@@ -18,15 +18,15 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `kcen/2022/13/solve input-kcen` | 110.3 ± 1.0 | 108.5 | 112.8 | 90.32 ± 6.60 |
-| `kcen/2022/13/solve input-lanjian` | 110.9 ± 1.1 | 108.8 | 113.9 | 90.80 ± 6.65 |
-| `kcen/2022/13/solve input-mattcl` | 110.8 ± 1.4 | 109.2 | 116.6 | 90.74 ± 6.69 |
-| `lanjian/day_13 input-kcen` | 1.2 ± 0.1 | 1.1 | 3.8 | 1.00 ± 0.11 |
-| `lanjian/day_13 input-lanjian` | 1.2 ± 0.1 | 1.1 | 1.9 | 1.01 ± 0.09 |
-| `lanjian/day_13 input-mattcl` | 1.2 ± 0.1 | 1.1 | 3.3 | 1.00 |
-| `mattcl-solver/aoc run 13 input-kcen` | 1.4 ± 0.1 | 1.3 | 1.9 | 1.13 ± 0.10 |
-| `mattcl-solver/aoc run 13 input-lanjian` | 1.4 ± 0.1 | 1.3 | 4.4 | 1.16 ± 0.13 |
-| `mattcl-solver/aoc run 13 input-mattcl` | 1.4 ± 0.1 | 1.2 | 3.5 | 1.12 ± 0.11 |
+| `kcen/2022/13/solve input-kcen` | 110.3 ± 1.6 | 107.2 | 113.7 | 89.82 ± 6.54 |
+| `kcen/2022/13/solve input-lanjian` | 110.6 ± 1.8 | 107.7 | 114.8 | 90.11 ± 6.59 |
+| `kcen/2022/13/solve input-mattcl` | 111.0 ± 1.2 | 109.1 | 113.2 | 90.41 ± 6.51 |
+| `lanjian/day_13 input-kcen` | 1.3 ± 0.1 | 1.1 | 2.9 | 1.02 ± 0.11 |
+| `lanjian/day_13 input-lanjian` | 1.3 ± 0.1 | 1.1 | 3.4 | 1.02 ± 0.11 |
+| `lanjian/day_13 input-mattcl` | 1.2 ± 0.1 | 1.1 | 2.9 | 1.00 |
+| `mattcl-solver/aoc run 13 input-kcen` | 1.3 ± 0.1 | 1.1 | 2.6 | 1.04 ± 0.10 |
+| `mattcl-solver/aoc run 13 input-lanjian` | 1.3 ± 0.1 | 1.2 | 2.4 | 1.04 ± 0.10 |
+| `mattcl-solver/aoc run 13 input-mattcl` | 1.3 ± 0.1 | 1.1 | 2.9 | 1.02 ± 0.10 |
 
 ## input -> solutions mapping
 |input|part 1|part 2|
