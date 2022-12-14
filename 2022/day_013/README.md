@@ -18,15 +18,18 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `kcen/2022/13/solve input-kcen` | 109.6 ± 0.9 | 107.9 | 111.9 | 85.88 ± 6.02 |
-| `kcen/2022/13/solve input-lanjian` | 110.8 ± 2.0 | 108.9 | 118.2 | 86.81 ± 6.24 |
-| `kcen/2022/13/solve input-mattcl` | 110.3 ± 1.0 | 108.9 | 112.7 | 86.47 ± 6.07 |
-| `lanjian/day_13 input-kcen` | 1.3 ± 0.1 | 1.1 | 3.3 | 1.02 ± 0.10 |
-| `lanjian/day_13 input-lanjian` | 1.3 ± 0.1 | 1.1 | 2.5 | 1.02 ± 0.10 |
-| `lanjian/day_13 input-mattcl` | 1.3 ± 0.1 | 1.1 | 3.2 | 1.00 |
-| `mattcl-solver/aoc run 13 input-kcen` | 1.3 ± 0.1 | 1.1 | 3.2 | 1.03 ± 0.10 |
-| `mattcl-solver/aoc run 13 input-lanjian` | 1.3 ± 0.2 | 1.1 | 3.3 | 1.05 ± 0.14 |
-| `mattcl-solver/aoc run 13 input-mattcl` | 1.3 ± 0.1 | 1.1 | 3.1 | 1.00 ± 0.11 |
+| `kcen/2022/13/solve input-kcen` | 110.1 ± 0.9 | 108.4 | 112.2 | 90.48 ± 6.43 |
+| `kcen/2022/13/solve input-lanjian` | 110.6 ± 0.9 | 108.7 | 112.4 | 90.93 ± 6.46 |
+| `kcen/2022/13/solve input-mattcl` | 110.3 ± 0.9 | 108.8 | 112.5 | 90.67 ± 6.44 |
+| `kcen/2022/13/solve input-pting` | 111.5 ± 1.2 | 109.8 | 115.9 | 91.67 ± 6.55 |
+| `lanjian/day_13 input-kcen` | 1.2 ± 0.2 | 1.1 | 8.0 | 1.02 ± 0.21 |
+| `lanjian/day_13 input-lanjian` | 1.2 ± 0.1 | 1.1 | 3.3 | 1.01 ± 0.10 |
+| `lanjian/day_13 input-mattcl` | 1.2 ± 0.1 | 1.1 | 3.2 | 1.01 ± 0.12 |
+| `lanjian/day_13 input-pting` | 1.3 ± 0.1 | 1.1 | 4.0 | 1.04 ± 0.12 |
+| `mattcl-solver/aoc run 13 input-kcen` | 1.2 ± 0.1 | 1.1 | 2.5 | 1.02 ± 0.10 |
+| `mattcl-solver/aoc run 13 input-lanjian` | 1.2 ± 0.1 | 1.1 | 2.7 | 1.02 ± 0.10 |
+| `mattcl-solver/aoc run 13 input-mattcl` | 1.2 ± 0.1 | 1.1 | 3.2 | 1.00 |
+| `mattcl-solver/aoc run 13 input-pting` | 1.3 ± 0.1 | 1.2 | 3.5 | 1.04 ± 0.11 |
 
 ## input -> solutions mapping
 |input|part 1|part 2|
@@ -34,3 +37,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 |input-kcen|<pre>5196</pre>|<pre>22134</pre>|
 |input-lanjian|<pre>6187</pre>|<pre>23520</pre>|
 |input-mattcl|<pre>5684</pre>|<pre>22932</pre>|
+|input-pting|<pre>5003</pre>|<pre>20280</pre>|
