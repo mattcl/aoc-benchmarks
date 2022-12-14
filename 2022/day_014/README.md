@@ -16,4 +16,4 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_14 input-lanjian` | 12.1 ± 0.3 | 11.7 | 13.9 | 1.00 |
+| `lanjian/day_14 input-lanjian` | 12.3 ± 0.5 | 11.7 | 16.8 | 1.00 |
