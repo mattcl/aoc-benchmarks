@@ -3,3 +3,4 @@
 |:---|:---|:---|
 |input-lanjian|<pre>715</pre>|<pre>25248</pre>|
 |input-mattcl|<pre>1001</pre>|<pre>27976</pre>|
+|input-pting|<pre>737</pre>|<pre>28145</pre>|
