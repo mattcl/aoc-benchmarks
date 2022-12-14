@@ -16,4 +16,11 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_14 input-lanjian` | 12.3 ± 0.5 | 11.7 | 16.8 | 1.00 |
+| `lanjian/day_14 input-lanjian` | 12.0 ± 0.5 | 11.6 | 18.2 | 1.00 |
+| `lanjian/day_14 input-mattcl` | 13.1 ± 0.3 | 12.7 | 14.5 | 1.09 ± 0.05 |
+
+## input -> solutions mapping
+|input|part 1|part 2|
+|:---|:---|:---|
+|input-lanjian|<pre>715</pre>|<pre>25248</pre>|
+|input-mattcl|<pre>1001</pre>|<pre>27976</pre>|
