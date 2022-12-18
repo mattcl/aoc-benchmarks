@@ -19,33 +19,33 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `kcen/2022/12/solve input-kcen` | 129.6 ± 1.2 | 127.5 | 132.4 | 107.87 ± 8.03 |
-| `kcen/2022/12/solve input-lanjian` | 126.8 ± 1.9 | 124.7 | 134.4 | 105.51 ± 7.94 |
-| `kcen/2022/12/solve input-mattcl` | 152.4 ± 1.8 | 150.3 | 157.0 | 126.80 ± 9.47 |
-| `kcen/2022/12/solve input-pting` | 142.4 ± 1.2 | 140.9 | 146.5 | 118.48 ± 8.80 |
-| `lanjian/day_12 input-kcen` | 1.3 ± 0.1 | 1.1 | 2.5 | 1.05 ± 0.10 |
-| `lanjian/day_12 input-lanjian` | 1.2 ± 0.1 | 1.1 | 6.2 | 1.03 ± 0.14 |
-| `lanjian/day_12 input-mattcl` | 1.4 ± 0.1 | 1.3 | 3.6 | 1.19 ± 0.11 |
-| `lanjian/day_12 input-pting` | 1.3 ± 0.1 | 1.2 | 5.4 | 1.11 ± 0.13 |
-| `mattcl-solver/aoc run 12 input-kcen` | 1.3 ± 0.1 | 1.2 | 2.5 | 1.09 ± 0.10 |
-| `mattcl-solver/aoc run 12 input-lanjian` | 1.2 ± 0.1 | 1.1 | 3.9 | 1.00 |
-| `mattcl-solver/aoc run 12 input-mattcl` | 1.4 ± 0.1 | 1.3 | 5.2 | 1.18 ± 0.13 |
-| `mattcl-solver/aoc run 12 input-pting` | 1.4 ± 0.1 | 1.2 | 5.1 | 1.14 ± 0.15 |
-| `python pting/day12/day12.py input-kcen` | 46.1 ± 0.8 | 44.9 | 50.0 | 38.39 ± 2.92 |
-| `python pting/day12/day12.py input-lanjian` | 42.8 ± 0.8 | 41.7 | 44.9 | 35.62 ± 2.70 |
-| `python pting/day12/day12.py input-mattcl` | 54.6 ± 1.5 | 52.7 | 60.5 | 45.44 ± 3.57 |
-| `python pting/day12/day12.py input-pting` | 50.1 ± 1.0 | 48.8 | 54.3 | 41.70 ± 3.19 |
+| `kcen/2022/12/solve input-kcen` | 130.5 ± 1.6 | 128.1 | 134.3 | 109.33 ± 7.63 |
+| `kcen/2022/12/solve input-lanjian` | 125.8 ± 1.3 | 123.9 | 129.3 | 105.38 ± 7.33 |
+| `kcen/2022/12/solve input-mattcl` | 152.2 ± 2.3 | 149.4 | 159.8 | 127.50 ± 8.98 |
+| `kcen/2022/12/solve input-pting` | 142.8 ± 0.9 | 140.6 | 144.0 | 119.61 ± 8.27 |
+| `lanjian/day_12 input-kcen` | 1.2 ± 0.1 | 1.1 | 2.9 | 1.02 ± 0.09 |
+| `lanjian/day_12 input-lanjian` | 1.2 ± 0.1 | 1.1 | 3.1 | 1.01 ± 0.11 |
+| `lanjian/day_12 input-mattcl` | 1.4 ± 0.1 | 1.3 | 4.7 | 1.17 ± 0.12 |
+| `lanjian/day_12 input-pting` | 1.3 ± 0.1 | 1.2 | 3.0 | 1.09 ± 0.10 |
+| `mattcl-solver/aoc run 12 input-kcen` | 1.3 ± 0.1 | 1.1 | 2.1 | 1.06 ± 0.09 |
+| `mattcl-solver/aoc run 12 input-lanjian` | 1.2 ± 0.1 | 1.0 | 3.1 | 1.00 |
+| `mattcl-solver/aoc run 12 input-mattcl` | 1.4 ± 0.2 | 1.3 | 6.0 | 1.18 ± 0.17 |
+| `mattcl-solver/aoc run 12 input-pting` | 1.3 ± 0.1 | 1.2 | 1.8 | 1.11 ± 0.10 |
+| `python pting/day12/day12.py input-kcen` | 46.3 ± 0.7 | 45.3 | 48.3 | 38.80 ± 2.74 |
+| `python pting/day12/day12.py input-lanjian` | 42.4 ± 0.6 | 41.3 | 44.5 | 35.49 ± 2.50 |
+| `python pting/day12/day12.py input-mattcl` | 54.0 ± 0.9 | 52.8 | 56.8 | 45.24 ± 3.21 |
+| `python pting/day12/day12.py input-pting` | 49.8 ± 0.8 | 48.7 | 52.0 | 41.72 ± 2.96 |
 ## Benchmarks using unofficial challenge inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `kcen/2022/12/solve challenge-input-degenerate` | 141.3 ± 1.2 | 139.5 | 143.4 | 126.51 ± 18.91 |
-| `kcen/2022/12/solve challenge-input-edge-cases` | 151.7 ± 0.9 | 149.4 | 153.4 | 135.77 ± 20.28 |
-| `lanjian/day_12 challenge-input-degenerate` | 1.4 ± 0.1 | 1.2 | 3.3 | 1.22 ± 0.20 |
-| `lanjian/day_12 challenge-input-edge-cases` | 1.4 ± 0.4 | 1.3 | 17.8 | 1.30 ± 0.44 |
-| `mattcl-solver/aoc run 12 challenge-input-degenerate` | 1.4 ± 0.1 | 1.2 | 3.3 | 1.22 ± 0.20 |
-| `mattcl-solver/aoc run 12 challenge-input-edge-cases` | 1.1 ± 0.2 | 1.0 | 4.7 | 1.00 |
-| `python pting/day12/day12.py challenge-input-degenerate` | 50.1 ± 0.7 | 48.9 | 52.3 | 44.86 ± 6.72 |
-| `python pting/day12/day12.py challenge-input-edge-cases` | 41.2 ± 0.7 | 40.2 | 42.8 | 36.86 ± 5.53 |
+| `kcen/2022/12/solve challenge-input-degenerate` | 141.7 ± 1.3 | 139.7 | 144.3 | 133.27 ± 8.37 |
+| `kcen/2022/12/solve challenge-input-edge-cases` | 152.8 ± 1.5 | 151.1 | 158.2 | 143.77 ± 9.05 |
+| `lanjian/day_12 challenge-input-degenerate` | 1.3 ± 0.1 | 1.2 | 2.8 | 1.25 ± 0.11 |
+| `lanjian/day_12 challenge-input-edge-cases` | 1.4 ± 0.1 | 1.2 | 1.9 | 1.31 ± 0.10 |
+| `mattcl-solver/aoc run 12 challenge-input-degenerate` | 1.3 ± 0.1 | 1.2 | 4.6 | 1.27 ± 0.14 |
+| `mattcl-solver/aoc run 12 challenge-input-edge-cases` | 1.1 ± 0.1 | 0.9 | 1.5 | 1.00 |
+| `python pting/day12/day12.py challenge-input-degenerate` | 50.1 ± 0.8 | 49.0 | 52.5 | 47.13 ± 3.01 |
+| `python pting/day12/day12.py challenge-input-edge-cases` | 41.5 ± 0.7 | 39.8 | 44.1 | 39.00 ± 2.52 |
 
 ## input -> solutions mapping
 |input|part 1|part 2|
