@@ -14,9 +14,9 @@ The "official" inputs were aggregated from repositories participating in the gen
 - [mattcl](https://github.com/mattcl/aoc2022)
 
 ## Benchmarks with officially generated inputs
-| Command | Mean [s] | Min [s] | Max [s] | Relative |
+| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl-solver/aoc run 16 input-mattcl` | 46.295 ± 0.076 | 46.207 | 46.343 | 1.00 |
+| `mattcl-solver/aoc run 16 input-mattcl` | 23.2 ± 0.2 | 22.8 | 23.9 | 1.00 |
 
 ## input -> solutions mapping
 |input|part 1|part 2|
