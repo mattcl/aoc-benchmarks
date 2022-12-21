@@ -1,6 +1,6 @@
-# Day 17 benchmarks
+# Day 21 benchmarks
 
-[link to problem](http://adventofcode.com/2022/day/17)
+[link to problem](http://adventofcode.com/2022/day/21)
 
 The following benchmarks are auto-generated via [hyperfine](https://github.com/sharkdp/hyperfine) by a ci system running on shared hardware. Results may be inaccurate, particularly for execution times < 5ms, as per the hyperfine warnings.
 
@@ -8,7 +8,7 @@ The following benchmarks are auto-generated via [hyperfine](https://github.com/s
 
 The "official" inputs were aggregated from repositories participating in the generation of these benchmarks. The "challenge" inputs (if any) were sourced from various places, including the subreddit.
 
-## Repos (with solutions for day 17)
+## Repos (with solutions for day 21)
 
 
 - [mattcl](https://github.com/mattcl/aoc2022)
@@ -16,11 +16,11 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl-solver/aoc run 17 input-mattcl` | 1.7 ± 0.1 | 1.5 | 2.6 | 1.03 ± 0.09 |
-| `mattcl-solver/aoc run 17 input-pting` | 1.6 ± 0.1 | 1.5 | 4.7 | 1.00 |
+| `mattcl-solver/aoc run 21 input-mattcl` | 1.1 ± 0.1 | 1.0 | 3.1 | 1.02 ± 0.11 |
+| `mattcl-solver/aoc run 21 input-pting` | 1.1 ± 0.1 | 1.0 | 2.3 | 1.00 |
 
 ## input -> solutions mapping
 |input|part 1|part 2|
 |:---|:---|:---|
-|input-mattcl|<pre>3166</pre>|<pre>1577207977186</pre>|
-|input-pting|<pre>3135</pre>|<pre>1569054441243</pre>|
+|input-mattcl|<pre>49288254556480</pre>|<pre>3558714869436</pre>|
+|input-pting|<pre>85616733059734</pre>|<pre>3560324848168</pre>|
