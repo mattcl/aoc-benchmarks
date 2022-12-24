@@ -16,8 +16,8 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl-solver/aoc run 19 input-mattcl` | 174.9 ± 9.0 | 169.5 | 197.8 | 1.00 |
-| `mattcl-solver/aoc run 19 input-pting` | 603.4 ± 8.4 | 596.7 | 615.6 | 3.45 ± 0.18 |
+| `mattcl-solver/aoc run 19 input-mattcl` | 179.7 ± 11.3 | 169.6 | 196.4 | 1.00 |
+| `mattcl-solver/aoc run 19 input-pting` | 603.0 ± 6.6 | 596.9 | 611.8 | 3.36 ± 0.21 |
 
 ## input -> solutions mapping
 |input|part 1|part 2|
