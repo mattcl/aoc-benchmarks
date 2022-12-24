@@ -18,15 +18,15 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_18 input-lanjian` | 2.0 ± 0.1 | 1.8 | 3.6 | 1.28 ± 0.14 |
-| `lanjian/day_18 input-mattcl` | 1.9 ± 0.1 | 1.7 | 3.0 | 1.23 ± 0.13 |
-| `lanjian/day_18 input-pting` | 1.5 ± 0.1 | 1.4 | 5.3 | 1.00 |
-| `mattcl-solver/aoc run 18 input-lanjian` | 2.5 ± 0.1 | 2.4 | 3.9 | 1.65 ± 0.17 |
-| `mattcl-solver/aoc run 18 input-mattcl` | 2.5 ± 0.2 | 2.4 | 4.9 | 1.65 ± 0.18 |
-| `mattcl-solver/aoc run 18 input-pting` | 1.9 ± 0.1 | 1.8 | 2.6 | 1.26 ± 0.13 |
-| `python pting/day18/day18.py input-lanjian` | 93.8 ± 0.6 | 92.6 | 95.0 | 61.23 ± 5.53 |
-| `python pting/day18/day18.py input-mattcl` | 89.6 ± 0.9 | 88.4 | 92.7 | 58.53 ± 5.30 |
-| `python pting/day18/day18.py input-pting` | 71.3 ± 0.8 | 70.1 | 73.1 | 46.58 ± 4.23 |
+| `lanjian/day_18 input-lanjian` | 2.0 ± 0.1 | 1.8 | 3.7 | 1.29 ± 0.13 |
+| `lanjian/day_18 input-mattcl` | 2.0 ± 0.1 | 1.7 | 3.7 | 1.25 ± 0.13 |
+| `lanjian/day_18 input-pting` | 1.6 ± 0.1 | 1.4 | 3.6 | 1.00 |
+| `mattcl-solver/aoc run 18 input-lanjian` | 2.6 ± 0.1 | 2.4 | 3.4 | 1.64 ± 0.15 |
+| `mattcl-solver/aoc run 18 input-mattcl` | 2.6 ± 0.1 | 2.3 | 4.5 | 1.62 ± 0.15 |
+| `mattcl-solver/aoc run 18 input-pting` | 2.0 ± 0.1 | 1.8 | 3.7 | 1.24 ± 0.11 |
+| `python pting/day18/day18.py input-lanjian` | 94.2 ± 2.1 | 92.1 | 102.8 | 59.53 ± 4.69 |
+| `python pting/day18/day18.py input-mattcl` | 90.8 ± 3.5 | 87.9 | 102.2 | 57.41 ± 4.86 |
+| `python pting/day18/day18.py input-pting` | 71.8 ± 0.8 | 70.5 | 74.0 | 45.37 ± 3.47 |
 
 ## input -> solutions mapping
 |input|part 1|part 2|

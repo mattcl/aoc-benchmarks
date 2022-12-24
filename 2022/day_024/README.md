@@ -12,12 +12,15 @@ The "official" inputs were aggregated from repositories participating in the gen
 
 
 - [mattcl](https://github.com/mattcl/aoc2022)
+- [pting](https://github.com/pting/aoc2022)
 
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl-solver/aoc run 24 input-mattcl` | 173.9 ± 1.2 | 172.2 | 176.4 | 1.03 ± 0.01 |
-| `mattcl-solver/aoc run 24 input-pting` | 168.4 ± 1.6 | 165.7 | 171.4 | 1.00 |
+| `mattcl-solver/aoc run 24 input-mattcl` | 173.3 ± 4.3 | 167.7 | 183.6 | 1.04 ± 0.03 |
+| `mattcl-solver/aoc run 24 input-pting` | 166.9 ± 2.1 | 162.1 | 169.7 | 1.00 |
+| `python pting/day24/day24.py input-mattcl` | 5427.7 ± 51.9 | 5392.4 | 5487.3 | 32.51 ± 0.51 |
+| `python pting/day24/day24.py input-pting` | 5309.3 ± 30.2 | 5282.4 | 5342.0 | 31.81 ± 0.43 |
 
 ## input -> solutions mapping
 |input|part 1|part 2|
