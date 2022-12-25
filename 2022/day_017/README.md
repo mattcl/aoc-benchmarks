@@ -17,10 +17,10 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl-solver/aoc run 17 input-mattcl` | 1.7 ± 0.1 | 1.5 | 2.4 | 1.03 ± 0.08 |
+| `mattcl-solver/aoc run 17 input-mattcl` | 1.7 ± 0.1 | 1.6 | 3.7 | 1.03 ± 0.08 |
 | `mattcl-solver/aoc run 17 input-pting` | 1.7 ± 0.1 | 1.5 | 2.2 | 1.00 |
-| `python pting/day17/day17.py input-mattcl` | 54479.3 ± 228.8 | 54301.4 | 54737.5 | 32835.60 ± 1846.59 |
-| `python pting/day17/day17.py input-pting` | 52019.4 ± 89.1 | 51941.9 | 52116.8 | 31352.96 ± 1759.10 |
+| `python pting/day17/day17.py input-mattcl` | 54626.1 ± 221.7 | 54385.9 | 54822.9 | 32611.77 ± 1710.43 |
+| `python pting/day17/day17.py input-pting` | 52057.7 ± 112.2 | 51977.5 | 52185.9 | 31078.43 ± 1626.50 |
 
 ## input -> solutions mapping
 |input|part 1|part 2|

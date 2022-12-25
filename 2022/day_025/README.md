@@ -16,9 +16,11 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `mattcl-solver/aoc run 25 input-mattcl` | 0.8 ± 0.1 | 0.7 | 3.3 | 1.00 |
+| `mattcl-solver/aoc run 25 input-lanjian` | 0.8 ± 0.1 | 0.7 | 1.8 | 1.00 |
+| `mattcl-solver/aoc run 25 input-mattcl` | 0.8 ± 0.1 | 0.7 | 3.0 | 1.01 ± 0.15 |
 
 ## input -> solutions mapping
 |input|part 1|part 2|
 |:---|:---|:---|
+|input-lanjian|<pre>2=020-===0-1===2=020</pre>|<pre>no part two on day 25</pre>|
 |input-mattcl|<pre>2=112--220-=-00=-=20</pre>|<pre>no part two on day 25</pre>|
