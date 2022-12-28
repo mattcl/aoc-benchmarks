@@ -17,13 +17,16 @@ The "official" inputs were aggregated from repositories participating in the gen
 ## Benchmarks with officially generated inputs
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `lanjian/day_25 input-lanjian` | 0.5 ± 0.0 | 0.5 | 1.1 | 1.00 ± 0.15 |
-| `lanjian/day_25 input-mattcl` | 0.5 ± 0.1 | 0.5 | 2.1 | 1.00 |
-| `mattcl-solver/aoc run 25 input-lanjian` | 0.8 ± 0.1 | 0.7 | 2.1 | 1.53 ± 0.21 |
-| `mattcl-solver/aoc run 25 input-mattcl` | 0.8 ± 0.1 | 0.7 | 1.9 | 1.53 ± 0.21 |
+| `lanjian/day_25 input-lanjian` | 0.5 ± 0.1 | 0.5 | 3.2 | 1.03 ± 0.17 |
+| `lanjian/day_25 input-mattcl` | 0.5 ± 0.0 | 0.5 | 1.2 | 1.00 |
+| `lanjian/day_25 input-pting` | 0.5 ± 0.0 | 0.5 | 1.0 | 1.03 ± 0.12 |
+| `mattcl-solver/aoc run 25 input-lanjian` | 0.8 ± 0.1 | 0.7 | 1.2 | 1.55 ± 0.17 |
+| `mattcl-solver/aoc run 25 input-mattcl` | 0.8 ± 0.1 | 0.7 | 1.9 | 1.52 ± 0.18 |
+| `mattcl-solver/aoc run 25 input-pting` | 0.9 ± 0.1 | 0.7 | 3.2 | 1.61 ± 0.26 |
 
 ## input -> solutions mapping
 |input|part 1|part 2|
 |:---|:---|:---|
 |input-lanjian|<pre>2=020-===0-1===2=020</pre>|<pre>no part two on day 25</pre>|
 |input-mattcl|<pre>2=112--220-=-00=-=20</pre>|<pre>no part two on day 25</pre>|
+|input-pting|<pre>20==1==12=0111=2--20</pre>|<pre>no part two on day 25</pre>|
