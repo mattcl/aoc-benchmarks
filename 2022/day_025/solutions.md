@@ -3,3 +3,4 @@
 |:---|:---|:---|
 |input-lanjian|<pre>2=020-===0-1===2=020</pre>|<pre>no part two on day 25</pre>|
 |input-mattcl|<pre>2=112--220-=-00=-=20</pre>|<pre>no part two on day 25</pre>|
+|input-pting|<pre>20==1==12=0111=2--20</pre>|<pre>no part two on day 25</pre>|
