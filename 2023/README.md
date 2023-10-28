@@ -8,7 +8,7 @@ Participants are required to implement solutions that can handle any official
 input, and are requested to conform to the following specification:
 [https://github.com/mattcl/aoc-ci-bencher/blob/master/SPECIFICATION.md](https://github.com/mattcl/aoc-ci-bencher/blob/master/SPECIFICATION.md).
 
-[CI pipeline]()
+[CI pipeline](http://ci.papercode.net:8080/teams/main/pipelines/aoc2023)
 
 
 ## Participants
