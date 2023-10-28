@@ -13,5 +13,5 @@ input, and are requested to conform to the following specification:
 
 ## Participants
 
-- [mattcl](https://github.com/mattcl/aoc2023)
-- [mattcl-py](https://github.com/mattcl/aoc2023-py)
+- [mattcl](https://github.com/mattcl/aoc2023) (rust)
+- [mattcl-py](https://github.com/mattcl/aoc2023-py) (python)
