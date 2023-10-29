@@ -260,3 +260,20 @@ their dependencies.
 
 Any additional requirements MUST be communicated to the event organizer (Matt)
 so that they may be added to the container.
+
+If you'd like to verify locally, the image can be found
+[here](https://hub.docker.com/r/mattcl/aoc-ci-bencher), and you can pull it
+with:
+
+```
+docker pull mattcl/aoc-ci-bencher:latest
+```
+
+Note that this is built on top of a python image, so if you're using python, it
+_should_ be sufficient to test with the following image:
+
+```
+docker pull mattcl/aoc-python:3.12
+```
+
+This image has poetry, pipx, virtualenv, hyperfine and just installed.
