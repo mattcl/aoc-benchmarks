@@ -248,6 +248,8 @@ available, but these are the explicitly specified ones):
 * python 3.12.x
 * ruby 3.2.2
 * poetry 1.6.1
+* ghc 9.4.3
+* cabal 3.8.1.0
 * gcc
 * make
 * clang
