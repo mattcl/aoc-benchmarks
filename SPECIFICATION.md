@@ -1,6 +1,20 @@
 # Specification: Advent of code comparative benchmarking
 
-Version 1.1.0
+Version 1.1.2
+
+* [Introduction](#introduction)
+* [Definitions](#definitions)
+* [Quick-start reference templates](#quick-start-reference-templates)
+* [Pipeline](#pipeline)
+    * [Runtime environment](#runtime-environment)
+* [Hard requirements](#hard-requirements)
+    * [Publicly accessible git repository](#publicly-accessible-git-repository)
+    * [General solutions](#general-solutions)
+    * [Inputs](#inputs)
+    * [Entrypoint](#entrypoint)
+* [Pipeline build task](#pipeline-build-task)
+* [Optional installer](#optional-installer)
+
 
 ## Introduction
 
@@ -62,18 +76,63 @@ Solutions that do not pass a particular step will not be evaluated for
 subsequent steps.
 
 
-## Publicly accessible git repository
+### Runtime environment.
+
+Submissions MUST be runnable in a debian bookworm x86 container that is
+provisioned with the following runtimes/packages (additional packages may be
+available, but these are the explicitly specified ones):
+
+* python 3.12.x
+* ruby 3.2.2
+* poetry 1.6.1
+* ghc 9.4.3
+* cabal 3.8.1.0
+* gcc
+* make
+* clang
+* llvm-14
+* pipx
+* virtualenv
+* just
+* hyperfine
+
+Python solutions will be installed in separate virtual environments to isolate
+their dependencies.
+
+Any additional requirements MUST be communicated to the event organizer (Matt)
+so that they may be added to the container.
+
+If you'd like to verify locally, the image can be found
+[here](https://hub.docker.com/r/mattcl/aoc-ci-bencher), and you can pull it
+with:
+
+```
+docker pull mattcl/aoc-ci-bencher:latest
+```
+
+Note that this is built on top of a python image, so if you're using python, it
+_should_ be sufficient to test with the following image:
+
+```
+docker pull mattcl/aoc-python:3.12
+```
+
+This image has poetry, pipx, virtualenv, hyperfine and just installed.
+
+## Hard requirements
+
+### Publicly accessible git repository
 
 Submissions MUST be available via a single, publicly accessible git repository.
 
 
-## General solutions
+### General solutions
 
 Submissions MUST solve any official input. Submissions are not required to solve
 the unofficial (challenge) inputs.
 
 
-## Inputs
+### Inputs
 
 Submissions are encouraged to include their inputs, but it's not strictly
 necessary. If inputs are included, a way (script, executable, etc.) MUST be
@@ -122,7 +181,7 @@ fi
 ```
 
 
-## Entrypoint
+### Entrypoint
 
 Submissions MUST provide an entrypoint that minimally accepts the following
 environment variables:
@@ -143,8 +202,7 @@ valid JSON to stdout with the following schema:
 ```
 
 Where the solution values are whatever appropriate type for the given day's
-answer.* The solution values will be interpreted as strings for checking
-purposes.
+answer.* The solution values will be converted to strings for checking purposes.
 
 \*For days where you're outputting ascii art to the screen, output with the
 expected characters. The output will be trimmed of leading and trailing
@@ -165,7 +223,6 @@ following to stdout:
 ```
 not implemented
 ```
-
 
 ## Pipeline build task
 
@@ -223,7 +280,7 @@ poetry run pytest
 If you need help writing this, Matt can provide additional examples/assistance.
 
 
-## Optional Installer
+## Optional installer
 
 A submission MAY include an installer script for installing the submission if
 it's something that is installable.
@@ -239,49 +296,4 @@ poetry build
 
 # install the built package via pipx
 pipx install -f dist/*.tar.gz
-
 ```
-
-
-## Runtime environment.
-
-Submissions MUST be runnable in a debian bookworm x86 container that is
-provisioned with the following runtimes/packages (additional packages may be
-available, but these are the explicitly specified ones):
-
-* python 3.12.x
-* ruby 3.2.2
-* poetry 1.6.1
-* ghc 9.4.3
-* cabal 3.8.1.0
-* gcc
-* make
-* clang
-* llvm-14
-* pipx
-* virtualenv
-* just
-* hyperfine
-
-Python solutions will be installed in separate virtual environments to isolate
-their dependencies.
-
-Any additional requirements MUST be communicated to the event organizer (Matt)
-so that they may be added to the container.
-
-If you'd like to verify locally, the image can be found
-[here](https://hub.docker.com/r/mattcl/aoc-ci-bencher), and you can pull it
-with:
-
-```
-docker pull mattcl/aoc-ci-bencher:latest
-```
-
-Note that this is built on top of a python image, so if you're using python, it
-_should_ be sufficient to test with the following image:
-
-```
-docker pull mattcl/aoc-python:3.12
-```
-
-This image has poetry, pipx, virtualenv, hyperfine and just installed.
