@@ -6,8 +6,8 @@ Version 1.1.2
 * [Definitions](#definitions)
 * [Quick-start reference templates](#quick-start-reference-templates)
 * [Pipeline](#pipeline)
-    * [Runtime environment](#runtime-environment)
 * [Hard requirements](#hard-requirements)
+    * [Runtime environment](#runtime-environment)
     * [Publicly accessible git repository](#publicly-accessible-git-repository)
     * [General solutions](#general-solutions)
     * [Entrypoint](#entrypoint)
@@ -77,6 +77,8 @@ Solutions that do not pass a particular step will not be evaluated for
 subsequent steps.
 
 
+## Hard requirements
+
 ### Runtime environment.
 
 Submissions MUST be runnable in a debian bookworm x86 container that is
@@ -120,7 +122,6 @@ docker pull mattcl/aoc-python:3.12
 
 This image has poetry, pipx, virtualenv, hyperfine and just installed.
 
-## Hard requirements
 
 ### Publicly accessible git repository
 
