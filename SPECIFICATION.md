@@ -7,13 +7,16 @@ Version 1.1.2
 * [Quick-start reference templates](#quick-start-reference-templates)
 * [Pipeline](#pipeline)
     * [Runtime environment](#runtime-environment)
+
 * [Hard requirements](#hard-requirements)
     * [Publicly accessible git repository](#publicly-accessible-git-repository)
     * [General solutions](#general-solutions)
-    * [Inputs](#inputs)
     * [Entrypoint](#entrypoint)
-* [Pipeline build task](#pipeline-build-task)
-* [Optional installer](#optional-installer)
+
+* [Recommended](#recommended)
+    * [Inputs](#inputs)
+    * [Pipeline build task](#pipeline-build-task)
+    * [Optional installer](#optional-installer)
 
 
 ## Introduction
@@ -132,6 +135,52 @@ Submissions MUST solve any official input. Submissions are not required to solve
 the unofficial (challenge) inputs.
 
 
+### Entrypoint
+
+Submissions MUST provide an entrypoint that minimally accepts the following
+environment variables:
+
+1. `AOC_DAY`: an integer from 1 to 25 inclusive, corresponding to the desired
+   day to run.
+2. `AOC_INPUT`: a path corresponding to a file containing the problem input.
+3. `AOC_JSON`: if present, will ALWAYS be set to `true` (`AOC_JSON=true`).
+
+A fourth `AOC_CI=true` environment variable will be specified. Consuming this
+variable is OPTIONAL.
+
+If `AOC_JSON` is specified, the solution MUST exit with 0 _AND_ be rendered as
+valid JSON to stdout with the following schema:
+
+```
+{"part_one": <SOLUTION1>, "part_two": <SOLUTION2>}
+```
+
+Where the solution values are whatever appropriate type for the given day's
+answer.* The solution values will be converted to strings for checking purposes.
+
+\*For days where you're outputting ascii art to the screen, output with the
+expected characters. The output will be trimmed of leading and trailing
+newlines/whitespace.
+
+If `AOC_JSON` is set _AND_ a solution does not exist for a given day, then the
+entrypoint MUST exit with 0 _AND_ write the following to stdout (notice the
+quotes making it valid JSON):
+
+```
+"not implemented"
+```
+
+In the case that `AOC_JSON` is NOT set and the solution does not exist, then
+then entrypoint SHOULD, but is not required to, exit with 0 _AND_ write the
+following to stdout:
+
+```
+not implemented
+```
+
+
+## Recommended
+
 ### Inputs
 
 Submissions are encouraged to include their inputs, but it's not strictly
@@ -181,50 +230,7 @@ fi
 ```
 
 
-### Entrypoint
-
-Submissions MUST provide an entrypoint that minimally accepts the following
-environment variables:
-
-1. `AOC_DAY`: an integer from 1 to 25 inclusive, corresponding to the desired
-   day to run.
-2. `AOC_INPUT`: a path corresponding to a file containing the problem input.
-3. `AOC_JSON`: if present, will ALWAYS be set to `true` (`AOC_JSON=true`).
-
-A fourth `AOC_CI=true` environment variable will be specified. Consuming this
-variable is OPTIONAL.
-
-If `AOC_JSON` is specified, the solution MUST exit with 0 _AND_ be rendered as
-valid JSON to stdout with the following schema:
-
-```
-{"part_one": <SOLUTION1>, "part_two": <SOLUTION2>}
-```
-
-Where the solution values are whatever appropriate type for the given day's
-answer.* The solution values will be converted to strings for checking purposes.
-
-\*For days where you're outputting ascii art to the screen, output with the
-expected characters. The output will be trimmed of leading and trailing
-newlines/whitespace.
-
-If `AOC_JSON` is set _AND_ a solution does not exist for a given day, then the
-entrypoint MUST exit with 0 _AND_ write the following to stdout (notice the
-quotes making it valid JSON):
-
-```
-"not implemented"
-```
-
-In the case that `AOC_JSON` is NOT set and the solution does not exist, then
-then entrypoint SHOULD, but is not required to, exit with 0 _AND_ write the
-following to stdout:
-
-```
-not implemented
-```
-
-## Pipeline build task
+### Pipeline build task
 
 The build task in the pipeline is intended to be used by a submission to run
 linters, tests, and local benchmarks.
@@ -280,7 +286,7 @@ poetry run pytest
 If you need help writing this, Matt can provide additional examples/assistance.
 
 
-## Optional installer
+### Optional installer
 
 A submission MAY include an installer script for installing the submission if
 it's something that is installable.
