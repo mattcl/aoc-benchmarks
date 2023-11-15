@@ -7,12 +7,10 @@ Version 1.1.2
 * [Quick-start reference templates](#quick-start-reference-templates)
 * [Pipeline](#pipeline)
     * [Runtime environment](#runtime-environment)
-
 * [Hard requirements](#hard-requirements)
     * [Publicly accessible git repository](#publicly-accessible-git-repository)
     * [General solutions](#general-solutions)
     * [Entrypoint](#entrypoint)
-
 * [Recommended](#recommended)
     * [Inputs](#inputs)
     * [Pipeline build task](#pipeline-build-task)
