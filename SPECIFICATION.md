@@ -102,7 +102,8 @@ available, but these are the explicitly specified ones):
 Python solutions will be installed in separate virtual environments to isolate
 their dependencies.
 
-Any additional requirements MUST be communicated to the event organizer (Matt)
+> [!IMPORTANT]
+> Any additional requirements MUST be communicated to the event organizer (Matt)
 so that they may be added to the container.
 
 If you'd like to verify locally, the image can be found
@@ -113,8 +114,9 @@ with:
 docker pull mattcl/aoc-ci-bencher:latest
 ```
 
-Note that this is built on top of a python image, so if you're using python, it
-_should_ be sufficient to test with the following image:
+> [!NOTE]
+> This is built on top of a python image, so if you're using python, it _should_
+> be sufficient to test with the following image:
 
 ```
 docker pull mattcl/aoc-python:3.12
@@ -158,8 +160,9 @@ Where the solution values are whatever appropriate type for the given day's
 answer.* The solution values will be converted to strings for checking purposes.
 
 > [!IMPORTANT]
-> *For days where you're outputting ascii art to the screen, output with the
-expected characters. The output will be trimmed of leading and trailing
+> *For days where you're outputting ascii art to the screen, the solution
+component(s) of the rendered json should be the string(s) you would have printed
+to stdout. The output will be trimmed of leading and trailing
 newlines/whitespace.
 
 If `AOC_JSON` is set _AND_ a solution does not exist for a given day, then the
