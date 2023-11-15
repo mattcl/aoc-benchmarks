@@ -143,8 +143,12 @@ valid JSON to stdout with the following schema:
 ```
 
 Where the solution values are whatever appropriate type for the given day's
-answer. The solution values will be interpreted as strings for checking
+answer.* The solution values will be interpreted as strings for checking
 purposes.
+
+\*For days where you're outputting ascii art to the screen, output with the
+expected characters. The output will be trimmed of leading and trailing
+newlines/whitespace.
 
 If `AOC_JSON` is set _AND_ a solution does not exist for a given day, then the
 entrypoint MUST exit with 0 _AND_ write the following to stdout (notice the
