@@ -17,7 +17,7 @@ Version 1.1.2
     * [Optional installer](#optional-installer)
 
 
-## Introduction
+# Introduction
 
 The normal Advent of Code leaderboard only takes into consideration time to
 submit an answer for a given day's problems. This is a proposal for enabling
@@ -32,7 +32,7 @@ is for a standard interface to reduce the overhead involved in aggregating
 inputs, validating solutions, and running comparative benchmarks.
 
 
-## Definitions
+# Definitions
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
 "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be
@@ -47,7 +47,7 @@ interpreted as described in [RFC 2119](https://www.rfc-editor.org/rfc/rfc2119).
    complicated.
 
 
-## Quick-start reference templates
+# Quick-start reference templates
 
 The following templates generate projects that conform to this specification.
 
@@ -60,7 +60,7 @@ If you want to implement in a different language or implement things on your
 own, you MUST implement the required sections of this specification.
 
 
-## Pipeline
+# Pipeline
 
 Submitted solutions are evaluated using the following pipeline sequence:
 
@@ -77,9 +77,9 @@ Solutions that do not pass a particular step will not be evaluated for
 subsequent steps.
 
 
-## Hard requirements
+# Hard requirements
 
-### Runtime environment.
+## Runtime environment.
 
 Submissions MUST be runnable in a debian bookworm x86 container that is
 provisioned with the following runtimes/packages (additional packages may be
@@ -123,18 +123,18 @@ docker pull mattcl/aoc-python:3.12
 This image has poetry, pipx, virtualenv, hyperfine and just installed.
 
 
-### Publicly accessible git repository
+## Publicly accessible git repository
 
 Submissions MUST be available via a single, publicly accessible git repository.
 
 
-### General solutions
+## General solutions
 
 Submissions MUST solve any official input. Submissions are not required to solve
 the unofficial (challenge) inputs.
 
 
-### Entrypoint
+## Entrypoint
 
 Submissions MUST provide an entrypoint that minimally accepts the following
 environment variables:
@@ -178,9 +178,9 @@ not implemented
 ```
 
 
-## Recommended
+# Recommended
 
-### Inputs
+## Inputs
 
 Submissions are encouraged to include their inputs, but it's not strictly
 necessary. If inputs are included, a way (script, executable, etc.) MUST be
@@ -229,7 +229,7 @@ fi
 ```
 
 
-### Pipeline build task
+## Pipeline build task
 
 The build task in the pipeline is intended to be used by a submission to run
 linters, tests, and local benchmarks.
@@ -285,7 +285,7 @@ poetry run pytest
 If you need help writing this, Matt can provide additional examples/assistance.
 
 
-### Optional installer
+## Optional installer
 
 A submission MAY include an installer script for installing the submission if
 it's something that is installable.
