@@ -157,7 +157,8 @@ valid JSON to stdout with the following schema:
 Where the solution values are whatever appropriate type for the given day's
 answer.* The solution values will be converted to strings for checking purposes.
 
-\*For days where you're outputting ascii art to the screen, output with the
+> [!IMPORTANT]
+> *For days where you're outputting ascii art to the screen, output with the
 expected characters. The output will be trimmed of leading and trailing
 newlines/whitespace.
 
