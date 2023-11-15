@@ -1,6 +1,6 @@
 # Specification: Advent of code comparative benchmarking
 
-Version 1.1.2
+Version 1.2.0
 
 * [Introduction](#introduction)
 * [Definitions](#definitions)
@@ -161,9 +161,9 @@ answer.* The solution values will be converted to strings for checking purposes.
 
 > [!IMPORTANT]
 > *For days where you're outputting ascii art to the screen, the solution
-component(s) of the rendered json should be the string(s) you would have printed
-to stdout. The output will be trimmed of leading and trailing
-newlines/whitespace.
+> component(s) of the rendered json should be the string(s) you would have
+> printed to stdout. The output will be trimmed of leading and trailing
+> newlines/whitespace.
 
 If `AOC_JSON` is set _AND_ a solution does not exist for a given day, then the
 entrypoint MUST exit with 0 _AND_ write the following to stdout (notice the
@@ -236,13 +236,19 @@ fi
 ## Pipeline build task
 
 The build task in the pipeline is intended to be used by a submission to run
-linters, tests, and local benchmarks.
+linters, tests, and local benchmarks. In the case of binary distributions, this
+can be used to build those binaries.
 
-A submission SHOULD contain a `ci` directory at the root of the repository, and
-that SHOULD contain at least a `build-task.yaml` that specifies the image the
-build step will use and what will be done during the build step. This is a
-[concourse CI task file](https://concourse-ci.org/tasks.html) that will be run
-as a part of the overall pipeline.
+> [!NOTE]
+> If you do plan to build binaries, Matt can help with propagating those through
+> the pipeline.
+
+A submission that includes a build task SHOULD contain a `ci` directory at the
+root of the repository, and that SHOULD contain at least a `build-task.yaml`
+that specifies the image the build step will use and what will be done during
+the build step. This is a [concourse CI task
+file](https://concourse-ci.org/tasks.html) that will be run as a part of the
+overall pipeline.
 
 The following is the build task from the python template.
 
@@ -286,7 +292,8 @@ poetry install
 poetry run pytest
 ```
 
-If you need help writing this, Matt can provide additional examples/assistance.
+> [!NOTE]
+> If you need help writing this, Matt can provide additional examples/assistance.
 
 
 ## Optional installer
