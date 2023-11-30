@@ -31,6 +31,8 @@ the goal is to still allow for writing in a variety of languages, this proposal
 is for a standard interface to reduce the overhead involved in aggregating
 inputs, validating solutions, and running comparative benchmarks.
 
+[visualizations from the CI pipeline](https://aoc.ancalagon.black)
+
 
 # Definitions
 
