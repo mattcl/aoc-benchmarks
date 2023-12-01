@@ -23,6 +23,7 @@ There are some spec-compliant templates you can use as starting points:
 ## Participants for 2023
 
 - [chancalan](https://github.com/chancalan/aoc2023) (python)
+- [kcen](https://github.com/kcen/aoc2023) (python)
 - [lanjian](https://github.com/lanjian/aoc-2023) (rust)
 - [mattcl](https://github.com/mattcl/aoc2023) (rust)
 - [mattcl-py](https://github.com/mattcl/aoc2023-py) (python)
