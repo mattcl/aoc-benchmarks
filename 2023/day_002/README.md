@@ -18,6 +18,7 @@ to IO and other factors.
 
 - [lanjian](https://github.com/lanjian/aoc-2023) (rust)
 - [mattcl](https://github.com/mattcl/aoc2023) (rust)
+- [mattcl-py](https://github.com/mattcl/aoc2023-py) (python)
 - [pting](https://github.com/pting/aoc2023) (python)
 
 
@@ -25,15 +26,18 @@ to IO and other factors.
 
 | Participant | Input | Mean [µs] | Min [µs] | Max [µs] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-pting | 770.2 ± 251.8 | 31.7 | 1387.8 | 1.00 |
-| mattcl | input-mattcl | 799.5 ± 196.0 | 44.2 | 1020.4 | 1.04 ± 0.42 |
-| mattcl | input-lanjian | 811.8 ± 210.0 | 39.0 | 1271.8 | 1.05 ± 0.44 |
-| lanjian | input-mattcl | 851.2 ± 182.0 | 153.3 | 1387.5 | 1.11 ± 0.43 |
-| lanjian | input-lanjian | 858.4 ± 165.7 | 161.8 | 1237.4 | 1.11 ± 0.42 |
-| lanjian | input-pting | 870.7 ± 162.4 | 176.7 | 1540.0 | 1.13 ± 0.43 |
-| pting | input-mattcl | 17559.3 ± 664.6 | 17025.2 | 20336.7 | 22.80 ± 7.50 |
-| pting | input-lanjian | 17565.5 ± 708.1 | 16615.1 | 20948.5 | 22.81 ± 7.51 |
-| pting | input-pting | 17679.9 ± 741.8 | 16578.8 | 20543.6 | 22.96 ± 7.57 |
+| mattcl | input-lanjian | 843.5 ± 177.2 | 136.0 | 1485.6 | 1.00 |
+| mattcl | input-pting | 857.8 ± 158.8 | 161.2 | 1331.7 | 1.02 ± 0.28 |
+| mattcl | input-mattcl | 864.7 ± 152.0 | 143.3 | 1029.6 | 1.03 ± 0.28 |
+| lanjian | input-lanjian | 872.8 ± 163.9 | 308.6 | 1101.5 | 1.03 ± 0.29 |
+| lanjian | input-pting | 883.2 ± 182.7 | 131.0 | 1346.1 | 1.05 ± 0.31 |
+| lanjian | input-mattcl | 900.6 ± 150.3 | 147.1 | 1127.6 | 1.07 ± 0.29 |
+| mattcl-py | input-lanjian | 17065.3 ± 630.2 | 15940.2 | 19813.6 | 20.23 ± 4.32 |
+| mattcl-py | input-mattcl | 17112.5 ± 633.6 | 15997.2 | 20277.0 | 20.29 ± 4.33 |
+| pting | input-mattcl | 17539.7 ± 656.0 | 16417.5 | 20800.1 | 20.79 ± 4.44 |
+| pting | input-pting | 17606.9 ± 635.1 | 16729.2 | 20412.5 | 20.87 ± 4.45 |
+| pting | input-lanjian | 17656.2 ± 826.0 | 16599.5 | 20740.1 | 20.93 ± 4.50 |
+| mattcl-py | input-pting | 17658.4 ± 5043.9 | 16015.5 | 67474.7 | 20.94 ± 7.42 |
 
 
 ## Inputs -> Solutions
