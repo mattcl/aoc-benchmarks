@@ -1,5 +1,6 @@
 | Input | Part One | Part Two |
 |:---|:---|:---|
+|input-aspidites|<pre>56042</pre>|<pre>55358</pre>|
 |input-chancalan|<pre>56465</pre>|<pre>55902</pre>|
 |input-kcen|<pre>54331</pre>|<pre>54518</pre>|
 |input-lanjian|<pre>54390</pre>|<pre>54277</pre>|
