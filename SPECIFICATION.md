@@ -1,6 +1,6 @@
 # Specification: Advent of code comparative benchmarking
 
-Version 1.2.0
+Version 1.3.0
 
 * [Introduction](#introduction)
 * [Definitions](#definitions)
@@ -148,8 +148,8 @@ environment variables:
 2. `AOC_INPUT`: a path corresponding to a file containing the problem input.
 3. `AOC_JSON`: if present, will ALWAYS be set to `true` (`AOC_JSON=true`).
 
-A fourth `AOC_CI=true` environment variable will be specified. Consuming this
-variable is OPTIONAL.
+For convenience an `AOC_CI=true` and `AOC_YEAR=<year>` environment variable will
+be specified. Consuming these variables is OPTIONAL.
 
 If `AOC_JSON` is specified, the solution MUST exit with 0 _AND_ be rendered as
 valid JSON to stdout with the following schema:
