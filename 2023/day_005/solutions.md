@@ -1,3 +1,4 @@
 | Input | Part One | Part Two |
 |:---|:---|:---|
+|input-lanjian|<pre>3374647</pre>|<pre>7623322</pre>|
 |input-mattcl|<pre>825516882</pre>|<pre>136096660</pre>|
