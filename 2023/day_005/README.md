@@ -16,6 +16,7 @@ to IO and other factors.
 
 ## Participants (with solutions for day 5)
 
+- [lanjian](https://github.com/lanjian/aoc-2023) (rust)
 - [mattcl](https://github.com/mattcl/aoc2023) (rust)
 
 
@@ -23,13 +24,15 @@ to IO and other factors.
 
 | Participant | Input | Mean [µs] | Min [µs] | Max [µs] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-lanjian | 820.9 ± 205.5 | 125.1 | 1282.9 | 1.00 |
-| mattcl | input-mattcl | 836.2 ± 171.4 | 220.8 | 1287.1 | 1.02 ± 0.33 |
+| mattcl | input-mattcl | 822.8 ± 146.4 | 84.5 | 1038.7 | 1.00 |
+| lanjian | input-mattcl | 843.0 ± 139.6 | 183.0 | 1013.3 | 1.02 ± 0.25 |
+| mattcl | input-lanjian | 849.0 ± 161.5 | 92.5 | 1537.0 | 1.03 ± 0.27 |
+| lanjian | input-lanjian | 862.7 ± 192.3 | 88.1 | 1340.8 | 1.05 ± 0.30 |
 
 
 ## Inputs -> Solutions
 
 | Input | Part One | Part Two |
 |:---|:---|:---|
-|input-lanjian|<pre>3374647</pre>|<pre>7623322</pre>|
+|input-lanjian|<pre>3374647</pre>|<pre>6082852</pre>|
 |input-mattcl|<pre>825516882</pre>|<pre>136096660</pre>|
