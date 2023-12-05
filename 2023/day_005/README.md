@@ -23,11 +23,13 @@ to IO and other factors.
 
 | Participant | Input | Mean [µs] | Min [µs] | Max [µs] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-mattcl | 923.7 ± 178.6 | 198.6 | 1768.2 | 1.00 |
+| mattcl | input-lanjian | 820.9 ± 205.5 | 125.1 | 1282.9 | 1.00 |
+| mattcl | input-mattcl | 836.2 ± 171.4 | 220.8 | 1287.1 | 1.02 ± 0.33 |
 
 
 ## Inputs -> Solutions
 
 | Input | Part One | Part Two |
 |:---|:---|:---|
+|input-lanjian|<pre>3374647</pre>|<pre>7623322</pre>|
 |input-mattcl|<pre>825516882</pre>|<pre>136096660</pre>|
