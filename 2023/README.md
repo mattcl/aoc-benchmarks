@@ -29,5 +29,5 @@ There are some spec-compliant templates you can use as starting points:
 - [mattcl](https://github.com/mattcl/aoc2023) (rust)
 - [mattcl-py](https://github.com/mattcl/aoc2023-py) (python)
 - [mattcl-ts](https://github.com/mattcl/aoc2023-js) (typescript (bun))
-- [mikofo](https://github.com/mikofo/advent-of-code-2023) (javascript)
+- [mikofo](https://github.com/mikofo/advent-of-code-2023) (javascript (bun))
 - [pting](https://github.com/pting/aoc2023) (python)
