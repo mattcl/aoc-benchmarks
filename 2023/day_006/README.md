@@ -18,14 +18,16 @@ to IO and other factors.
 
 - [mattcl](https://github.com/mattcl/aoc2023) (rust)
 - [mattcl-py](https://github.com/mattcl/aoc2023-py) (python)
+- [mattcl-ts](https://github.com/mattcl/aoc2023-js) (typescript (bun))
 
 
 ## Benchmarks with officially generated inputs
 
 | Participant | Input | Mean [µs] | Min [µs] | Max [µs] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-mattcl | 751.7 ± 162.5 | 84.5 | 965.2 | 1.00 |
-| mattcl-py | input-mattcl | 14091.9 ± 465.8 | 12990.0 | 16123.7 | 18.75 ± 4.10 |
+| mattcl | input-mattcl | 684.6 ± 197.1 | 34.1 | 939.8 | 1.00 |
+| mattcl-ts | input-mattcl | 9224.7 ± 337.8 | 8229.2 | 10125.8 | 13.47 ± 3.91 |
+| mattcl-py | input-mattcl | 13902.0 ± 472.9 | 13276.1 | 17179.1 | 20.31 ± 5.89 |
 
 
 ## Inputs -> Solutions
