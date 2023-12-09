@@ -1,17 +1,17 @@
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-kcen | 1.0 ± 0.2 | 0.2 | 1.5 | 1.00 |
-| mattcl | input-lanjian | 1.0 ± 0.2 | 0.2 | 1.4 | 1.01 ± 0.23 |
-| lanjian | input-kcen | 1.0 ± 0.2 | 0.7 | 1.6 | 1.03 ± 0.29 |
-| lanjian | input-lanjian | 1.0 ± 0.2 | 0.7 | 1.7 | 1.04 ± 0.29 |
-| mattcl | input-mattcl | 1.0 ± 0.2 | 0.2 | 1.8 | 1.04 ± 0.23 |
-| lanjian | input-mattcl | 1.0 ± 0.2 | 0.7 | 1.6 | 1.08 ± 0.30 |
-| mattcl-ts | input-mattcl | 12.0 ± 0.4 | 11.1 | 13.3 | 12.43 ± 2.00 |
-| mattcl-ts | input-kcen | 12.1 ± 0.7 | 10.9 | 18.0 | 12.53 ± 2.11 |
-| mattcl-ts | input-lanjian | 12.4 ± 4.2 | 10.8 | 56.9 | 12.87 ± 4.75 |
-| mattcl-py | input-kcen | 17.6 ± 0.5 | 16.9 | 21.0 | 18.23 ± 2.91 |
-| kcen | input-kcen | 17.7 ± 0.6 | 16.8 | 20.7 | 18.30 ± 2.95 |
-| mattcl-py | input-mattcl | 17.8 ± 0.8 | 16.9 | 21.3 | 18.43 ± 3.01 |
-| kcen | input-lanjian | 17.8 ± 0.8 | 16.8 | 21.1 | 18.44 ± 3.03 |
-| mattcl-py | input-lanjian | 17.9 ± 1.8 | 16.6 | 39.7 | 18.51 ± 3.45 |
-| kcen | input-mattcl | 17.9 ± 3.1 | 16.9 | 56.3 | 18.57 ± 4.32 |
+| mattcl | input-lanjian | 0.9 ± 0.1 | 0.4 | 1.2 | 1.00 |
+| mattcl | input-kcen | 0.9 ± 0.1 | 0.4 | 1.3 | 1.01 ± 0.22 |
+| mattcl | input-mattcl | 0.9 ± 0.2 | 0.1 | 1.1 | 1.01 ± 0.25 |
+| lanjian | input-mattcl | 0.9 ± 0.2 | 0.6 | 1.9 | 1.07 ± 0.31 |
+| lanjian | input-lanjian | 0.9 ± 0.2 | 0.7 | 1.6 | 1.10 ± 0.31 |
+| lanjian | input-kcen | 1.1 ± 3.0 | 0.6 | 43.2 | 1.30 ± 3.48 |
+| mattcl-ts | input-kcen | 12.0 ± 0.3 | 11.1 | 13.0 | 13.91 ± 2.30 |
+| mattcl-ts | input-lanjian | 12.1 ± 0.4 | 10.8 | 13.6 | 13.97 ± 2.34 |
+| mattcl-ts | input-mattcl | 12.1 ± 0.4 | 11.0 | 13.2 | 13.98 ± 2.32 |
+| mattcl-py | input-kcen | 17.6 ± 0.7 | 16.4 | 20.8 | 20.37 ± 3.41 |
+| mattcl-py | input-mattcl | 17.6 ± 0.7 | 16.8 | 20.5 | 20.43 ± 3.42 |
+| kcen | input-lanjian | 17.6 ± 0.8 | 16.5 | 21.2 | 20.43 ± 3.45 |
+| kcen | input-mattcl | 17.7 ± 0.7 | 16.5 | 21.2 | 20.44 ± 3.43 |
+| mattcl-py | input-lanjian | 17.7 ± 0.8 | 16.8 | 21.4 | 20.48 ± 3.47 |
+| kcen | input-kcen | 18.2 ± 4.2 | 16.0 | 57.7 | 21.05 ± 5.95 |
