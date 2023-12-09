@@ -27,21 +27,27 @@ to IO and other factors.
 
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-lanjian | 0.9 ± 0.3 | 0.2 | 1.3 | 1.00 |
-| mattcl | input-mattcl | 1.0 ± 0.2 | 0.2 | 1.2 | 1.07 ± 0.38 |
-| lanjian | input-mattcl | 1.1 ± 0.2 | 0.7 | 1.8 | 1.15 ± 0.42 |
-| lanjian | input-lanjian | 1.3 ± 3.3 | 0.8 | 47.6 | 1.39 ± 3.55 |
-| mattcl-ts | input-mattcl | 11.7 ± 0.3 | 10.7 | 13.1 | 12.48 ± 3.74 |
-| mattcl-ts | input-lanjian | 11.8 ± 0.9 | 10.6 | 19.4 | 12.57 ± 3.87 |
-| kcen | input-mattcl | 17.6 ± 0.6 | 16.7 | 20.9 | 18.82 ± 5.65 |
-| mattcl-py | input-mattcl | 17.7 ± 0.9 | 16.5 | 24.2 | 18.93 ± 5.72 |
-| mattcl-py | input-lanjian | 17.8 ± 2.6 | 16.6 | 50.3 | 18.99 ± 6.32 |
-| kcen | input-lanjian | 18.1 ± 4.9 | 16.5 | 70.0 | 19.35 ± 7.80 |
+| mattcl | input-lanjian | 1.1 ± 0.2 | 0.3 | 1.2 | 1.00 |
+| mattcl | input-mattcl | 1.1 ± 0.2 | 0.3 | 1.4 | 1.00 ± 0.23 |
+| mattcl | input-kcen | 1.1 ± 0.2 | 0.4 | 1.3 | 1.01 ± 0.21 |
+| lanjian | input-kcen | 1.1 ± 0.2 | 0.8 | 1.7 | 1.04 ± 0.26 |
+| lanjian | input-lanjian | 1.1 ± 0.2 | 0.8 | 1.7 | 1.05 ± 0.27 |
+| lanjian | input-mattcl | 1.2 ± 0.2 | 0.8 | 1.9 | 1.08 ± 0.28 |
+| mattcl-ts | input-lanjian | 12.1 ± 0.4 | 11.0 | 13.3 | 11.35 ± 1.83 |
+| mattcl-ts | input-mattcl | 12.2 ± 0.4 | 11.0 | 13.5 | 11.39 ± 1.83 |
+| mattcl-ts | input-kcen | 12.3 ± 2.9 | 11.0 | 52.3 | 11.53 ± 3.25 |
+| mattcl-py | input-kcen | 17.6 ± 0.6 | 16.4 | 20.7 | 16.49 ± 2.66 |
+| mattcl-py | input-mattcl | 17.6 ± 0.5 | 16.7 | 20.6 | 16.53 ± 2.65 |
+| kcen | input-lanjian | 17.6 ± 0.6 | 16.6 | 21.0 | 16.53 ± 2.66 |
+| kcen | input-kcen | 17.7 ± 0.6 | 16.4 | 20.8 | 16.57 ± 2.68 |
+| kcen | input-mattcl | 17.7 ± 0.7 | 17.0 | 20.7 | 16.61 ± 2.69 |
+| mattcl-py | input-lanjian | 17.7 ± 0.8 | 16.6 | 21.1 | 16.62 ± 2.72 |
 
 
 ## Inputs -> Solutions
 
 | Input | Part One | Part Two |
 |:---|:---|:---|
+|input-kcen|<pre>1938800261</pre>|<pre>1112</pre>|
 |input-lanjian|<pre>2075724761</pre>|<pre>1072</pre>|
 |input-mattcl|<pre>1969958987</pre>|<pre>1068</pre>|
