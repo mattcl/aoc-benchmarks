@@ -17,13 +17,15 @@ to IO and other factors.
 ## Participants (with solutions for day 17)
 
 - [mattcl](https://github.com/mattcl/aoc2023) (rust)
+- [mattcl-py](https://github.com/mattcl/aoc2023-py) (python)
 
 
 ## Benchmarks with officially generated inputs
 
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-mattcl | 22.5 ± 0.5 | 21.4 | 25.5 | 1.00 |
+| mattcl | input-mattcl | 22.4 ± 0.5 | 21.4 | 25.1 | 1.00 |
+| mattcl-py | input-mattcl | 382.4 ± 2.1 | 379.9 | 385.9 | 17.07 ± 0.41 |
 
 
 ## Inputs -> Solutions
