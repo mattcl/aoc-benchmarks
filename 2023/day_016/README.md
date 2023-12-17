@@ -25,12 +25,12 @@ to IO and other factors.
 
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-pting | 4.2 ± 0.4 | 3.4 | 6.7 | 1.00 |
-| mattcl | input-mattcl | 5.4 ± 0.5 | 4.7 | 10.3 | 1.27 ± 0.18 |
-| pting | input-pting | 201.9 ± 2.3 | 199.5 | 206.9 | 47.78 ± 4.69 |
-| mattcl-py | input-pting | 206.4 ± 2.5 | 202.6 | 211.9 | 48.84 ± 4.79 |
-| pting | input-mattcl | 253.4 ± 3.7 | 246.8 | 257.2 | 59.96 ± 5.91 |
-| mattcl-py | input-mattcl | 263.3 ± 4.3 | 257.4 | 270.2 | 62.30 ± 6.15 |
+| mattcl | input-pting | 4.2 ± 0.5 | 3.4 | 6.8 | 1.00 |
+| mattcl | input-mattcl | 5.4 ± 0.6 | 4.9 | 10.8 | 1.27 ± 0.21 |
+| pting | input-pting | 201.6 ± 1.6 | 198.5 | 204.3 | 47.77 ± 5.34 |
+| mattcl-py | input-pting | 207.8 ± 3.9 | 203.1 | 219.3 | 49.22 ± 5.56 |
+| pting | input-mattcl | 256.1 ± 6.9 | 247.7 | 272.3 | 60.68 ± 6.96 |
+| mattcl-py | input-mattcl | 265.2 ± 2.9 | 261.4 | 270.7 | 62.84 ± 7.04 |
 
 
 ## Inputs -> Solutions
