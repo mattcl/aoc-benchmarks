@@ -18,14 +18,16 @@ to IO and other factors.
 
 - [mattcl](https://github.com/mattcl/aoc2023) (rust)
 - [mattcl-py](https://github.com/mattcl/aoc2023-py) (python)
+- [pting](https://github.com/pting/aoc2023) (python)
 
 
 ## Benchmarks with officially generated inputs
 
 | Participant | Input | Mean [µs] | Min [µs] | Max [µs] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-mattcl | 898.4 ± 146.8 | 206.5 | 1114.9 | 1.00 |
-| mattcl-py | input-mattcl | 14821.2 ± 634.1 | 13747.4 | 17541.0 | 16.50 ± 2.79 |
+| mattcl | input-mattcl | 877.3 ± 212.7 | 170.8 | 1432.7 | 1.00 |
+| mattcl-py | input-mattcl | 14617.5 ± 560.5 | 13499.4 | 18291.4 | 16.66 ± 4.09 |
+| pting | input-mattcl | 15169.6 ± 2267.0 | 13824.2 | 44637.3 | 17.29 ± 4.92 |
 
 
 ## Inputs -> Solutions

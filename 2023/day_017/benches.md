@@ -1,8 +1,8 @@
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-pting | 23.5 ± 0.6 | 22.4 | 26.5 | 1.00 |
-| mattcl | input-mattcl | 23.6 ± 0.5 | 22.7 | 25.8 | 1.00 ± 0.03 |
-| mattcl-py | input-pting | 385.8 ± 4.4 | 377.5 | 392.3 | 16.42 ± 0.46 |
-| mattcl-py | input-mattcl | 386.7 ± 6.7 | 378.7 | 394.8 | 16.46 ± 0.51 |
-| pting | input-pting | 2767.5 ± 61.2 | 2705.6 | 2828.1 | 117.81 ± 3.99 |
-| pting | input-mattcl | 2778.7 ± 160.5 | 2685.5 | 2964.0 | 118.29 ± 7.48 |
+| mattcl | input-pting | 23.3 ± 0.7 | 21.8 | 26.3 | 1.00 |
+| mattcl | input-mattcl | 23.4 ± 0.4 | 22.4 | 24.8 | 1.00 ± 0.03 |
+| mattcl-py | input-pting | 379.6 ± 5.2 | 374.8 | 390.2 | 16.27 ± 0.52 |
+| mattcl-py | input-mattcl | 380.3 ± 2.8 | 375.7 | 383.4 | 16.30 ± 0.48 |
+| pting | input-mattcl | 2707.3 ± 40.1 | 2664.7 | 2744.5 | 116.02 ± 3.76 |
+| pting | input-pting | 2741.1 ± 4.2 | 2736.6 | 2744.9 | 117.47 ± 3.39 |
