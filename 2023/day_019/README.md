@@ -1,6 +1,6 @@
-# Day 17 benchmarks
+# Day 19 benchmarks
 
-[link to problem](https://adventofcode.com/2023/day/17)
+[link to problem](https://adventofcode.com/2023/day/19)
 
 The following benchmarks are auto-generated via
 [hyperfine](https://github.com/sharkdp/hyperfine) by a CI system running on
@@ -14,28 +14,20 @@ to IO and other factors.
 [Benchmark web UI](https://aoc.ancalagon.black)
 
 
-## Participants (with solutions for day 17)
+## Participants (with solutions for day 19)
 
 - [mattcl](https://github.com/mattcl/aoc2023) (rust)
-- [mattcl-py](https://github.com/mattcl/aoc2023-py) (python)
-- [pting](https://github.com/pting/aoc2023) (python)
 
 
 ## Benchmarks with officially generated inputs
 
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-pting | 23.5 ± 0.5 | 22.5 | 26.2 | 1.00 |
-| mattcl | input-mattcl | 23.7 ± 0.4 | 22.6 | 24.6 | 1.01 ± 0.03 |
-| mattcl-py | input-pting | 386.4 ± 3.7 | 382.7 | 393.3 | 16.43 ± 0.37 |
-| mattcl-py | input-mattcl | 388.2 ± 4.0 | 383.9 | 395.4 | 16.50 ± 0.38 |
-| pting | input-pting | 1639.9 ± 36.3 | 1607.1 | 1679.0 | 69.72 ± 2.11 |
-| pting | input-mattcl | 1674.6 ± 66.0 | 1615.1 | 1745.6 | 71.20 ± 3.17 |
+| mattcl | input-mattcl | 1.2 ± 0.2 | 0.4 | 1.8 | 1.00 |
 
 
 ## Inputs -> Solutions
 
 | Input | Part One | Part Two |
 |:---|:---|:---|
-|input-mattcl|<pre>1004</pre>|<pre>1171</pre>|
-|input-pting|<pre>843</pre>|<pre>1017</pre>|
+|input-mattcl|<pre>434147</pre>|<pre>136146366355609</pre>|
