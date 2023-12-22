@@ -16,6 +16,7 @@ to IO and other factors.
 
 ## Participants (with solutions for day 18)
 
+- [lanjian](https://github.com/lanjian/aoc-2023) (rust)
 - [mattcl](https://github.com/mattcl/aoc2023) (rust)
 - [mattcl-py](https://github.com/mattcl/aoc2023-py) (python)
 - [pting](https://github.com/pting/aoc2023) (python)
@@ -25,12 +26,14 @@ to IO and other factors.
 
 | Participant | Input | Mean [µs] | Min [µs] | Max [µs] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-pting | 860.6 ± 143.3 | 169.4 | 1055.7 | 1.00 |
-| mattcl | input-mattcl | 885.1 ± 125.9 | 356.4 | 1030.8 | 1.03 ± 0.23 |
-| mattcl-py | input-pting | 14195.0 ± 594.7 | 13401.8 | 17655.9 | 16.49 ± 2.83 |
-| pting | input-pting | 14399.7 ± 596.6 | 13513.9 | 17440.4 | 16.73 ± 2.87 |
-| mattcl-py | input-mattcl | 14628.3 ± 516.6 | 13692.8 | 17521.3 | 17.00 ± 2.89 |
-| pting | input-mattcl | 14999.6 ± 643.2 | 14039.0 | 18400.9 | 17.43 ± 3.00 |
+| lanjian | input-pting | 815.7 ± 182.3 | 97.7 | 1031.0 | 1.00 |
+| lanjian | input-mattcl | 846.8 ± 177.6 | 107.7 | 1266.1 | 1.04 ± 0.32 |
+| mattcl | input-pting | 870.9 ± 158.4 | 162.1 | 1085.6 | 1.07 ± 0.31 |
+| mattcl | input-mattcl | 909.6 ± 133.3 | 473.5 | 1554.8 | 1.12 ± 0.30 |
+| mattcl-py | input-pting | 14485.2 ± 521.2 | 13263.8 | 16913.2 | 17.76 ± 4.02 |
+| mattcl-py | input-mattcl | 14995.9 ± 633.1 | 13868.7 | 18265.0 | 18.38 ± 4.18 |
+| pting | input-pting | 15104.5 ± 4986.7 | 13256.5 | 84031.1 | 18.52 ± 7.38 |
+| pting | input-mattcl | 15132.3 ± 630.4 | 13816.1 | 17926.5 | 18.55 ± 4.22 |
 
 
 ## Inputs -> Solutions
