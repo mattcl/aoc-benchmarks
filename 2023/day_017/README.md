@@ -16,6 +16,7 @@ to IO and other factors.
 
 ## Participants (with solutions for day 17)
 
+- [lanjian](https://github.com/lanjian/aoc-2023) (rust)
 - [mattcl](https://github.com/mattcl/aoc2023) (rust)
 - [mattcl-py](https://github.com/mattcl/aoc2023-py) (python)
 - [pting](https://github.com/pting/aoc2023) (python)
@@ -23,17 +24,20 @@ to IO and other factors.
 
 ## Benchmarks with officially generated inputs
 
-| Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
+| Participant | Input | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-pting | 23.6 ± 1.4 | 22.4 | 38.5 | 1.00 |
-| mattcl | input-lanjian | 23.7 ± 0.5 | 22.7 | 26.5 | 1.00 ± 0.06 |
-| mattcl | input-mattcl | 23.7 ± 0.5 | 22.8 | 26.0 | 1.00 ± 0.06 |
-| mattcl-py | input-pting | 379.0 ± 3.8 | 374.2 | 386.0 | 16.03 ± 0.99 |
-| mattcl-py | input-lanjian | 383.0 ± 2.9 | 379.8 | 387.3 | 16.20 ± 0.99 |
-| mattcl-py | input-mattcl | 384.2 ± 5.3 | 374.4 | 390.0 | 16.25 ± 1.01 |
-| pting | input-mattcl | 1851.2 ± 16.2 | 1832.7 | 1863.0 | 78.32 ± 4.81 |
-| pting | input-pting | 1883.0 ± 14.0 | 1868.5 | 1896.4 | 79.66 ± 4.88 |
-| pting | input-lanjian | 1913.9 ± 9.0 | 1908.0 | 1924.3 | 80.97 ± 4.93 |
+| mattcl | input-pting | 0.024 ± 0.001 | 0.022 | 0.027 | 1.00 |
+| mattcl | input-mattcl | 0.024 ± 0.001 | 0.023 | 0.027 | 1.01 ± 0.04 |
+| mattcl | input-lanjian | 0.024 ± 0.002 | 0.023 | 0.043 | 1.01 ± 0.08 |
+| mattcl-py | input-pting | 0.381 ± 0.004 | 0.378 | 0.390 | 16.17 ± 0.54 |
+| mattcl-py | input-lanjian | 0.388 ± 0.002 | 0.385 | 0.391 | 16.44 ± 0.52 |
+| mattcl-py | input-mattcl | 0.388 ± 0.007 | 0.382 | 0.399 | 16.47 ± 0.59 |
+| pting | input-pting | 1.883 ± 0.015 | 1.874 | 1.901 | 79.86 ± 2.57 |
+| pting | input-mattcl | 1.886 ± 0.028 | 1.864 | 1.917 | 79.97 ± 2.76 |
+| pting | input-lanjian | 1.895 ± 0.015 | 1.883 | 1.912 | 80.38 ± 2.59 |
+| lanjian | input-pting | 2.358 ± 0.002 | 2.356 | 2.360 | 100.01 ± 3.12 |
+| lanjian | input-mattcl | 2.367 ± 0.006 | 2.361 | 2.374 | 100.38 ± 3.14 |
+| lanjian | input-lanjian | 2.385 ± 0.009 | 2.376 | 2.394 | 101.16 ± 3.18 |
 
 
 ## Inputs -> Solutions
