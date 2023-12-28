@@ -26,24 +26,29 @@ to IO and other factors.
 
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-pting | 4.3 ± 0.5 | 3.7 | 7.4 | 1.00 |
-| mattcl | input-mattcl | 5.3 ± 0.5 | 4.7 | 9.0 | 1.23 ± 0.18 |
-| mattcl | input-lanjian | 6.3 ± 0.6 | 5.7 | 10.8 | 1.47 ± 0.22 |
-| lanjian | input-pting | 32.3 ± 0.9 | 31.3 | 35.0 | 7.53 ± 0.86 |
-| lanjian | input-mattcl | 43.3 ± 1.0 | 42.0 | 47.0 | 10.09 ± 1.14 |
-| lanjian | input-lanjian | 51.7 ± 0.9 | 50.7 | 54.9 | 12.05 ± 1.35 |
-| pting | input-pting | 199.3 ± 1.7 | 196.6 | 202.7 | 46.41 ± 5.14 |
-| mattcl-py | input-pting | 202.8 ± 3.2 | 198.2 | 210.2 | 47.24 ± 5.27 |
-| pting | input-mattcl | 257.1 ± 4.1 | 251.5 | 265.1 | 59.89 ± 6.68 |
-| mattcl-py | input-mattcl | 263.6 ± 4.4 | 257.5 | 271.9 | 61.40 ± 6.85 |
-| pting | input-lanjian | 316.7 ± 4.0 | 311.5 | 325.6 | 73.76 ± 8.19 |
-| mattcl-py | input-lanjian | 330.1 ± 6.2 | 320.1 | 338.5 | 76.90 ± 8.61 |
+| mattcl | input-pting | 4.4 ± 0.4 | 3.9 | 6.1 | 1.00 |
+| mattcl | input-mattcl | 6.0 ± 3.7 | 5.2 | 57.0 | 1.37 ± 0.85 |
+| mattcl | input-lanjian | 6.8 ± 0.6 | 6.2 | 10.3 | 1.55 ± 0.19 |
+| mattcl | input-kcen | 10.5 ± 5.5 | 5.9 | 42.4 | 2.38 ± 1.25 |
+| lanjian | input-pting | 35.9 ± 6.7 | 32.3 | 55.9 | 8.13 ± 1.65 |
+| lanjian | input-mattcl | 48.2 ± 9.0 | 44.1 | 77.1 | 10.91 ± 2.22 |
+| lanjian | input-lanjian | 63.4 ± 16.5 | 53.6 | 97.6 | 14.35 ± 3.91 |
+| lanjian | input-kcen | 73.2 ± 0.5 | 72.3 | 75.0 | 16.58 ± 1.34 |
+| pting | input-pting | 218.0 ± 2.0 | 214.9 | 220.9 | 49.38 ± 4.00 |
+| mattcl-py | input-pting | 220.3 ± 4.6 | 214.6 | 229.6 | 49.89 ± 4.15 |
+| pting | input-mattcl | 282.7 ± 4.5 | 277.3 | 288.1 | 64.02 ± 5.25 |
+| mattcl-py | input-mattcl | 288.0 ± 5.2 | 279.5 | 296.2 | 65.23 ± 5.38 |
+| mattcl-py | input-kcen | 324.2 ± 9.4 | 312.4 | 338.3 | 73.43 ± 6.28 |
+| pting | input-kcen | 332.8 ± 17.5 | 315.5 | 365.8 | 75.36 ± 7.24 |
+| pting | input-lanjian | 347.8 ± 3.9 | 343.7 | 356.5 | 78.76 ± 6.40 |
+| mattcl-py | input-lanjian | 362.2 ± 2.7 | 357.4 | 365.0 | 82.04 ± 6.63 |
 
 
 ## Inputs -> Solutions
 
 | Input | Part One | Part Two |
 |:---|:---|:---|
+|input-kcen|<pre>7623</pre>|<pre>8244</pre>|
 |input-lanjian|<pre>8901</pre>|<pre>9064</pre>|
 |input-mattcl|<pre>8249</pre>|<pre>8444</pre>|
 |input-pting|<pre>7034</pre>|<pre>7759</pre>|
