@@ -31,51 +31,51 @@ to IO and other factors.
 
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| lanjian | input-lanjian | 0.9 ± 0.2 | 0.2 | 1.1 | 1.00 |
-| mattcl | input-lanjian | 0.9 ± 0.2 | 0.2 | 1.1 | 1.00 ± 0.29 |
-| mattcl | input-chancalan | 0.9 ± 0.2 | 0.3 | 1.3 | 1.02 ± 0.28 |
-| mattcl | input-aspidites | 0.9 ± 0.2 | 0.2 | 1.1 | 1.02 ± 0.28 |
-| mattcl | input-mattcl | 0.9 ± 0.2 | 0.3 | 1.1 | 1.02 ± 0.27 |
-| lanjian | input-kcen | 0.9 ± 0.2 | 0.2 | 1.2 | 1.03 ± 0.27 |
-| lanjian | input-chancalan | 0.9 ± 0.1 | 0.4 | 1.1 | 1.04 ± 0.26 |
-| mattcl | input-kcen | 0.9 ± 0.1 | 0.3 | 1.1 | 1.05 ± 0.26 |
-| lanjian | input-mattcl | 0.9 ± 0.1 | 0.2 | 1.1 | 1.05 ± 0.26 |
-| lanjian | input-aspidites | 0.9 ± 0.1 | 0.1 | 1.1 | 1.06 ± 0.27 |
-| mattcl-ts | input-mattcl | 10.9 ± 0.4 | 10.0 | 11.7 | 12.42 ± 2.48 |
-| mattcl-ts | input-kcen | 10.9 ± 0.4 | 9.8 | 11.7 | 12.42 ± 2.48 |
-| mattcl-ts | input-aspidites | 10.9 ± 0.4 | 10.0 | 12.0 | 12.45 ± 2.49 |
-| mattcl-ts | input-lanjian | 11.0 ± 0.4 | 9.8 | 11.8 | 12.49 ± 2.50 |
-| mattcl-ts | input-chancalan | 11.0 ± 0.4 | 9.8 | 12.5 | 12.52 ± 2.50 |
-| mikofo | input-lanjian | 11.2 ± 0.4 | 10.1 | 12.9 | 12.69 ± 2.54 |
-| mikofo | input-chancalan | 11.2 ± 0.4 | 10.1 | 12.1 | 12.70 ± 2.54 |
-| mikofo | input-mattcl | 11.2 ± 0.4 | 10.2 | 12.0 | 12.73 ± 2.54 |
-| mikofo | input-kcen | 11.2 ± 0.4 | 10.2 | 12.0 | 12.80 ± 2.55 |
-| mikofo | input-aspidites | 11.4 ± 3.0 | 10.2 | 52.5 | 12.95 ± 4.22 |
-| aspidites | input-mattcl | 12.6 ± 0.4 | 11.8 | 14.1 | 14.38 ± 2.87 |
-| aspidites | input-chancalan | 12.7 ± 0.5 | 11.8 | 14.2 | 14.42 ± 2.89 |
-| aspidites | input-aspidites | 12.7 ± 0.4 | 11.7 | 14.2 | 14.47 ± 2.89 |
-| aspidites | input-kcen | 12.8 ± 0.5 | 11.4 | 14.6 | 14.52 ± 2.91 |
-| aspidites | input-lanjian | 12.8 ± 0.4 | 11.8 | 14.1 | 14.53 ± 2.90 |
-| pting | input-lanjian | 14.3 ± 0.5 | 13.5 | 17.3 | 16.26 ± 3.24 |
-| pting | input-aspidites | 14.3 ± 0.6 | 13.4 | 17.1 | 16.26 ± 3.26 |
-| pting | input-mattcl | 14.3 ± 0.6 | 13.4 | 17.7 | 16.28 ± 3.27 |
-| pting | input-chancalan | 14.3 ± 0.5 | 13.6 | 17.3 | 16.28 ± 3.24 |
-| pting | input-kcen | 14.3 ± 0.7 | 13.5 | 17.5 | 16.30 ± 3.30 |
-| mattcl-py | input-lanjian | 14.4 ± 0.5 | 13.4 | 16.9 | 16.33 ± 3.26 |
-| mattcl-py | input-aspidites | 14.4 ± 0.7 | 13.4 | 17.6 | 16.40 ± 3.31 |
-| mattcl-py | input-kcen | 14.4 ± 0.6 | 13.7 | 17.8 | 16.40 ± 3.31 |
-| mattcl-py | input-chancalan | 14.4 ± 0.7 | 13.7 | 17.7 | 16.42 ± 3.33 |
-| mattcl-py | input-mattcl | 14.6 ± 2.7 | 13.4 | 51.4 | 16.59 ± 4.47 |
-| chancalan | input-chancalan | 14.9 ± 0.5 | 13.9 | 17.0 | 17.00 ± 3.39 |
-| chancalan | input-mattcl | 15.0 ± 0.7 | 13.8 | 18.6 | 17.05 ± 3.44 |
-| chancalan | input-lanjian | 15.0 ± 0.6 | 13.8 | 17.8 | 17.05 ± 3.43 |
-| chancalan | input-kcen | 15.1 ± 0.7 | 13.8 | 18.3 | 17.16 ± 3.47 |
-| chancalan | input-aspidites | 15.1 ± 0.7 | 14.2 | 18.3 | 17.16 ± 3.48 |
-| kcen | input-mattcl | 15.2 ± 0.5 | 14.0 | 18.1 | 17.25 ± 3.45 |
-| kcen | input-lanjian | 15.2 ± 0.6 | 14.1 | 18.6 | 17.29 ± 3.48 |
-| kcen | input-chancalan | 15.2 ± 0.7 | 14.1 | 18.4 | 17.30 ± 3.49 |
-| kcen | input-kcen | 15.2 ± 0.7 | 14.3 | 18.6 | 17.33 ± 3.49 |
-| kcen | input-aspidites | 15.3 ± 0.7 | 14.2 | 18.0 | 17.46 ± 3.53 |
+| lanjian | input-chancalan | 1.0 ± 0.2 | 0.3 | 1.2 | 1.00 |
+| mattcl | input-kcen | 1.0 ± 0.2 | 0.3 | 1.5 | 1.05 ± 0.30 |
+| mattcl | input-chancalan | 1.0 ± 0.2 | 0.3 | 1.2 | 1.05 ± 0.29 |
+| mattcl | input-aspidites | 1.0 ± 0.2 | 0.4 | 1.3 | 1.06 ± 0.29 |
+| mattcl | input-mattcl | 1.0 ± 0.2 | 0.3 | 1.2 | 1.06 ± 0.28 |
+| lanjian | input-aspidites | 1.0 ± 0.2 | 0.3 | 1.2 | 1.07 ± 0.28 |
+| lanjian | input-kcen | 1.1 ± 0.2 | 0.3 | 1.7 | 1.07 ± 0.29 |
+| lanjian | input-lanjian | 1.1 ± 0.1 | 0.3 | 1.3 | 1.07 ± 0.28 |
+| mattcl | input-lanjian | 1.1 ± 0.1 | 0.5 | 1.2 | 1.08 ± 0.27 |
+| lanjian | input-mattcl | 1.1 ± 0.2 | 0.3 | 1.7 | 1.08 ± 0.29 |
+| mattcl-ts | input-lanjian | 11.3 ± 0.4 | 10.2 | 12.1 | 11.45 ± 2.54 |
+| mattcl-ts | input-kcen | 11.3 ± 0.4 | 10.1 | 12.2 | 11.47 ± 2.55 |
+| mattcl-ts | input-aspidites | 11.3 ± 0.4 | 10.0 | 12.2 | 11.50 ± 2.55 |
+| mattcl-ts | input-mattcl | 11.3 ± 0.4 | 10.1 | 12.2 | 11.51 ± 2.55 |
+| mattcl-ts | input-chancalan | 11.4 ± 0.4 | 10.2 | 12.6 | 11.60 ± 2.57 |
+| mikofo | input-mattcl | 11.5 ± 0.3 | 10.6 | 12.5 | 11.68 ± 2.58 |
+| mikofo | input-kcen | 11.5 ± 0.3 | 10.6 | 12.5 | 11.69 ± 2.58 |
+| mikofo | input-lanjian | 11.5 ± 0.3 | 10.3 | 12.9 | 11.70 ± 2.59 |
+| mikofo | input-aspidites | 11.5 ± 0.3 | 10.7 | 12.7 | 11.74 ± 2.60 |
+| mikofo | input-chancalan | 11.5 ± 0.3 | 10.6 | 12.9 | 11.75 ± 2.60 |
+| aspidites | input-lanjian | 12.3 ± 2.5 | 10.9 | 46.7 | 12.50 ± 3.77 |
+| aspidites | input-aspidites | 12.7 ± 0.6 | 11.2 | 14.4 | 12.93 ± 2.90 |
+| aspidites | input-kcen | 12.9 ± 0.5 | 11.7 | 14.2 | 13.08 ± 2.92 |
+| aspidites | input-mattcl | 12.9 ± 0.5 | 11.8 | 14.4 | 13.13 ± 2.93 |
+| aspidites | input-chancalan | 13.0 ± 0.5 | 11.8 | 15.0 | 13.18 ± 2.94 |
+| mattcl-py | input-lanjian | 14.7 ± 0.6 | 13.7 | 18.9 | 14.96 ± 3.34 |
+| pting | input-chancalan | 14.8 ± 0.7 | 13.9 | 17.9 | 15.01 ± 3.37 |
+| pting | input-mattcl | 14.8 ± 0.7 | 13.7 | 18.2 | 15.01 ± 3.37 |
+| pting | input-aspidites | 14.8 ± 0.6 | 13.7 | 17.4 | 15.02 ± 3.35 |
+| mattcl-py | input-kcen | 14.8 ± 0.7 | 13.6 | 18.3 | 15.04 ± 3.37 |
+| pting | input-lanjian | 14.8 ± 0.7 | 13.6 | 18.4 | 15.05 ± 3.39 |
+| mattcl-py | input-aspidites | 14.8 ± 0.6 | 13.6 | 18.5 | 15.07 ± 3.37 |
+| pting | input-kcen | 14.8 ± 0.7 | 13.5 | 18.0 | 15.09 ± 3.39 |
+| mattcl-py | input-chancalan | 14.9 ± 0.6 | 13.8 | 17.5 | 15.11 ± 3.37 |
+| mattcl-py | input-mattcl | 14.9 ± 0.7 | 13.6 | 18.0 | 15.13 ± 3.39 |
+| chancalan | input-mattcl | 15.3 ± 0.6 | 14.2 | 17.9 | 15.53 ± 3.46 |
+| chancalan | input-kcen | 15.3 ± 0.7 | 14.2 | 18.9 | 15.56 ± 3.50 |
+| chancalan | input-aspidites | 15.3 ± 0.6 | 14.2 | 18.1 | 15.57 ± 3.48 |
+| chancalan | input-chancalan | 15.3 ± 0.6 | 14.2 | 18.2 | 15.59 ± 3.48 |
+| kcen | input-lanjian | 15.5 ± 0.7 | 14.3 | 18.5 | 15.80 ± 3.53 |
+| kcen | input-chancalan | 15.6 ± 0.7 | 14.5 | 18.6 | 15.86 ± 3.55 |
+| kcen | input-kcen | 15.6 ± 0.7 | 14.3 | 18.5 | 15.91 ± 3.56 |
+| kcen | input-mattcl | 15.6 ± 0.6 | 14.8 | 18.6 | 15.91 ± 3.55 |
+| kcen | input-aspidites | 15.7 ± 0.7 | 14.3 | 19.1 | 15.96 ± 3.57 |
+| chancalan | input-lanjian | 15.8 ± 4.7 | 14.1 | 57.0 | 16.11 ± 5.97 |
 
 
 ## Inputs -> Solutions
