@@ -1,18 +1,18 @@
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-pting | 4.6 ± 2.1 | 3.9 | 33.4 | 1.00 |
-| mattcl | input-kcen | 5.2 ± 0.6 | 4.3 | 9.4 | 1.12 ± 0.53 |
-| mattcl | input-mattcl | 5.3 ± 0.5 | 4.8 | 8.3 | 1.15 ± 0.54 |
-| mattcl | input-lanjian | 6.3 ± 0.5 | 5.8 | 10.7 | 1.36 ± 0.64 |
-| lanjian | input-pting | 33.6 ± 0.9 | 32.3 | 36.7 | 7.26 ± 3.34 |
-| lanjian | input-kcen | 41.5 ± 1.2 | 40.0 | 46.1 | 8.98 ± 4.14 |
-| lanjian | input-mattcl | 44.5 ± 1.0 | 43.0 | 47.6 | 9.63 ± 4.44 |
-| lanjian | input-lanjian | 54.0 ± 1.0 | 52.0 | 56.3 | 11.67 ± 5.37 |
-| pting | input-pting | 200.5 ± 2.1 | 196.7 | 204.3 | 43.36 ± 19.95 |
-| mattcl-py | input-pting | 203.7 ± 3.3 | 200.4 | 210.5 | 44.06 ± 20.28 |
-| pting | input-kcen | 255.1 ± 6.1 | 247.0 | 265.1 | 55.15 ± 25.41 |
-| pting | input-mattcl | 259.2 ± 4.6 | 253.5 | 267.6 | 56.06 ± 25.81 |
-| mattcl-py | input-mattcl | 264.0 ± 4.1 | 258.5 | 269.1 | 57.09 ± 26.29 |
-| mattcl-py | input-kcen | 264.9 ± 6.5 | 256.2 | 276.2 | 57.29 ± 26.40 |
-| pting | input-lanjian | 322.6 ± 4.0 | 316.1 | 327.4 | 69.75 ± 32.11 |
-| mattcl-py | input-lanjian | 329.8 ± 5.4 | 324.2 | 339.3 | 71.31 ± 32.83 |
+| mattcl | input-pting | 4.4 ± 0.5 | 3.8 | 7.2 | 1.00 |
+| mattcl | input-kcen | 5.2 ± 0.6 | 4.7 | 8.5 | 1.20 ± 0.18 |
+| mattcl | input-mattcl | 5.4 ± 0.5 | 4.9 | 7.7 | 1.23 ± 0.18 |
+| mattcl | input-lanjian | 6.3 ± 0.6 | 5.8 | 10.4 | 1.46 ± 0.20 |
+| lanjian | input-pting | 33.7 ± 1.0 | 32.4 | 36.3 | 7.73 ± 0.87 |
+| lanjian | input-kcen | 41.7 ± 1.1 | 39.9 | 45.4 | 9.57 ± 1.07 |
+| lanjian | input-mattcl | 45.1 ± 3.3 | 43.1 | 64.9 | 10.36 ± 1.35 |
+| lanjian | input-lanjian | 53.5 ± 0.9 | 52.0 | 55.6 | 12.30 ± 1.35 |
+| pting | input-pting | 199.9 ± 2.1 | 196.4 | 203.1 | 45.92 ± 5.01 |
+| mattcl-py | input-pting | 203.6 ± 2.4 | 200.8 | 209.5 | 46.77 ± 5.11 |
+| pting | input-kcen | 251.3 ± 6.5 | 244.1 | 266.1 | 57.73 ± 6.45 |
+| pting | input-mattcl | 259.0 ± 4.5 | 252.5 | 266.4 | 59.50 ± 6.54 |
+| mattcl-py | input-kcen | 262.1 ± 5.7 | 255.3 | 271.7 | 60.23 ± 6.67 |
+| mattcl-py | input-mattcl | 266.5 ± 4.0 | 257.6 | 270.1 | 61.22 ± 6.71 |
+| pting | input-lanjian | 322.9 ± 6.9 | 315.0 | 334.9 | 74.20 ± 8.21 |
+| mattcl-py | input-lanjian | 331.6 ± 4.4 | 327.0 | 342.0 | 76.19 ± 8.34 |
