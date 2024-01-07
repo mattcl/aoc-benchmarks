@@ -1,4 +1,4 @@
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-mattcl | 1.4 ± 0.3 | 1.0 | 2.1 | 1.00 |
-| mattcl-py | input-mattcl | 86.8 ± 1.4 | 84.1 | 90.2 | 63.25 ± 12.16 |
+| mattcl | input-mattcl | 1.4 ± 0.3 | 0.9 | 2.1 | 1.00 |
+| mattcl-py | input-mattcl | 63.8 ± 0.6 | 62.1 | 65.2 | 47.06 ± 9.32 |
