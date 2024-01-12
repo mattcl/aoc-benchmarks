@@ -1,8 +1,8 @@
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-mattcl | 7.6 ± 0.3 | 6.9 | 8.7 | 1.00 |
-| mattcl | input-lanjian | 7.9 ± 4.7 | 7.1 | 74.4 | 1.04 ± 0.62 |
-| mattcl-py | input-lanjian | 454.1 ± 14.0 | 441.2 | 477.7 | 59.41 ± 2.72 |
-| mattcl-py | input-mattcl | 462.1 ± 12.8 | 447.5 | 479.8 | 60.45 ± 2.65 |
-| lanjian | input-lanjian | 885.1 ± 16.6 | 866.2 | 897.0 | 115.79 ± 4.49 |
-| lanjian | input-mattcl | 886.7 ± 10.5 | 874.7 | 894.1 | 116.00 ± 4.17 |
+| mattcl | input-lanjian | 7.5 ± 0.2 | 6.7 | 8.2 | 1.00 |
+| mattcl | input-mattcl | 7.6 ± 0.3 | 6.7 | 9.5 | 1.01 ± 0.05 |
+| mattcl-py | input-lanjian | 457.8 ± 12.6 | 433.0 | 467.0 | 60.76 ± 2.47 |
+| mattcl-py | input-mattcl | 459.0 ± 11.4 | 449.3 | 475.3 | 60.92 ± 2.37 |
+| lanjian | input-lanjian | 884.1 ± 3.6 | 880.7 | 887.9 | 117.33 ± 3.55 |
+| lanjian | input-mattcl | 890.0 ± 4.8 | 886.5 | 895.5 | 118.11 ± 3.60 |
