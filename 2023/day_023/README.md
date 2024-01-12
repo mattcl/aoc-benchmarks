@@ -25,12 +25,12 @@ to IO and other factors.
 
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-lanjian | 7.5 ± 0.2 | 7.0 | 8.2 | 1.00 |
-| mattcl | input-mattcl | 7.7 ± 0.3 | 7.0 | 8.6 | 1.02 ± 0.05 |
-| mattcl-py | input-lanjian | 461.7 ± 11.4 | 442.3 | 472.6 | 61.38 ± 2.33 |
-| mattcl-py | input-mattcl | 462.3 ± 8.6 | 446.2 | 469.0 | 61.46 ± 2.11 |
-| lanjian | input-lanjian | 867.3 ± 9.8 | 860.7 | 878.5 | 115.30 ± 3.57 |
-| lanjian | input-mattcl | 878.6 ± 14.3 | 864.1 | 892.6 | 116.80 ± 3.87 |
+| mattcl | input-mattcl | 7.6 ± 0.3 | 6.9 | 8.7 | 1.00 |
+| mattcl | input-lanjian | 7.9 ± 4.7 | 7.1 | 74.4 | 1.04 ± 0.62 |
+| mattcl-py | input-lanjian | 454.1 ± 14.0 | 441.2 | 477.7 | 59.41 ± 2.72 |
+| mattcl-py | input-mattcl | 462.1 ± 12.8 | 447.5 | 479.8 | 60.45 ± 2.65 |
+| lanjian | input-lanjian | 885.1 ± 16.6 | 866.2 | 897.0 | 115.79 ± 4.49 |
+| lanjian | input-mattcl | 886.7 ± 10.5 | 874.7 | 894.1 | 116.00 ± 4.17 |
 
 
 ## Inputs -> Solutions
