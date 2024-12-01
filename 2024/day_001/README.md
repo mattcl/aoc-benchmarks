@@ -27,16 +27,21 @@ to IO and other factors.
 
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-lanjian | 1.2 ± 0.2 | 0.6 | 1.9 | 1.00 |
-| mattcl | input-mattcl | 1.2 ± 0.2 | 0.6 | 2.1 | 1.05 ± 0.27 |
-| lanjian | input-lanjian | 1.3 ± 0.2 | 0.7 | 2.1 | 1.12 ± 0.28 |
-| lanjian | input-mattcl | 1.3 ± 0.3 | 0.1 | 2.1 | 1.14 ± 0.29 |
-| kcen | input-lanjian | 1.8 ± 0.4 | 0.7 | 2.9 | 1.52 ± 0.40 |
-| kcen | input-mattcl | 1.9 ± 0.4 | 1.1 | 2.9 | 1.62 ± 0.41 |
-| mattcl-py | input-lanjian | 16.6 ± 0.7 | 15.5 | 19.8 | 14.31 ± 2.44 |
-| mattcl-py | input-mattcl | 16.8 ± 0.8 | 15.6 | 19.9 | 14.47 ± 2.47 |
-| mikofo | input-lanjian | 17.1 ± 0.5 | 16.2 | 20.3 | 14.70 ± 2.46 |
-| mikofo | input-mattcl | 17.2 ± 0.6 | 16.2 | 20.6 | 14.78 ± 2.49 |
+| mattcl | input-lanjian | 1.1 ± 0.2 | 0.5 | 1.9 | 1.00 |
+| mattcl | input-mattcl | 1.1 ± 0.2 | 0.5 | 1.9 | 1.02 ± 0.27 |
+| mattcl | input-mikofo | 1.2 ± 0.2 | 0.5 | 1.9 | 1.04 ± 0.26 |
+| lanjian | input-mikofo | 1.2 ± 0.2 | 0.6 | 2.0 | 1.07 ± 0.26 |
+| lanjian | input-lanjian | 1.2 ± 0.2 | 0.5 | 2.0 | 1.11 ± 0.29 |
+| lanjian | input-mattcl | 1.3 ± 0.2 | 0.7 | 2.5 | 1.16 ± 0.30 |
+| kcen | input-mikofo | 1.7 ± 0.3 | 1.2 | 2.8 | 1.49 ± 0.40 |
+| kcen | input-lanjian | 1.7 ± 0.4 | 1.1 | 3.0 | 1.55 ± 0.42 |
+| kcen | input-mattcl | 1.8 ± 0.4 | 1.2 | 2.8 | 1.59 ± 0.42 |
+| mattcl-py | input-mattcl | 16.5 ± 0.6 | 15.5 | 19.1 | 14.65 ± 2.68 |
+| mattcl-py | input-lanjian | 16.5 ± 0.7 | 15.4 | 19.3 | 14.68 ± 2.72 |
+| mattcl-py | input-mikofo | 16.6 ± 0.7 | 15.5 | 19.6 | 14.72 ± 2.72 |
+| mikofo | input-mikofo | 17.0 ± 0.5 | 16.1 | 20.0 | 15.15 ± 2.76 |
+| mikofo | input-mattcl | 17.1 ± 0.6 | 15.8 | 20.0 | 15.17 ± 2.78 |
+| mikofo | input-lanjian | 17.1 ± 0.7 | 16.0 | 20.2 | 15.17 ± 2.79 |
 
 
 ## Inputs -> Solutions
@@ -45,3 +50,4 @@ to IO and other factors.
 |:---|:---|:---|
 |input-lanjian|<pre>2378066</pre>|<pre>18934359</pre>|
 |input-mattcl|<pre>1889772</pre>|<pre>23228917</pre>|
+|input-mikofo|<pre>2264607</pre>|<pre>19457120</pre>|
