@@ -16,6 +16,7 @@ to IO and other factors.
 
 ## Participants (with solutions for day 5)
 
+- [kcen](https://github.com/kcen/aoc2024) (nim)
 - [mattcl](https://github.com/mattcl/aoc2024) (rust)
 - [mattcl-py](https://github.com/mattcl/aoc2024-py) (python)
 
@@ -24,8 +25,9 @@ to IO and other factors.
 
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-mattcl | 1.2 ± 0.2 | 0.6 | 2.0 | 1.00 |
-| mattcl-py | input-mattcl | 18.0 ± 0.7 | 17.0 | 20.9 | 14.49 ± 2.68 |
+| mattcl | input-mattcl | 1.3 ± 0.2 | 0.4 | 2.3 | 1.00 |
+| kcen | input-mattcl | 2.5 ± 0.3 | 1.5 | 4.3 | 1.94 ± 0.46 |
+| mattcl-py | input-mattcl | 18.0 ± 0.6 | 16.9 | 20.9 | 14.25 ± 2.73 |
 
 
 ## Inputs -> Solutions
