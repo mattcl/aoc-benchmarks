@@ -1,10 +1,14 @@
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-mattcl | 2.0 ± 0.2 | 1.5 | 3.4 | 1.00 |
-| mattcl | input-kcen | 2.1 ± 0.2 | 1.7 | 4.0 | 1.05 ± 0.17 |
-| mattcl-py | input-mattcl | 94.9 ± 1.3 | 92.7 | 98.0 | 47.08 ± 5.74 |
-| mattcl-py | input-kcen | 108.0 ± 1.7 | 105.6 | 111.6 | 53.61 ± 6.54 |
-| kcen | input-mattcl | 353.2 ± 4.7 | 342.3 | 356.9 | 175.24 ± 21.33 |
-| kcen | input-kcen | 409.7 ± 4.0 | 401.7 | 413.8 | 203.30 ± 24.68 |
-| mikofo | input-mattcl | 4894.4 ± 71.0 | 4813.6 | 4947.1 | 2428.58 ± 296.00 |
-| mikofo | input-kcen | 5881.7 ± 12.5 | 5872.9 | 5896.0 | 2918.52 ± 353.23 |
+| mattcl | input-kcen | 0.0 ± 0.0 | 0.0 | 0.0 | 1.00 |
+| mattcl | input-mattcl | 0.0 ± 0.0 | 0.0 | 0.0 | inf |
+| mattcl | input-mikofo | 0.0 ± 0.0 | 0.0 | 0.0 | inf |
+| mattcl-py | input-mattcl | 88.8 ± 1.3 | 86.8 | 91.4 | inf ± NaN |
+| mattcl-py | input-kcen | 102.5 ± 1.4 | 100.2 | 105.8 | inf ± NaN |
+| mattcl-py | input-mikofo | 138.8 ± 3.6 | 134.9 | 146.2 | inf ± NaN |
+| kcen | input-mattcl | 343.6 ± 2.0 | 341.6 | 346.5 | inf ± NaN |
+| kcen | input-kcen | 416.2 ± 28.7 | 398.7 | 472.8 | inf ± NaN |
+| kcen | input-mikofo | 524.5 ± 3.2 | 519.2 | 527.1 | inf ± NaN |
+| mikofo | input-mattcl | 5076.9 ± 249.3 | 4858.9 | 5348.6 | inf ± NaN |
+| mikofo | input-kcen | 6000.6 ± 64.4 | 5935.7 | 6064.5 | inf ± NaN |
+| mikofo | input-mikofo | 7774.9 ± 251.2 | 7486.8 | 7947.7 | inf ± NaN |
