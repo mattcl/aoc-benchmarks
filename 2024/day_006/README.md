@@ -18,16 +18,19 @@ to IO and other factors.
 
 - [kcen](https://github.com/kcen/aoc2024) (nim)
 - [mattcl](https://github.com/mattcl/aoc2024) (rust)
+- [mattcl-py](https://github.com/mattcl/aoc2024-py) (python)
 
 
 ## Benchmarks with officially generated inputs
 
-| Participant | Input | Mean [s] | Min [s] | Max [s] | Relative |
+| Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-mattcl | 0.002 ± 0.000 | 0.002 | 0.003 | 1.00 |
-| mattcl | input-kcen | 0.002 ± 0.000 | 0.002 | 0.003 | 1.07 ± 0.14 |
-| kcen | input-mattcl | 16.580 ± 0.148 | 16.410 | 16.681 | 7719.54 ± 837.16 |
-| kcen | input-kcen | 19.098 ± 0.230 | 18.955 | 19.363 | 8891.95 ± 966.96 |
+| mattcl | input-mattcl | 2.0 ± 0.3 | 1.6 | 4.4 | 1.00 |
+| mattcl | input-kcen | 2.2 ± 0.3 | 1.5 | 4.2 | 1.07 ± 0.19 |
+| mattcl-py | input-mattcl | 94.5 ± 1.3 | 92.2 | 97.6 | 47.04 ± 5.93 |
+| mattcl-py | input-kcen | 108.6 ± 1.7 | 105.2 | 111.9 | 54.06 ± 6.82 |
+| kcen | input-mattcl | 614.8 ± 2.2 | 611.5 | 616.5 | 306.14 ± 38.34 |
+| kcen | input-kcen | 767.0 ± 13.4 | 755.1 | 781.5 | 381.94 ± 48.28 |
 
 
 ## Inputs -> Solutions
