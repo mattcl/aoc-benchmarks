@@ -1,8 +1,8 @@
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| kcen | input-kcen | 1.7 ± 0.5 | 0.6 | 3.0 | 1.00 |
-| mattcl | input-kcen | 1.9 ± 0.4 | 0.8 | 3.0 | 1.10 ± 0.38 |
-| mattcl | input-mattcl | 1.9 ± 0.4 | 1.1 | 2.9 | 1.11 ± 0.37 |
-| kcen | input-mattcl | 1.9 ± 0.3 | 1.2 | 2.8 | 1.13 ± 0.37 |
-| mattcl-py | input-kcen | 37.4 ± 0.9 | 36.0 | 41.0 | 21.88 ± 6.11 |
-| mattcl-py | input-mattcl | 37.5 ± 0.8 | 36.2 | 40.6 | 21.95 ± 6.13 |
+| mattcl | input-kcen | 1.5 ± 0.2 | 0.9 | 2.8 | 1.00 |
+| mattcl | input-mattcl | 1.5 ± 0.3 | 0.5 | 2.8 | 1.01 ± 0.25 |
+| kcen | input-kcen | 1.7 ± 0.3 | 1.2 | 2.9 | 1.12 ± 0.27 |
+| kcen | input-mattcl | 1.7 ± 0.3 | 1.0 | 2.8 | 1.16 ± 0.30 |
+| mattcl-py | input-kcen | 37.0 ± 0.9 | 36.0 | 40.0 | 24.47 ± 4.05 |
+| mattcl-py | input-mattcl | 37.2 ± 1.0 | 35.6 | 41.9 | 24.57 ± 4.07 |
