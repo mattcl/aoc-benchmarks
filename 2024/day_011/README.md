@@ -25,12 +25,12 @@ to IO and other factors.
 
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-mattcl | 3.3 ± 0.3 | 2.5 | 4.7 | 1.00 |
-| mattcl | input-kcen | 3.4 ± 0.4 | 2.6 | 4.8 | 1.01 ± 0.15 |
-| kcen | input-kcen | 20.6 ± 0.7 | 19.3 | 23.7 | 6.17 ± 0.67 |
-| kcen | input-mattcl | 20.7 ± 0.6 | 19.8 | 24.1 | 6.21 ± 0.66 |
-| mattcl-py | input-kcen | 68.6 ± 1.0 | 66.6 | 70.6 | 20.54 ± 2.12 |
-| mattcl-py | input-mattcl | 69.6 ± 1.7 | 67.0 | 76.9 | 20.86 ± 2.18 |
+| mattcl | input-kcen | 3.4 ± 0.4 | 2.6 | 6.0 | 1.00 |
+| mattcl | input-mattcl | 3.5 ± 0.4 | 2.8 | 5.6 | 1.03 ± 0.17 |
+| kcen | input-kcen | 21.2 ± 0.8 | 19.9 | 24.5 | 6.20 ± 0.79 |
+| kcen | input-mattcl | 21.3 ± 0.6 | 20.4 | 24.3 | 6.23 ± 0.78 |
+| mattcl-py | input-kcen | 69.1 ± 1.2 | 67.1 | 71.8 | 20.26 ± 2.50 |
+| mattcl-py | input-mattcl | 69.8 ± 1.2 | 67.4 | 72.9 | 20.45 ± 2.53 |
 
 
 ## Inputs -> Solutions
