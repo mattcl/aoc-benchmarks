@@ -1,6 +1,6 @@
-# Day 16 benchmarks
+# Day 17 benchmarks
 
-[link to problem](https://adventofcode.com/2024/day/16)
+[link to problem](https://adventofcode.com/2024/day/17)
 
 The following benchmarks are auto-generated via
 [hyperfine](https://github.com/sharkdp/hyperfine) by a CI system running on
@@ -14,7 +14,7 @@ to IO and other factors.
 [Benchmark web UI](https://aoc.ancalagon.black)
 
 
-## Participants (with solutions for day 16)
+## Participants (with solutions for day 17)
 
 - [mattcl](https://github.com/mattcl/aoc2024) (rust)
 
@@ -23,11 +23,11 @@ to IO and other factors.
 
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-mattcl | 4.2 ± 0.4 | 3.4 | 6.8 | 1.00 |
+| mattcl | input-mattcl | 1.2 ± 0.2 | 0.6 | 2.5 | 1.00 |
 
 
 ## Inputs -> Solutions
 
 | Input | Part One | Part Two |
 |:---|:---|:---|
-|input-mattcl|<pre>115500</pre>|<pre>679</pre>|
+|input-mattcl|<pre>1,5,3,0,2,5,2,5,3</pre>|<pre>108107566389757</pre>|
