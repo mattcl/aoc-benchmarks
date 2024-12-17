@@ -21,9 +21,9 @@ to IO and other factors.
 
 ## Benchmarks with officially generated inputs
 
-| Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
+| Participant | Input | Mean [µs] | Min [µs] | Max [µs] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-mattcl | 1.2 ± 0.2 | 0.6 | 2.5 | 1.00 |
+| mattcl | input-mattcl | 0.0 ± 0.0 | 0.0 | 0.0 | 1.00 |
 
 
 ## Inputs -> Solutions
