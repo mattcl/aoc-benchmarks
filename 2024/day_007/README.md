@@ -27,26 +27,26 @@ to IO and other factors.
 
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-lanjian | 1.4 ± 0.2 | 1.1 | 2.1 | 1.00 |
-| mattcl | input-mikofo | 1.4 ± 0.2 | 1.0 | 2.4 | 1.00 ± 0.19 |
-| mattcl | input-kcen | 1.4 ± 0.2 | 1.0 | 2.4 | 1.00 ± 0.18 |
-| mattcl | input-mattcl | 1.4 ± 0.2 | 1.0 | 2.7 | 1.01 ± 0.21 |
-| lanjian | input-mattcl | 3.9 ± 0.3 | 3.4 | 5.0 | 2.79 ± 0.38 |
-| lanjian | input-mikofo | 4.6 ± 0.3 | 3.9 | 5.5 | 3.26 ± 0.44 |
-| lanjian | input-kcen | 5.0 ± 0.2 | 4.5 | 5.8 | 3.54 ± 0.45 |
-| lanjian | input-lanjian | 6.3 ± 0.2 | 5.8 | 6.9 | 4.43 ± 0.55 |
-| mattcl-py | input-kcen | 48.1 ± 0.5 | 46.4 | 49.3 | 33.93 ± 4.04 |
-| mattcl-py | input-lanjian | 48.3 ± 0.6 | 46.9 | 49.9 | 34.07 ± 4.06 |
-| mattcl-py | input-mikofo | 48.4 ± 0.6 | 46.9 | 49.8 | 34.18 ± 4.08 |
-| mattcl-py | input-mattcl | 48.5 ± 0.6 | 47.4 | 50.5 | 34.24 ± 4.09 |
-| kcen | input-mattcl | 174.5 ± 1.7 | 171.5 | 177.9 | 123.10 ± 14.66 |
-| kcen | input-mikofo | 214.3 ± 2.5 | 210.6 | 219.4 | 151.19 ± 18.03 |
-| kcen | input-kcen | 229.2 ± 1.9 | 226.4 | 234.5 | 161.72 ± 19.23 |
-| kcen | input-lanjian | 367.5 ± 3.5 | 359.9 | 370.5 | 259.32 ± 30.86 |
-| mikofo | input-mattcl | 523.8 ± 15.2 | 509.5 | 546.4 | 369.58 ± 45.14 |
-| mikofo | input-mikofo | 584.2 ± 8.7 | 574.7 | 597.7 | 412.21 ± 49.29 |
-| mikofo | input-kcen | 689.0 ± 7.3 | 681.4 | 698.4 | 486.11 ± 57.90 |
-| mikofo | input-lanjian | 998.3 ± 6.9 | 992.8 | 1006.0 | 704.39 ± 83.71 |
+| mattcl | input-kcen | 1.4 ± 0.2 | 1.1 | 2.5 | 1.00 |
+| mattcl | input-mattcl | 1.5 ± 0.2 | 1.1 | 2.3 | 1.01 ± 0.19 |
+| mattcl | input-lanjian | 1.5 ± 0.2 | 1.0 | 2.7 | 1.01 ± 0.21 |
+| mattcl | input-mikofo | 1.5 ± 0.2 | 1.1 | 2.7 | 1.03 ± 0.22 |
+| lanjian | input-mattcl | 4.0 ± 0.3 | 3.5 | 5.3 | 2.76 ± 0.45 |
+| lanjian | input-mikofo | 4.7 ± 0.3 | 4.0 | 5.5 | 3.28 ± 0.51 |
+| lanjian | input-kcen | 5.1 ± 0.4 | 4.4 | 8.1 | 3.54 ± 0.56 |
+| lanjian | input-lanjian | 6.3 ± 0.2 | 5.8 | 7.2 | 4.40 ± 0.64 |
+| mattcl-py | input-kcen | 48.2 ± 0.6 | 46.9 | 49.9 | 33.46 ± 4.76 |
+| mattcl-py | input-lanjian | 48.5 ± 0.6 | 47.3 | 51.1 | 33.66 ± 4.80 |
+| mattcl-py | input-mattcl | 48.5 ± 0.7 | 47.0 | 49.7 | 33.68 ± 4.80 |
+| mattcl-py | input-mikofo | 48.6 ± 0.9 | 47.0 | 52.2 | 33.77 ± 4.83 |
+| kcen | input-mattcl | 175.9 ± 1.3 | 173.6 | 177.9 | 122.13 ± 17.35 |
+| kcen | input-mikofo | 214.6 ± 1.4 | 212.8 | 216.8 | 149.06 ± 21.17 |
+| kcen | input-kcen | 228.6 ± 1.1 | 226.5 | 230.4 | 158.76 ± 22.54 |
+| kcen | input-lanjian | 369.5 ± 2.2 | 367.0 | 373.0 | 256.60 ± 36.44 |
+| mikofo | input-mattcl | 522.6 ± 10.3 | 509.2 | 532.6 | 362.94 ± 52.00 |
+| mikofo | input-mikofo | 580.1 ± 8.6 | 565.8 | 588.7 | 402.93 ± 57.48 |
+| mikofo | input-kcen | 694.0 ± 10.0 | 682.9 | 702.5 | 481.98 ± 68.74 |
+| mikofo | input-lanjian | 985.9 ± 10.0 | 977.7 | 997.1 | 684.76 ± 97.41 |
 
 
 ## Inputs -> Solutions
