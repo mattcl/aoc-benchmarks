@@ -17,6 +17,7 @@ to IO and other factors.
 ## Participants (with solutions for day 14)
 
 - [kcen](https://github.com/kcen/aoc2024) (nim)
+- [lanjian](https://github.com/lanjian/aoc-2024) (rust)
 - [mattcl](https://github.com/mattcl/aoc2024) (rust)
 - [mattcl-py](https://github.com/mattcl/aoc2024-py) (python)
 
@@ -25,12 +26,14 @@ to IO and other factors.
 
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-mattcl | 1.7 ± 0.4 | 0.7 | 2.5 | 1.00 |
-| mattcl | input-kcen | 1.9 ± 0.1 | 1.3 | 2.8 | 1.14 ± 0.27 |
-| kcen | input-mattcl | 25.8 ± 0.9 | 24.5 | 29.5 | 15.42 ± 3.48 |
-| kcen | input-kcen | 32.1 ± 0.8 | 31.2 | 35.4 | 19.23 ± 4.31 |
-| mattcl-py | input-mattcl | 56.1 ± 1.1 | 54.4 | 59.1 | 33.54 ± 7.50 |
-| mattcl-py | input-kcen | 66.4 ± 6.4 | 63.6 | 107.7 | 39.71 ± 9.65 |
+| mattcl | input-mattcl | 1.4 ± 0.1 | 0.7 | 1.7 | 1.00 |
+| lanjian | input-kcen | 1.4 ± 0.1 | 0.8 | 1.9 | 1.01 ± 0.13 |
+| mattcl | input-kcen | 1.4 ± 0.2 | 0.7 | 2.5 | 1.01 ± 0.16 |
+| lanjian | input-mattcl | 1.4 ± 0.2 | 0.3 | 2.2 | 1.01 ± 0.17 |
+| kcen | input-mattcl | 25.5 ± 0.9 | 24.2 | 30.3 | 18.31 ± 1.66 |
+| kcen | input-kcen | 32.2 ± 0.9 | 30.9 | 34.9 | 23.07 ± 2.01 |
+| mattcl-py | input-mattcl | 55.7 ± 1.0 | 54.2 | 58.8 | 39.99 ± 3.38 |
+| mattcl-py | input-kcen | 65.4 ± 1.3 | 62.9 | 68.3 | 46.92 ± 3.99 |
 
 
 ## Inputs -> Solutions
