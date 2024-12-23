@@ -22,10 +22,10 @@ to IO and other factors.
 
 ## Benchmarks with officially generated inputs
 
-| Participant | Input | Mean [µs] | Min [µs] | Max [µs] | Relative |
+| Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-mattcl | 925.4 ± 391.5 | 276.9 | 1603.5 | 1.00 |
-| mattcl-py | input-mattcl | 17281.9 ± 668.7 | 16017.5 | 20555.0 | 18.68 ± 7.94 |
+| mattcl | input-mattcl | 1.3 ± 0.2 | 0.7 | 2.1 | 1.00 |
+| mattcl-py | input-mattcl | 17.0 ± 0.7 | 15.5 | 20.1 | 12.78 ± 2.11 |
 
 
 ## Inputs -> Solutions
