@@ -23,7 +23,7 @@ to IO and other factors.
 
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-mattcl | 1.6 ± 0.4 | 0.9 | 2.8 | 1.00 |
+| mattcl | input-mattcl | 2.0 ± 3.8 | 0.4 | 22.9 | 1.00 |
 
 
 ## Inputs -> Solutions
