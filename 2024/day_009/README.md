@@ -26,18 +26,18 @@ to IO and other factors.
 
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-mattcl | 2.0 ± 0.4 | 0.8 | 2.9 | 1.00 |
-| mattcl | input-lanjian | 2.1 ± 0.4 | 1.4 | 3.6 | 1.05 ± 0.26 |
-| mattcl | input-kcen | 2.2 ± 0.4 | 1.3 | 3.7 | 1.07 ± 0.27 |
-| lanjian | input-mattcl | 2.4 ± 0.3 | 1.2 | 3.2 | 1.18 ± 0.28 |
-| lanjian | input-lanjian | 2.5 ± 0.3 | 1.5 | 4.2 | 1.24 ± 0.27 |
-| lanjian | input-kcen | 2.5 ± 0.3 | 1.6 | 4.2 | 1.24 ± 0.26 |
-| kcen | input-lanjian | 3.8 ± 0.4 | 2.6 | 6.6 | 1.89 ± 0.40 |
-| kcen | input-kcen | 3.9 ± 0.4 | 3.2 | 7.4 | 1.91 ± 0.40 |
-| kcen | input-mattcl | 3.9 ± 0.4 | 3.0 | 5.5 | 1.93 ± 0.41 |
-| mattcl-py | input-mattcl | 31.5 ± 0.8 | 30.1 | 34.0 | 15.51 ± 2.89 |
-| mattcl-py | input-kcen | 31.6 ± 0.8 | 30.3 | 34.4 | 15.55 ± 2.90 |
-| mattcl-py | input-lanjian | 31.7 ± 1.1 | 30.0 | 34.7 | 15.63 ± 2.94 |
+| mattcl | input-kcen | 2.2 ± 0.3 | 1.4 | 3.5 | 1.00 |
+| mattcl | input-mattcl | 2.2 ± 0.4 | 1.3 | 4.8 | 1.02 ± 0.25 |
+| mattcl | input-lanjian | 2.3 ± 0.3 | 1.4 | 3.6 | 1.04 ± 0.23 |
+| lanjian | input-kcen | 2.6 ± 0.3 | 1.8 | 4.6 | 1.16 ± 0.23 |
+| lanjian | input-mattcl | 2.6 ± 0.3 | 1.6 | 4.6 | 1.16 ± 0.22 |
+| lanjian | input-lanjian | 2.6 ± 0.3 | 1.8 | 4.1 | 1.17 ± 0.22 |
+| kcen | input-mattcl | 3.8 ± 0.3 | 3.2 | 5.3 | 1.74 ± 0.30 |
+| kcen | input-lanjian | 3.9 ± 0.4 | 3.0 | 6.2 | 1.75 ± 0.33 |
+| kcen | input-kcen | 4.2 ± 0.5 | 3.3 | 7.4 | 1.88 ± 0.38 |
+| mattcl-py | input-mattcl | 31.5 ± 1.0 | 29.9 | 34.7 | 14.27 ± 2.30 |
+| mattcl-py | input-lanjian | 31.6 ± 0.8 | 30.2 | 34.7 | 14.34 ± 2.29 |
+| mattcl-py | input-kcen | 31.7 ± 0.9 | 30.6 | 35.1 | 14.37 ± 2.30 |
 
 
 ## Inputs -> Solutions
