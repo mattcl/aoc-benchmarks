@@ -25,3 +25,4 @@ There are some spec-compliant templates you can use as starting points:
 - [lanjian](https://github.com/lanjian/aoc-2025) (rust)
 - [mattcl](https://github.com/mattcl/aoc2025) (rust)
 - [mattcl-py](https://github.com/mattcl/aoc2025-py) (python)
+- [whyando](https://github.com/whyando/aoc-2025) (rust)
