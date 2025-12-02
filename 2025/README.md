@@ -22,6 +22,7 @@ There are some spec-compliant templates you can use as starting points:
 
 ## Participants for 2025
 
+- [kcen](https://github.com/kcen/aoc2025) (nim)
 - [lanjian](https://github.com/lanjian/aoc-2025) (rust)
 - [mattcl](https://github.com/mattcl/aoc2025) (rust)
 - [mattcl-py](https://github.com/mattcl/aoc2025-py) (python)
