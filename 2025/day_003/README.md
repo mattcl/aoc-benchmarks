@@ -18,14 +18,16 @@ to IO and other factors.
 
 - [kcen](https://github.com/kcen/aoc2025) (nim)
 - [mattcl](https://github.com/mattcl/aoc2025) (rust)
+- [mattcl-py](https://github.com/mattcl/aoc2025-py) (python)
 
 
 ## Benchmarks with officially generated inputs
 
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-mattcl | 1.1 ± 0.2 | 0.4 | 1.7 | 1.00 |
-| kcen | input-mattcl | 1.4 ± 0.1 | 0.6 | 1.7 | 1.35 ± 0.24 |
+| mattcl | input-mattcl | 0.8 ± 0.3 | 0.4 | 1.8 | 1.00 |
+| kcen | input-mattcl | 1.5 ± 0.4 | 0.6 | 2.2 | 1.86 ± 0.90 |
+| mattcl-py | input-mattcl | 25.9 ± 0.5 | 24.7 | 28.6 | 32.84 ± 13.16 |
 
 
 ## Inputs -> Solutions
