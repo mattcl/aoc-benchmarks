@@ -1,17 +1,17 @@
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| whyando | input-lanjian | 1.0 ± 0.2 | 0.0 | 1.8 | 1.00 |
-| whyando | input-mattcl | 1.1 ± 0.2 | 0.5 | 1.8 | 1.02 ± 0.28 |
-| whyando | input-whyando | 1.1 ± 0.2 | 0.5 | 1.9 | 1.07 ± 0.29 |
-| mattcl | input-mattcl | 1.4 ± 0.2 | 0.7 | 2.1 | 1.35 ± 0.31 |
-| mattcl | input-lanjian | 1.4 ± 0.1 | 0.8 | 2.2 | 1.36 ± 0.29 |
-| mattcl | input-whyando | 1.4 ± 0.2 | 0.8 | 2.4 | 1.38 ± 0.32 |
-| lanjian | input-lanjian | 2.2 ± 0.4 | 1.4 | 3.6 | 2.14 ± 0.54 |
-| lanjian | input-mattcl | 2.3 ± 0.3 | 1.4 | 3.9 | 2.19 ± 0.54 |
-| lanjian | input-whyando | 2.3 ± 0.4 | 1.4 | 3.7 | 2.22 ± 0.55 |
-| kcen | input-lanjian | 2.5 ± 0.2 | 1.7 | 3.3 | 2.47 ± 0.53 |
-| kcen | input-mattcl | 2.6 ± 0.2 | 1.6 | 3.3 | 2.48 ± 0.52 |
-| kcen | input-whyando | 2.6 ± 0.2 | 1.8 | 3.1 | 2.51 ± 0.51 |
-| mattcl-py | input-mattcl | 37.3 ± 0.9 | 35.9 | 40.4 | 36.18 ± 7.08 |
-| mattcl-py | input-lanjian | 37.6 ± 0.9 | 36.1 | 40.6 | 36.47 ± 7.13 |
-| mattcl-py | input-whyando | 37.7 ± 1.0 | 36.2 | 41.3 | 36.51 ± 7.15 |
+| whyando | input-whyando | 0.7 ± 0.4 | 0.0 | 1.2 | 1.00 |
+| whyando | input-mattcl | 1.1 ± 0.2 | 0.4 | 1.9 | 1.62 ± 0.99 |
+| whyando | input-lanjian | 1.1 ± 0.2 | 0.4 | 2.2 | 1.69 ± 1.05 |
+| mattcl | input-lanjian | 1.4 ± 0.1 | 0.9 | 2.0 | 2.13 ± 1.27 |
+| mattcl | input-whyando | 1.5 ± 0.2 | 0.9 | 2.3 | 2.16 ± 1.29 |
+| mattcl | input-mattcl | 1.5 ± 0.2 | 0.9 | 2.4 | 2.19 ± 1.32 |
+| lanjian | input-mattcl | 2.3 ± 0.3 | 1.5 | 3.6 | 3.40 ± 2.05 |
+| lanjian | input-lanjian | 2.3 ± 0.3 | 1.4 | 3.0 | 3.44 ± 2.08 |
+| lanjian | input-whyando | 2.3 ± 0.3 | 1.7 | 3.7 | 3.46 ± 2.09 |
+| kcen | input-lanjian | 2.6 ± 0.3 | 1.8 | 4.9 | 3.87 ± 2.32 |
+| kcen | input-whyando | 2.6 ± 0.3 | 1.8 | 4.9 | 3.87 ± 2.31 |
+| kcen | input-mattcl | 2.6 ± 0.2 | 1.7 | 3.6 | 3.88 ± 2.31 |
+| mattcl-py | input-mattcl | 37.8 ± 1.0 | 36.2 | 41.0 | 55.75 ± 32.75 |
+| mattcl-py | input-lanjian | 38.2 ± 1.1 | 36.5 | 41.5 | 56.34 ± 33.10 |
+| mattcl-py | input-whyando | 38.2 ± 1.5 | 36.8 | 49.0 | 56.36 ± 33.14 |
