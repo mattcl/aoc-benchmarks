@@ -1,14 +1,14 @@
 | Participant | Input | Mean [µs] | Min [µs] | Max [µs] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| whyando | input-mattcl | 366.4 ± 160.3 | 0.0 | 980.1 | 1.00 |
-| whyando | input-lanjian | 379.7 ± 151.5 | 0.0 | 581.5 | 1.04 ± 0.61 |
-| mattcl | input-lanjian | 397.8 ± 172.2 | 0.0 | 843.4 | 1.09 ± 0.67 |
-| whyando | input-whyando | 402.4 ± 166.0 | 0.0 | 1026.0 | 1.10 ± 0.66 |
-| mattcl | input-whyando | 430.0 ± 171.8 | 0.0 | 1029.2 | 1.17 ± 0.70 |
-| mattcl | input-mattcl | 432.4 ± 181.2 | 0.0 | 1048.6 | 1.18 ± 0.71 |
-| kcen | input-lanjian | 893.6 ± 130.0 | 379.9 | 1459.7 | 2.44 ± 1.12 |
-| kcen | input-whyando | 905.9 ± 139.0 | 476.7 | 1425.2 | 2.47 ± 1.15 |
-| kcen | input-mattcl | 924.8 ± 174.8 | 308.9 | 1453.9 | 2.52 ± 1.20 |
-| mattcl-py | input-lanjian | 17361.2 ± 671.1 | 16212.5 | 20195.0 | 47.39 ± 20.81 |
-| mattcl-py | input-mattcl | 17389.3 ± 578.6 | 16361.3 | 21064.5 | 47.46 ± 20.83 |
-| mattcl-py | input-whyando | 17413.8 ± 730.8 | 16472.2 | 20612.6 | 47.53 ± 20.89 |
+| mattcl | input-whyando | 62.0 ± 432.1 | 0.0 | 5573.1 | 1.00 |
+| mattcl | input-mattcl | 227.3 ± 172.4 | 0.0 | 597.2 | 3.67 ± 25.74 |
+| whyando | input-lanjian | 369.0 ± 171.9 | 0.0 | 620.2 | 5.96 ± 41.63 |
+| whyando | input-whyando | 369.0 ± 164.6 | 0.0 | 649.2 | 5.96 ± 41.63 |
+| whyando | input-mattcl | 394.1 ± 156.5 | 0.0 | 704.0 | 6.36 ± 44.45 |
+| mattcl | input-lanjian | 426.4 ± 168.6 | 0.0 | 720.6 | 6.88 ± 48.09 |
+| kcen | input-whyando | 905.5 ± 646.6 | 262.1 | 9437.6 | 14.62 ± 102.47 |
+| kcen | input-lanjian | 908.0 ± 155.8 | 295.6 | 1126.8 | 14.66 ± 102.26 |
+| kcen | input-mattcl | 914.6 ± 162.4 | 8.3 | 1159.6 | 14.76 ± 103.00 |
+| mattcl-py | input-mattcl | 18086.8 ± 521.0 | 17095.7 | 20559.4 | 291.95 ± 2036.34 |
+| mattcl-py | input-lanjian | 18204.6 ± 627.4 | 17058.8 | 20735.8 | 293.85 ± 2049.62 |
+| mattcl-py | input-whyando | 18934.4 ± 2360.4 | 17282.8 | 26541.3 | 305.63 ± 2132.10 |

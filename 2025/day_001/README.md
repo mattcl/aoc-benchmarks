@@ -27,21 +27,21 @@ to IO and other factors.
 
 | Participant | Input | Mean [µs] | Min [µs] | Max [µs] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| whyando | input-lanjian | 489.2 ± 159.5 | 0.0 | 1002.5 | 1.00 |
-| whyando | input-mattcl | 501.6 ± 147.3 | 0.0 | 996.8 | 1.03 ± 0.45 |
-| mattcl | input-whyando | 505.0 ± 171.7 | 0.0 | 1134.2 | 1.03 ± 0.49 |
-| whyando | input-whyando | 507.1 ± 182.2 | 0.0 | 1065.7 | 1.04 ± 0.50 |
-| mattcl | input-mattcl | 514.6 ± 170.3 | 0.0 | 974.2 | 1.05 ± 0.49 |
-| mattcl | input-lanjian | 540.7 ± 144.7 | 0.6 | 907.0 | 1.11 ± 0.47 |
-| kcen | input-whyando | 834.7 ± 145.9 | 264.4 | 1351.4 | 1.71 ± 0.63 |
-| kcen | input-mattcl | 839.9 ± 146.5 | 328.3 | 1268.9 | 1.72 ± 0.64 |
-| kcen | input-lanjian | 921.8 ± 222.9 | 0.0 | 1623.2 | 1.88 ± 0.77 |
-| lanjian | input-whyando | 1077.5 ± 220.0 | 445.6 | 2067.9 | 2.20 ± 0.85 |
-| lanjian | input-lanjian | 1118.5 ± 231.4 | 125.3 | 1880.2 | 2.29 ± 0.88 |
-| lanjian | input-mattcl | 1141.2 ± 195.2 | 559.5 | 1861.9 | 2.33 ± 0.86 |
-| mattcl-py | input-mattcl | 18270.0 ± 589.2 | 17296.1 | 21670.5 | 37.35 ± 12.24 |
-| mattcl-py | input-lanjian | 18286.7 ± 621.2 | 16996.0 | 21718.6 | 37.38 ± 12.26 |
-| mattcl-py | input-whyando | 18307.2 ± 679.7 | 17040.3 | 21376.8 | 37.42 ± 12.28 |
+| whyando | input-whyando | 438.4 ± 221.7 | 0.0 | 855.2 | 1.00 |
+| whyando | input-mattcl | 456.1 ± 204.3 | 0.0 | 759.3 | 1.04 ± 0.70 |
+| mattcl | input-whyando | 490.8 ± 207.5 | 0.0 | 788.4 | 1.12 ± 0.74 |
+| mattcl | input-mattcl | 495.3 ± 195.9 | 0.0 | 801.4 | 1.13 ± 0.73 |
+| mattcl | input-lanjian | 529.7 ± 160.0 | 20.7 | 794.5 | 1.21 ± 0.71 |
+| whyando | input-lanjian | 619.1 ± 1801.8 | 0.0 | 14946.2 | 1.41 ± 4.17 |
+| kcen | input-whyando | 809.7 ± 258.3 | 0.0 | 1190.6 | 1.85 ± 1.10 |
+| kcen | input-lanjian | 871.4 ± 158.0 | 0.0 | 1061.2 | 1.99 ± 1.07 |
+| kcen | input-mattcl | 994.0 ± 2317.3 | 0.0 | 19059.7 | 2.27 ± 5.41 |
+| lanjian | input-whyando | 1084.2 ± 297.1 | 86.5 | 1504.5 | 2.47 ± 1.42 |
+| lanjian | input-mattcl | 1098.4 ± 253.7 | 19.3 | 1445.5 | 2.51 ± 1.39 |
+| lanjian | input-lanjian | 1172.9 ± 185.6 | 586.1 | 1420.4 | 2.68 ± 1.42 |
+| mattcl-py | input-lanjian | 20082.0 ± 400.4 | 18991.9 | 21472.7 | 45.81 ± 23.19 |
+| mattcl-py | input-mattcl | 20738.6 ± 1114.7 | 19263.5 | 28134.3 | 47.31 ± 24.06 |
+| mattcl-py | input-whyando | 20745.4 ± 1242.9 | 19313.0 | 27989.8 | 47.32 ± 24.10 |
 
 
 ## Inputs -> Solutions
