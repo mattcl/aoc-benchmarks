@@ -26,18 +26,18 @@ to IO and other factors.
 
 | Participant | Input | Mean [µs] | Min [µs] | Max [µs] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| whyando | input-mattcl | 330.1 ± 153.7 | 0.0 | 854.0 | 1.00 |
-| whyando | input-whyando | 335.5 ± 175.2 | 0.0 | 1075.6 | 1.02 ± 0.71 |
-| whyando | input-lanjian | 353.4 ± 154.2 | 0.0 | 981.4 | 1.07 ± 0.68 |
-| mattcl | input-mattcl | 383.2 ± 162.5 | 0.0 | 1124.4 | 1.16 ± 0.73 |
-| mattcl | input-lanjian | 385.6 ± 159.5 | 0.0 | 977.7 | 1.17 ± 0.73 |
-| mattcl | input-whyando | 392.0 ± 159.4 | 0.0 | 1045.4 | 1.19 ± 0.73 |
-| kcen | input-lanjian | 836.4 ± 187.0 | 0.0 | 1562.1 | 2.53 ± 1.31 |
-| kcen | input-mattcl | 855.2 ± 158.6 | 0.0 | 1434.4 | 2.59 ± 1.30 |
-| kcen | input-whyando | 888.3 ± 179.5 | 0.0 | 1471.9 | 2.69 ± 1.37 |
-| mattcl-py | input-lanjian | 17236.5 ± 680.9 | 16255.3 | 20381.7 | 52.21 ± 24.39 |
-| mattcl-py | input-mattcl | 17309.3 ± 608.1 | 16373.2 | 20641.1 | 52.43 ± 24.48 |
-| mattcl-py | input-whyando | 17406.4 ± 751.5 | 16405.3 | 20923.0 | 52.73 ± 24.65 |
+| whyando | input-mattcl | 366.4 ± 160.3 | 0.0 | 980.1 | 1.00 |
+| whyando | input-lanjian | 379.7 ± 151.5 | 0.0 | 581.5 | 1.04 ± 0.61 |
+| mattcl | input-lanjian | 397.8 ± 172.2 | 0.0 | 843.4 | 1.09 ± 0.67 |
+| whyando | input-whyando | 402.4 ± 166.0 | 0.0 | 1026.0 | 1.10 ± 0.66 |
+| mattcl | input-whyando | 430.0 ± 171.8 | 0.0 | 1029.2 | 1.17 ± 0.70 |
+| mattcl | input-mattcl | 432.4 ± 181.2 | 0.0 | 1048.6 | 1.18 ± 0.71 |
+| kcen | input-lanjian | 893.6 ± 130.0 | 379.9 | 1459.7 | 2.44 ± 1.12 |
+| kcen | input-whyando | 905.9 ± 139.0 | 476.7 | 1425.2 | 2.47 ± 1.15 |
+| kcen | input-mattcl | 924.8 ± 174.8 | 308.9 | 1453.9 | 2.52 ± 1.20 |
+| mattcl-py | input-lanjian | 17361.2 ± 671.1 | 16212.5 | 20195.0 | 47.39 ± 20.81 |
+| mattcl-py | input-mattcl | 17389.3 ± 578.6 | 16361.3 | 21064.5 | 47.46 ± 20.83 |
+| mattcl-py | input-whyando | 17413.8 ± 730.8 | 16472.2 | 20612.6 | 47.53 ± 20.89 |
 
 
 ## Inputs -> Solutions
