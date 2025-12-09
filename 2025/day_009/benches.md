@@ -1,6 +1,6 @@
 | Participant | Input | Mean [µs] | Min [µs] | Max [µs] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-whyando | 880.5 ± 239.3 | 13.9 | 1848.9 | 1.00 |
-| mattcl | input-mattcl | 951.9 ± 163.4 | 300.0 | 1488.7 | 1.08 ± 0.35 |
-| whyando | input-mattcl | 19656.7 ± 717.8 | 18518.7 | 22717.1 | 22.33 ± 6.12 |
-| whyando | input-whyando | 19697.8 ± 547.8 | 18587.0 | 22040.8 | 22.37 ± 6.11 |
+| mattcl | input-mattcl | 880.9 ± 170.4 | 0.0 | 1370.8 | 1.00 |
+| mattcl | input-whyando | 885.3 ± 166.4 | 228.4 | 1449.6 | 1.01 ± 0.27 |
+| whyando | input-mattcl | 19355.3 ± 768.4 | 18382.3 | 22769.7 | 21.97 ± 4.34 |
+| whyando | input-whyando | 19377.8 ± 653.2 | 18416.6 | 21991.9 | 22.00 ± 4.32 |
