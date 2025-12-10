@@ -23,8 +23,8 @@ to IO and other factors.
 
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-whyando | 6.0 ± 0.5 | 5.0 | 8.9 | 1.00 |
-| mattcl | input-mattcl | 9.0 ± 0.6 | 8.2 | 12.3 | 1.51 ± 0.15 |
+| mattcl | input-whyando | 5.9 ± 0.5 | 5.1 | 9.7 | 1.00 |
+| mattcl | input-mattcl | 9.1 ± 0.5 | 8.5 | 11.6 | 1.53 ± 0.15 |
 
 
 ## Inputs -> Solutions
