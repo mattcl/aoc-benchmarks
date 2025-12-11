@@ -1,6 +1,6 @@
-# Day 9 benchmarks
+# Day 11 benchmarks
 
-[link to problem](https://adventofcode.com/2025/day/9)
+[link to problem](https://adventofcode.com/2025/day/11)
 
 The following benchmarks are auto-generated via
 [hyperfine](https://github.com/sharkdp/hyperfine) by a CI system running on
@@ -14,25 +14,20 @@ to IO and other factors.
 [Benchmark web UI](https://aoc.ancalagon.black)
 
 
-## Participants (with solutions for day 9)
+## Participants (with solutions for day 11)
 
 - [mattcl](https://github.com/mattcl/aoc2025) (rust)
-- [whyando](https://github.com/whyando/aoc-2025) (rust)
 
 
 ## Benchmarks with officially generated inputs
 
-| Participant | Input | Mean [µs] | Min [µs] | Max [µs] | Relative |
+| Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-mattcl | 875.9 ± 183.0 | 0.0 | 1419.8 | 1.00 |
-| mattcl | input-whyando | 897.6 ± 170.7 | 191.4 | 1493.9 | 1.02 ± 0.29 |
-| whyando | input-mattcl | 1007.0 ± 166.2 | 300.3 | 1601.6 | 1.15 ± 0.31 |
-| whyando | input-whyando | 1029.1 ± 217.7 | 54.4 | 2051.8 | 1.17 ± 0.35 |
+| mattcl | input-mattcl | 1.1 ± 0.2 | 0.5 | 1.8 | 1.00 |
 
 
 ## Inputs -> Solutions
 
 | Input | Part One | Part Two |
 |:---|:---|:---|
-|input-mattcl|<pre>4771508457</pre>|<pre>1539809693</pre>|
-|input-whyando|<pre>4755429952</pre>|<pre>1429596008</pre>|
+|input-mattcl|<pre>585</pre>|<pre>349322478796032</pre>|
