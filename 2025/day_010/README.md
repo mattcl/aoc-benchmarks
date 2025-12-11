@@ -25,15 +25,15 @@ to IO and other factors.
 
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| lanjian | input-whyando | 5.7 ± 0.4 | 4.9 | 8.1 | 1.00 |
-| lanjian | input-lanjian | 5.7 ± 0.4 | 4.9 | 8.0 | 1.01 ± 0.09 |
-| mattcl | input-whyando | 6.2 ± 0.3 | 5.3 | 8.5 | 1.09 ± 0.09 |
-| lanjian | input-mattcl | 6.4 ± 0.3 | 5.7 | 7.7 | 1.13 ± 0.09 |
-| mattcl | input-lanjian | 6.8 ± 1.3 | 5.3 | 17.6 | 1.20 ± 0.25 |
-| mattcl | input-mattcl | 9.3 ± 0.5 | 8.4 | 12.2 | 1.64 ± 0.13 |
-| whyando | input-lanjian | 12.1 ± 0.4 | 11.1 | 14.3 | 2.14 ± 0.15 |
-| whyando | input-whyando | 12.1 ± 0.4 | 11.3 | 14.9 | 2.14 ± 0.15 |
-| whyando | input-mattcl | 16.6 ± 3.1 | 14.6 | 30.0 | 2.93 ± 0.58 |
+| lanjian | input-lanjian | 5.4 ± 0.4 | 4.4 | 8.6 | 1.00 |
+| lanjian | input-whyando | 5.5 ± 0.4 | 4.7 | 8.1 | 1.02 ± 0.11 |
+| mattcl | input-lanjian | 5.9 ± 0.5 | 4.7 | 9.0 | 1.09 ± 0.13 |
+| mattcl | input-whyando | 5.9 ± 0.5 | 5.0 | 9.7 | 1.10 ± 0.13 |
+| lanjian | input-mattcl | 6.3 ± 0.5 | 5.5 | 9.4 | 1.17 ± 0.14 |
+| mattcl | input-mattcl | 9.0 ± 0.5 | 8.3 | 12.1 | 1.68 ± 0.16 |
+| whyando | input-lanjian | 11.7 ± 0.5 | 10.9 | 14.6 | 2.18 ± 0.20 |
+| whyando | input-whyando | 11.8 ± 0.6 | 10.7 | 14.5 | 2.19 ± 0.21 |
+| whyando | input-mattcl | 15.1 ± 0.6 | 14.2 | 18.8 | 2.81 ± 0.26 |
 
 
 ## Inputs -> Solutions
