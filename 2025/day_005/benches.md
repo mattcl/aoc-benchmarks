@@ -1,17 +1,17 @@
 | Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| mattcl | input-whyando | 0.6 ± 0.2 | 0.0 | 1.3 | 1.00 |
-| mattcl | input-lanjian | 0.7 ± 0.2 | 0.0 | 1.3 | 1.03 ± 0.38 |
-| whyando | input-mattcl | 0.7 ± 0.2 | 0.0 | 1.2 | 1.05 ± 0.38 |
-| whyando | input-whyando | 0.7 ± 0.2 | 0.0 | 1.2 | 1.06 ± 0.37 |
-| mattcl | input-mattcl | 0.7 ± 0.1 | 0.3 | 1.0 | 1.08 ± 0.33 |
-| whyando | input-lanjian | 0.7 ± 0.1 | 0.2 | 1.1 | 1.11 ± 0.35 |
-| lanjian | input-mattcl | 0.9 ± 0.2 | 0.2 | 1.6 | 1.44 ± 0.45 |
-| lanjian | input-whyando | 0.9 ± 0.1 | 0.3 | 1.5 | 1.46 ± 0.44 |
-| lanjian | input-lanjian | 1.0 ± 0.1 | 0.5 | 1.7 | 1.50 ± 0.44 |
-| kcen | input-mattcl | 1.3 ± 0.2 | 0.6 | 2.1 | 2.03 ± 0.62 |
-| kcen | input-whyando | 1.4 ± 0.2 | 0.6 | 2.1 | 2.09 ± 0.63 |
-| kcen | input-lanjian | 1.4 ± 0.2 | 0.6 | 2.0 | 2.10 ± 0.63 |
-| mattcl-py | input-mattcl | 18.2 ± 0.8 | 16.8 | 21.4 | 28.14 ± 7.40 |
-| mattcl-py | input-lanjian | 18.3 ± 0.6 | 17.1 | 21.7 | 28.19 ± 7.37 |
-| mattcl-py | input-whyando | 18.3 ± 0.8 | 17.1 | 21.4 | 28.21 ± 7.41 |
+| mattcl | input-lanjian | 0.7 ± 0.2 | 0.0 | 1.5 | 1.00 |
+| mattcl | input-whyando | 0.7 ± 0.2 | 0.0 | 1.2 | 1.00 ± 0.33 |
+| whyando | input-mattcl | 0.7 ± 0.2 | 0.0 | 1.2 | 1.07 ± 0.36 |
+| whyando | input-whyando | 0.8 ± 0.2 | 0.0 | 1.3 | 1.09 ± 0.36 |
+| mattcl | input-mattcl | 0.8 ± 0.2 | 0.0 | 1.4 | 1.11 ± 0.41 |
+| whyando | input-lanjian | 0.8 ± 0.2 | 0.3 | 1.4 | 1.13 ± 0.38 |
+| lanjian | input-lanjian | 0.9 ± 0.2 | 0.0 | 1.5 | 1.36 ± 0.42 |
+| lanjian | input-mattcl | 1.0 ± 0.1 | 0.5 | 1.5 | 1.42 ± 0.41 |
+| lanjian | input-whyando | 1.0 ± 0.1 | 0.3 | 1.5 | 1.42 ± 0.40 |
+| kcen | input-lanjian | 1.4 ± 0.2 | 0.6 | 2.6 | 1.95 ± 0.60 |
+| kcen | input-mattcl | 1.4 ± 0.2 | 0.6 | 2.0 | 1.98 ± 0.58 |
+| kcen | input-whyando | 1.4 ± 0.2 | 0.6 | 2.1 | 2.00 ± 0.57 |
+| mattcl-py | input-mattcl | 18.2 ± 0.6 | 17.2 | 21.2 | 26.16 ± 6.65 |
+| mattcl-py | input-whyando | 18.2 ± 0.7 | 17.2 | 20.7 | 26.26 ± 6.69 |
+| mattcl-py | input-lanjian | 18.3 ± 0.7 | 17.3 | 21.7 | 26.37 ± 6.72 |
