@@ -23,17 +23,17 @@ to IO and other factors.
 
 ## Benchmarks with officially generated inputs
 
-| Participant | Input | Mean [ms] | Min [ms] | Max [ms] | Relative |
+| Participant | Input | Mean [µs] | Min [µs] | Max [µs] | Relative |
 |:---|:---|---:|---:|---:|---:|
-| whyando | input-mattcl | 0.7 ± 0.4 | 0.0 | 1.3 | 1.00 |
-| mattcl | input-mattcl | 0.9 ± 0.2 | 0.0 | 1.2 | 1.32 ± 0.82 |
-| mattcl | input-lanjian | 0.9 ± 0.2 | 0.3 | 1.8 | 1.37 ± 0.83 |
-| mattcl | input-whyando | 0.9 ± 0.2 | 0.4 | 1.3 | 1.38 ± 0.83 |
-| lanjian | input-whyando | 0.9 ± 0.3 | 0.1 | 1.9 | 1.40 ± 0.94 |
-| whyando | input-lanjian | 1.0 ± 0.2 | 0.0 | 1.2 | 1.49 ± 0.91 |
-| lanjian | input-lanjian | 1.0 ± 0.2 | 0.1 | 1.5 | 1.54 ± 0.94 |
-| lanjian | input-mattcl | 1.1 ± 0.2 | 0.1 | 1.4 | 1.63 ± 0.97 |
-| whyando | input-whyando | 1.1 ± 0.2 | 0.2 | 1.4 | 1.68 ± 1.01 |
+| mattcl | input-lanjian | 916.5 ± 139.2 | 436.9 | 1672.4 | 1.00 |
+| mattcl | input-whyando | 917.5 ± 161.5 | 350.1 | 1843.6 | 1.00 ± 0.23 |
+| mattcl | input-mattcl | 932.9 ± 156.9 | 328.2 | 1494.1 | 1.02 ± 0.23 |
+| lanjian | input-lanjian | 993.6 ± 120.8 | 561.4 | 1601.8 | 1.08 ± 0.21 |
+| lanjian | input-mattcl | 1005.8 ± 156.2 | 368.0 | 1649.5 | 1.10 ± 0.24 |
+| lanjian | input-whyando | 1011.4 ± 132.1 | 431.2 | 1654.4 | 1.10 ± 0.22 |
+| whyando | input-lanjian | 1012.8 ± 135.9 | 452.1 | 1609.2 | 1.11 ± 0.22 |
+| whyando | input-mattcl | 1021.0 ± 166.6 | 473.7 | 1710.4 | 1.11 ± 0.25 |
+| whyando | input-whyando | 1133.1 ± 199.1 | 424.7 | 1874.3 | 1.24 ± 0.29 |
 
 
 ## Inputs -> Solutions
